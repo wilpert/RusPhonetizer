@@ -1,0 +1,56 @@
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Copyright 2014 Yandex LLC
+# All Rights Reserved.
+#
+# Author : Alexis Wilpert
+
+
+
+import 'alphabets.grm' as alphabets;
+
+import 'palatalization.grm' as palatal;
+import 'inflections.grm' as infl;
+import 'diphthongs.grm' as diphthongs;
+import 'vowels.grm' as vowels;
+import 'consonants.grm' as consonants;
+import 'syllabification.grm' as syll;
+import 'crossword.grm' as cross;
+
+
+export READ = Optimize[alphabets.in_feeder];
+export INFL = Optimize[infl.inflections];
+export PALT = Optimize[palatal.palatalization];
+export DIPH = Optimize[diphthongs.diphthongs];
+export VOWL = Optimize[vowels.reduced];
+export CONS = Optimize[consonants.consonant_rules];
+export CROS = Optimize[cross.crossword];
+export SYLL = Optimize[syll.syllabified];
+export WRIT = Optimize[alphabets.out_feeder];
+
+# defined for performance purposes:
+
+export G2P1 =  Optimize[alphabets.in_feeder        @
+                        infl.inflections           @
+                        palatal.palatalization     @
+                        diphthongs.diphthongs      @
+                        vowels.reduced             @
+                        alphabets.out_feeder
+                       ];
+
+export G2P2 =  Optimize[alphabets.in_feeder        @
+                        consonants.consonant_rules @
+                        cross.crossword            @
+                        syll.syllabified           @
+                        alphabets.out_feeder
+                       ];

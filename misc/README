@@ -1,0 +1,9 @@
+Before compiling the Thrax package (http://openfst.cs.nyu.edu/twiki/bin/view/GRM/Thrax),
+you need to apply the patch file parser.yy.patch to the following file in the Thrax
+original source code distribution:
+
+/thrax-1.0.2/src/lib/main/parser.yy
+
+Like this:
+
+patch parser.yy parser.yy.patch

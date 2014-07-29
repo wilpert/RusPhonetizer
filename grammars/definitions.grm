@@ -1,0 +1,90 @@
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Copyright 2014 Yandex LLC
+# All Rights Reserved.
+#
+# Author : Alexis Wilpert
+
+
+
+import 'alphabets.grm' as alphabets;
+
+# set/class definitions
+
+export LSEP = (alphabets.word_sep | "-");
+export RSEP = (alphabets.word_sep);
+
+# coming from the palatalization done above
+soft_cons_phonetic = ("[bJ]" | "[vJ]" | "[gJ]" |
+                      "[dJ]" | "[zJ]" | "[kJ]" |
+                      "[lJ]" | "[mJ]" | "[nJ]" |
+                      "[pJ]" | "[rJ]" | "[sJ]" |
+                      "[tJ]" | "[fJ]" | "[xJ]"
+                     );
+
+# stressed vowels are already phonetic
+export vowel = Optimize[(alphabets.vow_letter | alphabets.nuclei)];
+
+# [j] could appear after the approximant insertion
+export cons_letter_hyphen = alphabets.cons_letter |
+                            soft_cons_phonetic    |
+                            "j"                   |
+                            "-"
+;
+
+export stress_minus_1 = Optimize[cons_letter_hyphen* "+"];
+
+export before_stress = Optimize[(cons_letter_hyphen | vowel)* "+"];
+
+export all = Optimize[cons_letter_hyphen | vowel];
+
+# Vi   = <и, е, ё, я, ю> - vowels that trigger palatalization
+# Cvar = <б, п, в, ф, з, с, г, к, д, х, т, л, м, н, р>
+#
+# <Cvar> / ¬_ <Vi> --> hard consonant
+# <Cvar> /  _ <Vi> --> soft consonant
+# <Cvar> /  _ <ь>  --> soft consonant
+# <Cvar> /  _ <ъ>  --> hard consonant
+#
+# always hard letters:
+# <ж, ш, ц>
+#
+# always soft letters:
+# <ч, щ>
+#
+# "Vi-palatalization" does not exist at the words junction.
+
+# the rest of the contexts are not needed, because they are represented
+# by the phonetic palatal consonants that were generated previously
+export always_soft_cons = ("ч" | "щ" | "ь") "-"?;
+
+cd_soft_cons = (soft_cons_phonetic | "j") "-"?;
+
+export always_hard_cons = ("ж" | "ш" | "ц" | "ъ") "-"?;
+
+# no other palatalization will take place, so we can safely assume that
+# consonants that are not phonetically soft, are hard consonants
+# not a context-dependent rule, but we leave it as it is in case of changes
+# in the future
+cd_hard_cons = ("б" | "п" | "в"  |
+                "ф" | "з" | "с"  |
+                "г" | "к" | "д"  |
+                "х" | "т" | "л"  |
+                "м" | "н" | "р"
+               ) "-"?
+;
+
+export soft_cons = Optimize[(always_soft_cons | cd_soft_cons)];
+
+export hard_cons = Optimize[(always_hard_cons | cd_hard_cons)];
+

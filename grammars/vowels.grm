@@ -1,0 +1,330 @@
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Copyright 2014 Yandex LLC
+# All Rights Reserved.
+#
+# Author : Alexis Wilpert
+
+
+
+import 'alphabets.grm' as alphabets;
+import 'definitions.grm' as defs;
+
+# set/class definitions
+
+WSEP = "[WUD]"? alphabets.word_sep;
+LSEP = WSEP | "-";
+RSEP = defs.RSEP;
+EOS = "[EOS]" | "[SIL]";
+BOS = "[BOS]" | "[SIL]";
+vowel = defs.vowel;
+cons_letter_hyphen = defs.cons_letter_hyphen;
+stress_minus_1 = defs.stress_minus_1;
+before_stress = defs.before_stress;
+all = defs.all;
+soft_cons = defs.soft_cons;
+hard_cons = defs.hard_cons;
+
+# orthographic and phonetic [ao] vowels
+a_o_vowels =("а" | "a" | "о" | "o");
+
+#----------------------------------------------------------------------------
+
+# stressed vowels
+
+# special case <ё>: always stressed (no stress marker present)
+stress_yo = CDRewrite[("ё":"o"),
+                      "",
+                      "",
+                      alphabets.sigma_star
+                     ];
+
+stressed_pairs = (("я":"a")     |
+                  ("ю":"u")     |
+                  ("и":"i")     |
+                  ("ы":"[i_x]") |
+                  ("е":"e")     |
+                  ("а":"a")     |
+                  ("у":"u")     |
+                  ("о":"o")
+                 );
+
+stress_vowel  = CDRewrite[stressed_pairs,
+                          "+" "j"?,
+                          "",
+                          alphabets.sigma_star
+                         ];
+
+# letter <э> will be mapped later, since its phonetic representation [e]
+# is in conflict with the one for the letter <е>, which does trigger
+# palatalization of the previous consonant. We need this information in
+# vowel reduction rules below
+
+stress_vowels = Optimize[stress_yo    @
+                         stress_vowel
+                        ];
+
+#----------------------------------------------------------------------------
+
+# reduction of unstressed vowels
+
+
+# first level of reduction
+
+reduction1 = CDRewrite["э":"E",
+                       (BOS | vowel),
+                       "",
+                       alphabets.sigma_star
+                      ];
+
+I_reduction_letters1 = ("э":"I") | ("е":"I");
+
+I_reduction_letters2 = ("я":"I");
+
+I_reduction_letters3 = ("а":"I");
+
+I_reduction_left_context = vowel | BOS | soft_cons | (soft_cons WSEP);
+
+I_reduction_right_context = stress_minus_1 | EOS;
+
+
+reduction2a = CDRewrite[I_reduction_letters1,
+                        I_reduction_left_context,
+                        "",
+                        alphabets.sigma_star
+                       ];
+
+reduction2b = CDRewrite[I_reduction_letters1,
+                        "",
+                        I_reduction_right_context,
+                        alphabets.sigma_star
+                       ];
+
+
+reduction2c = CDRewrite[I_reduction_letters2,
+                        I_reduction_left_context,
+                        before_stress,
+                        alphabets.sigma_star
+                       ];
+
+reduction2d = CDRewrite[I_reduction_letters3,
+                        defs.always_soft_cons,
+                        before_stress,
+                        alphabets.sigma_star
+                       ];
+
+
+schwa_r_reduction_letter1 = ("ы":"[@_r]");
+
+schwa_r_reduction_letter2 = ("э":"[@_r]");
+
+schwa_r_reduction_letter3 = (("и":"[@_r]") | ("е":"[@_r]"));
+
+
+# <ы> is always reduced to [@_r] when unstressed
+reduction3a = CDRewrite[schwa_r_reduction_letter1,
+                        all | WSEP | BOS,
+                        "",
+                        alphabets.sigma_star
+                       ];
+
+reduction3b = CDRewrite[schwa_r_reduction_letter2,
+                        hard_cons |
+                        (hard_cons WSEP),
+                        "",
+                        alphabets.sigma_star
+                       ];
+
+reduction3c = CDRewrite[schwa_r_reduction_letter3,
+                        defs.always_hard_cons,
+                        "",
+                        alphabets.sigma_star
+                       ];
+
+# <и> is always reduced to [I] when unstressed, except in the cases
+# where it should become [@_r] (done before)
+reduction3d = CDRewrite[("и":"I"),
+                        all | WSEP | BOS,
+                        "",
+                        alphabets.sigma_star
+                       ];
+
+schwa_o_reduction_letters = ("а":"[@_o]") | ("о":"[@_o]");
+
+# always unstressed (otherwise immediaate l_context would be "+")
+schwa_o_reduction_l_context = (BOS | WSEP | a_o_vowels);
+
+schwa_o_reduction_r_context = stress_minus_1 |
+                              EOS            |
+                              a_o_vowels
+;
+
+# left context
+reduction4 = CDRewrite[schwa_o_reduction_letters,
+                       schwa_o_reduction_l_context,
+                       "",
+                       alphabets.sigma_star
+                      ];
+
+# right context
+reduction5 = CDRewrite[schwa_o_reduction_letters,
+                       all,
+                       schwa_o_reduction_r_context,
+                       alphabets.sigma_star
+                      ];
+
+U_reduction_letters = ("ю":"U") | ("у":"U");
+
+# left context
+reduction6a = CDRewrite[U_reduction_letters,
+                       vowel | BOS,
+                       "",
+                       alphabets.sigma_star
+                      ];
+
+# right context
+reduction6b = CDRewrite[U_reduction_letters,
+                       "",
+                       stress_minus_1 | EOS,
+                       alphabets.sigma_star
+                      ];
+
+first_level_reduction = Optimize[reduction1  @
+                                 reduction2a @
+                                 reduction2b @
+                                 reduction2c @
+                                 reduction2d @
+                                 reduction3a @
+                                 reduction3b @
+                                 reduction3c @
+                                 reduction3d @
+                                 reduction4  @
+                                 reduction5  @
+                                 reduction6a @
+                                 reduction6b
+                                ];
+
+#----------------------------------------------------------------------------
+
+# second level of reduction
+
+schwa_reduction_pairs = Optimize[("е":"@") |
+                                 ("я":"@") |
+                                 ("а":"@") |
+                                 ("о":"@")
+                                ];
+
+second_reduction_l_context = Optimize[cons_letter_hyphen | LSEP];
+
+second_reduction_r_context = Optimize[cons_letter_hyphen*
+                                      (vowel | RSEP | EOS)
+                                     ];
+
+reduction7 = CDRewrite[schwa_reduction_pairs,
+                       second_reduction_l_context,
+                       second_reduction_r_context,
+                       alphabets.sigma_star
+                      ];
+
+U_x_reduction_letters = ("ю":"[U_x]") | ("у":"[U_x]");
+
+reduction8 = CDRewrite[U_x_reduction_letters,
+                       second_reduction_l_context,
+                       second_reduction_r_context,
+                       alphabets.sigma_star
+                      ];
+
+second_level_reduction = Optimize[reduction7 @
+                                  reduction8
+                                 ];
+
+#----------------------------------------------------------------------------
+
+# exceptions
+
+# after <ц> and with the second degree of reduction we should better
+# have [@], not [@_r])
+
+# post-tonic unstressed <е> --> [@] after <ц>
+
+# Ex. <сердце>
+
+exception1= CDRewrite[("[@_r]":"@"),
+                      "ц",
+                      (cons_letter_hyphen | vowel)* (EOS | WSEP),
+                      alphabets.sigma_star
+                     ];
+
+exceptions = Optimize[exception1];
+
+#----------------------------------------------------------------------------
+
+# reduce vowels after other vowels that were not reduced so far
+
+V_V_reduction_pairs = ("э":"E")     | ("и":"I")     |
+                      ("е":"I")     | ("я":"I")     |
+                      ("ы":"[@_r]") | ("а":"[@_o]") |
+                      ("о":"[@_o]") | ("ю":"U")     |
+                      ("у":"U")
+;
+
+reduce_V_V_vowels = CDRewrite[V_V_reduction_pairs,
+                              vowel "-"?,
+                              "",
+                              alphabets.sigma_star
+                             ];
+
+#----------------------------------------------------------------------------
+
+# cleaning
+
+stress_non_soft_e = CDRewrite[("э":"e"),
+                              "+",
+                              "",
+                              alphabets.sigma_star
+                             ];
+
+# needed for foreign words --> TO BE CHECKED
+transcribe_remaining_eps = CDRewrite[("э":"E"),
+                                      "",
+                                      "",
+                                      alphabets.sigma_star
+                                    ];
+
+
+clean_hyphen = CDRewrite["-":"",
+                         "",
+                         "",
+                         alphabets.sigma_star
+                        ];
+
+clean_stress_marker = CDRewrite["+":"",
+                                "",
+                                "",
+                                alphabets.sigma_star
+                               ];
+
+cleaning = Optimize[stress_non_soft_e        @
+                    transcribe_remaining_eps @
+                    clean_hyphen             @
+                    clean_stress_marker
+                   ];
+
+#----------------------------------------------------------------------------
+
+export reduced = Optimize[stress_vowels          @
+                          first_level_reduction  @
+                          second_level_reduction @
+                          exceptions             @
+                          reduce_V_V_vowels      @
+                          cleaning];

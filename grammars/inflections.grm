@@ -1,0 +1,413 @@
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Copyright 2014 Yandex LLC
+# All Rights Reserved.
+#
+# Author : Alexis Wilpert
+
+
+
+import 'alphabets.grm' as alphabets;
+import 'definitions.grm' as defs;
+
+# set/class definitions
+
+WSEP = alphabets.word_sep;
+LSEP = defs.LSEP;
+RSEP = (defs.RSEP | "[SIL]" | "[EOS]");
+vowel = defs.vowel;
+cons_letter_hyphen = defs.cons_letter_hyphen;
+stress_minus_1 = defs.stress_minus_1;
+before_stress = defs.before_stress;
+all = alphabets.letter | alphabets.nuclei | "-";
+soft_cons = defs.soft_cons;
+hard_cons = defs.hard_cons;
+hard_cons_phono = alphabets.hard_cons_phono;
+
+unstressed_seq = (all | "+")* all;
+
+#----------------------------------------------------------------------------
+
+# EXCEPTIONS
+
+# SEE ALSO: letter_simplification rules in consonants.grn
+
+# letter <и> after hard consonants
+hard_i = CDRewrite[("и":"ы"),
+                   ( (hard_cons "[WUD]"? WSEP "+"?) |
+                     ("ж" | "ш" | "ц") "+"?),
+                   "",
+                   alphabets.sigma_star
+                  ];
+
+# letter <и> after hard consonants (for WUD words)
+hard_i_phono = CDRewrite[("и":"ы"),
+                         (hard_cons_phono
+                          "[WUD]" WSEP "+"?),
+                         "",
+                         alphabets.sigma_star
+                        ];
+
+# -чувст- --> -чуст-
+exception1 = CDRewrite[("в":""),
+                       "ч" "+"? "у",
+                       "с" "т",
+                       alphabets.sigma_star
+                      ];
+
+# г --> х
+# легк- --> лехк-
+# лёгк- --> лёхк-
+exception2 = CDRewrite[("г":"х"),
+                       "л" "+"? ("е" | "ё"),
+                       "к",
+                       alphabets.sigma_star
+                      ];
+
+# счаст --> щаст
+exception3a = CDRewrite[("с":"щ"),
+                       "",
+                       "ч" "а" "с" "т",
+                       alphabets.sigma_star
+                      ];
+
+exception3b = CDRewrite[("ч":""),
+                       "щ",
+                       "а" "с" "т",
+                       alphabets.sigma_star
+                      ];
+
+# for <контрр-> words (like <контрреволюционная>)
+# these are the only words that are pronounced with a double [rr]
+# most of them are included in the lexicon with a pseudo transcription
+# [ррр]; here we will simpliy double <рр> to <р>, which makes the triple
+# pseudo transcription an actual double <рр>, which is then later mapped
+# correctly to double phonetic [rr] or [rJrJ]
+
+exception4a = CDRewrite[("р":""),
+                        "",
+                        "р" (alphabets.letter - "р"),
+                        alphabets.sigma_star
+                       ];
+
+exception4b = CDRewrite[("р":""),
+                        "",
+                        "р" "р",
+                        alphabets.sigma_star
+                       ];
+
+exceptions = Optimize[hard_i       @
+                      hard_i_phono @
+                      exception1   @
+                      exception2   @
+                      exception3a  @
+                      exception3b  @
+                      exception4a  @
+                      exception4b
+                     ];
+
+#----------------------------------------------------------------------------
+
+# ONLY FOR ADJECTIVES
+
+# ого ->ово, его ->ево
+
+g_to_v = CDRewrite[("г":"в"),
+                   "[ADJ]" (all | "+")* ("о" | "е"),
+                   "+"? "о" RSEP,
+                   alphabets.sigma_star
+                  ];
+
+#----------------------------------------------------------------------------
+
+# ONLY FOR ADJECTIVES
+
+# <ие>/  ST --> [i I]
+# <ее>/  ST --> [e E]
+# <ое>/  ST --> [o E]
+# <ые>/  ST --> [i_x I]
+
+e_stressed_pairs_left = ("и":"i")     |
+                        ("е":"e")     |
+                        ("о":"o")     |
+                        ("ы":"[i_x]")
+;
+
+e_stress_infl_left = CDRewrite[e_stressed_pairs_left,
+                               "[ADJ]" all* "+",
+                               "е" RSEP,
+                               alphabets.sigma_star
+                              ];
+
+e_stress_infl_right1 = CDRewrite[("е":"I"),
+                                 ("i" | "[i_x]"),
+                                 RSEP,
+                                 alphabets.sigma_star
+                                ];
+
+e_stress_infl_right2 = CDRewrite[("е":"E"),
+                                 ("e" | "o"),
+                                 RSEP,
+                                 alphabets.sigma_star
+                                ];
+
+e_stress_infl = Optimize[e_stress_infl_left   @
+                         e_stress_infl_right1 @
+                         e_stress_infl_right2
+                        ];
+
+# <ие>/ ¬ST --> [I I]
+# <ее>/ ¬ST --> [I_i @]
+# <ое>/ ¬ST --> [@_i I]
+# <ые>/ ¬ST --> [@_r I]
+
+e_unstressed_pairs_left = ("и":"I")     |
+                          ("е":"[I_i]") |
+                          ("о":"[@_i]") |
+                          ("ы":"[@_r]")
+;
+
+e_unstress_infl_left = CDRewrite[e_unstressed_pairs_left,
+                                 "[ADJ]" unstressed_seq,
+                                 "е" RSEP,
+                                 alphabets.sigma_star
+                                ];
+
+e_unstress_infl_right1 = CDRewrite[("е":"I"),
+                                   ("I" | "[@_i]" | "[@_r]"),
+                                   RSEP,
+                                   alphabets.sigma_star
+                                  ];
+
+e_unstress_infl_right2 = CDRewrite[("е":"@"),
+                                   "[I_i]",
+                                   RSEP,
+                                   alphabets.sigma_star
+                                  ];
+
+e_unstress_infl = Optimize[e_unstress_infl_left   @
+                           e_unstress_infl_right1 @
+                           e_unstress_infl_right2
+                          ];
+
+# <ую>/  ST --> [u_i U_x]
+# <ою>/  ST --> [o_i U_x]
+
+yu_stressed_pairs_left = ("у":"[u_i]") |
+                         ("о":"[o_i]")
+;
+
+yu_stress_infl_left = CDRewrite[yu_stressed_pairs_left,
+                                "[ADJ]" all* "+",
+                                "ю" RSEP,
+                                alphabets.sigma_star
+                               ];
+
+yu_stress_infl_right = CDRewrite[("ю":"[U_x]"),
+                                 ("[u_i]" | "[o_i]"),
+                                 RSEP,
+                                 alphabets.sigma_star
+                                ];
+
+yu_stress_infl = Optimize[yu_stress_infl_left  @
+                          yu_stress_infl_right
+                         ];
+
+# <ую>/ ¬ST --> [U_i U_x]
+# <ею>/ ¬ST --> [I_i U_x]
+# <ою>/ ¬ST --> [@_i U_x]
+
+yu_unstressed_pairs_left = ("у":"[U_i]") |
+                           ("е":"[I_i]") |
+                           ("о":"[@_i]")
+;
+
+yu_unstress_infl_left = CDRewrite[yu_unstressed_pairs_left,
+                                 "[ADJ]" unstressed_seq,
+                                 "ю" RSEP,
+                                 alphabets.sigma_star
+                                ];
+
+yu_unstress_infl_right = CDRewrite[("ю":"[U_x]"),
+                                   ("[U_i]" | "[I_i]" | "[@_i]"),
+                                   RSEP,
+                                   alphabets.sigma_star
+                                  ];
+
+yu_unstress_infl = Optimize[yu_unstress_infl_left  @
+                            yu_unstress_infl_right
+                           ];
+
+# <ой>/  ST --> [o_i]
+
+i_stress_infl_left = CDRewrite[("о":"[o_i]"),
+                               "[ADJ]" all* "+",
+                               "й" RSEP,
+                               alphabets.sigma_star
+                              ];
+
+i_stress_infl_right = CDRewrite[("й":""),
+                                "[o_i]",
+                                RSEP,
+                                alphabets.sigma_star
+                               ];
+
+i_stress_infl = Optimize[i_stress_infl_left   @
+                         i_stress_infl_right
+                        ];
+
+# <ой>/ ¬ST --> [@_i]
+# <ей>/ ¬ST --> [I_i]
+# <ый>/ ¬ST --> [@_r_i]
+# <ий>/ ¬ST --> [I_i]
+
+i_unstress_pairs_left = ("о":"[@_i]")   |
+                        ("е":"[I_i]")   |
+                        ("ы":"[@_r_i]") |
+                        ("и":"[I_i]")
+;
+
+i_unstress_infl_left = CDRewrite[i_unstress_pairs_left,
+                                 "[ADJ]" unstressed_seq,
+                                 "й" RSEP,
+                                 alphabets.sigma_star
+                                ];
+
+i_unstress_infl_right = CDRewrite[("й":""),
+                                  "[@_i]"   |
+                                  "[I_i]"   |
+                                  "[@_r_i]" |
+                                  "[I_i]",
+                                  RSEP,
+                                  alphabets.sigma_star
+                                 ];
+
+i_unstress_infl = Optimize[i_unstress_infl_left  @
+                           i_unstress_infl_right
+                          ];
+
+
+# <ая>/  ST --> [a_i @]
+
+ya_stress_infl_left = CDRewrite[("а":"[a_i]"),
+                                "[ADJ]" all* "+",
+                                "я" RSEP,
+                                alphabets.sigma_star
+                               ];
+
+ya_stress_infl_right = CDRewrite[("я":"@"),
+                                 "[a_i]",
+                                 RSEP,
+                                 alphabets.sigma_star
+                                ];
+
+ya_stress_infl = Optimize[ya_stress_infl_left   @
+                          ya_stress_infl_right
+                         ];
+
+# <ая>/ ¬ST --> [@_i @]
+# <яя>/ ¬ST --> [@_i @]
+
+ya_unstress_infl_left1 = CDRewrite[("а":"[@_i]"),
+                                   "[ADJ]" unstressed_seq,
+                                   "я" RSEP,
+                                   alphabets.sigma_star
+                                  ];
+
+ya_unstress_infl_left2 = CDRewrite[("я":"[@_i]"),
+                                   "[ADJ]" unstressed_seq,
+                                   "я" RSEP,
+                                   alphabets.sigma_star
+                                  ];
+
+ya_unstress_infl_right = CDRewrite[("я":"@"),
+                                   "[@_i]",
+                                   RSEP,
+                                   alphabets.sigma_star
+                                  ];
+
+ya_unstress_infl = Optimize[ya_unstress_infl_left1 @
+                            ya_unstress_infl_left2 @
+                            ya_unstress_infl_right
+                           ];
+
+#----------------------------------------------------------------------------
+
+# ONLY FOR VERBS
+
+# -тся, -ться --> [t_s@]
+
+verb_infl1 = CDRewrite[("т":"ц"),
+                       "[VERB]" (all | "+")*,
+                       "ь"? "с" "я" RSEP,
+                       alphabets.sigma_star
+                      ];
+
+verb_infl2 = CDRewrite[("ь":""),
+                       "[VERB]" (all | "+")* "ц",
+                       "с" "я" RSEP,
+                       alphabets.sigma_star
+                      ];
+
+verb_infl3 = CDRewrite[("с":""),
+                       "[VERB]" (all | "+")* "ц",
+                       "я" RSEP,
+                       alphabets.sigma_star
+                      ];
+
+verb_infl4 = CDRewrite[("я":"@"),
+                       "[VERB]" (all | "+")* "ц",
+                       RSEP,
+                       alphabets.sigma_star
+                      ];
+
+verb_infl = Optimize[verb_infl1 @
+                     verb_infl2 @
+                     verb_infl3 @
+                     verb_infl4
+                    ];
+
+#----------------------------------------------------------------------------
+
+# clean POS tags
+
+clean_adj_pos = CDRewrite[("[ADJ]":""),
+                          "",
+                          "",
+                          alphabets.sigma_star
+                         ];
+
+clean_verb_pos = CDRewrite[("[VERB]":""),
+                           "",
+                           "",
+                           alphabets.sigma_star
+                          ];
+
+clean_pos = Optimize[clean_adj_pos @ clean_verb_pos];
+
+#----------------------------------------------------------------------------
+
+export inflections = Optimize[exceptions       @
+                              g_to_v           @
+                              e_stress_infl    @
+                              e_unstress_infl  @
+                              yu_stress_infl   @
+                              yu_unstress_infl @
+                              i_stress_infl    @
+                              i_unstress_infl  @
+                              ya_stress_infl   @
+                              ya_unstress_infl @
+                              verb_infl        @
+                              clean_pos
+                             ];
+

@@ -1,0 +1,87 @@
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Copyright 2014 Yandex LLC
+# All Rights Reserved.
+#
+# Author : Alexis Wilpert
+
+
+
+import 'alphabets.grm' as alphabets;
+import 'definitions.grm' as defs;
+import 'consonants.grm' as cons;
+
+# set/class definitions
+
+LSEP = defs.LSEP;
+RSEP = defs.RSEP;
+EOS = "[EOS]" | "[SIL]";
+vowel = defs.vowel;
+cons_letter_hyphen = defs.cons_letter_hyphen;
+stress_minus_1 = defs.stress_minus_1;
+before_stress = defs.before_stress;
+all = defs.all;
+soft_cons = defs.soft_cons;
+hard_cons = defs.hard_cons;
+
+devoicing_pairs = cons.devoicing_pairs;
+voicing_pairs = cons.voicing_pairs;
+voicing_context = cons.voicing_context;
+
+#----------------------------------------------------------------------------
+
+# devoicing
+
+devoicing_context = alphabets.voiceless_consonants |
+                    "n" | "[nJ]" | "m" | "[mJ]"    |
+                    "l" | "[lJ]" | "r" | "[rJ]"    |
+                    "j" | "v" | "[vJ]" |
+                    ("+"? alphabets.nuclei)
+;
+
+cross_devoicing = CDRewrite[devoicing_pairs,
+                            "",
+                            EOS |
+                            (alphabets.word_sep
+                             devoicing_context),
+                            alphabets.sigma_star
+                           ];
+
+#----------------------------------------------------------------------------
+
+# voicing
+
+cross_voicing = CDRewrite[voicing_pairs,
+                          "",
+                          (alphabets.word_sep
+                          voicing_context),
+                          alphabets.sigma_star
+                         ];
+
+#----------------------------------------------------------------------------
+
+# remove [WUD] trigger (marking certain function words in the lexicon
+
+clean_wud = CDRewrite[("[WUD]":""),
+                      "",
+                      "",
+                      alphabets.sigma_star
+                     ];
+
+#----------------------------------------------------------------------------
+
+export crossword = Optimize[cross_devoicing         @
+                            cross_voicing           @
+                            cons.voice_assimilation @
+                            clean_wud
+                           ];

@@ -1,0 +1,20 @@
+*** parser.yy.old	2012-06-23 21:00:50.000000000 +0200
+--- parser.yy	2014-06-23 11:12:36.601662500 +0200
+***************
+*** 376,382 ****
+  
+  string_fst:
+    quoted_fst_string
+!     { StringFstNode* node = new StringFstNode(StringFstNode::BYTE);
+        node->AddArgument($1);
+        node->SetLine($1->getline());  // Get the line from the actual text line.
+        $$ = node; }
+--- 376,383 ----
+  
+  string_fst:
+    quoted_fst_string
+!     //{ StringFstNode* node = new StringFstNode(StringFstNode::BYTE);
+!     { StringFstNode* node = new StringFstNode(StringFstNode::UTF8);
+        node->AddArgument($1);
+        node->SetLine($1->getline());  // Get the line from the actual text line.
+        $$ = node; }

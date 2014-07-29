@@ -1,0 +1,511 @@
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Copyright 2014 Yandex LLC
+# All Rights Reserved.
+#
+# Author : Alexis Wilpert
+
+
+
+import 'alphabets.grm' as alphabets;
+
+SEP = alphabets.word_sep;
+WUD = "[WUD]" SEP;
+
+#----------------------------------------------------------------------------
+
+letter_simplification1 = CDRewrite[("т":"")*,
+                                   "с",
+                                   ("н" | "ч" | "ск"),
+                                   alphabets.sigma_star
+                                  ];
+
+
+letter_simplification2 = CDRewrite[("д":"")*,
+                                   "з",
+                                   ("н" | "ч"),
+                                   alphabets.sigma_star
+                                  ];
+
+letter_simplification3 = CDRewrite[("д":"")*,
+                                   "р",
+                                   ("ч" | "ц"),
+                                   alphabets.sigma_star
+                                  ];
+
+letter_simplification4 = CDRewrite[("в":"")*,
+                                   "л",
+                                   "ств",
+                                   alphabets.sigma_star
+                                  ];
+
+letter_simplification5 = CDRewrite[("н":"")*,
+                                   "л",
+                                   "ц",
+                                   alphabets.sigma_star
+                                  ];
+
+
+letter_simplifications = Optimize[letter_simplification1 @
+                                  letter_simplification2 @
+                                  letter_simplification3 @
+                                  letter_simplification4 @
+                                  letter_simplification5
+                                 ];
+
+#----------------------------------------------------------------------------
+
+soft_cons = ("б":"[bJ]") |
+            ("в":"[vJ]") |
+            ("г":"[gJ]") |
+            ("д":"[dJ]") |
+            ("ж":"[ZJ]") |
+            ("з":"[zJ]") |
+            ("к":"[kJ]") |
+            ("л":"[lJ]") |
+            ("м":"[mJ]") |
+            ("н":"[nJ]") |
+            ("п":"[pJ]") |
+            ("р":"[rJ]") |
+            ("с":"[sJ]") |
+            ("т":"[tJ]") |
+            ("ф":"[fJ]") |
+            ("х":"[xJ]") |
+            ("щ":"[SJ]")
+;
+
+softening  = CDRewrite[soft_cons,
+                       "",
+                       "ь",
+                       alphabets.sigma_star]
+;
+
+hard_cons = ("б":"b") |
+            ("в":"v") |
+            ("д":"d") |
+            ("ж":"Z") |
+            ("з":"z") |
+            ("к":"k") |
+            ("н":"n") |
+            ("р":"r") |
+            ("с":"s") |
+            ("т":"t") |
+            ("х":"x")
+;
+
+hardening  = CDRewrite[hard_cons,
+                       "",
+                       "ъ",
+                       alphabets.sigma_star]
+;
+
+hard_soft_letters = Optimize[softening @ hardening];
+
+
+soft_hard_chars = ("ь":"") |
+                  ("ъ":"")
+;
+
+clean_soft_hard_chars  = CDRewrite[soft_hard_chars,
+                                   "",
+                                   "",
+                                   alphabets.sigma_star
+                                  ];
+
+#----------------------------------------------------------------------------
+
+letter_pairs = Optimize[("п":"p")       |
+                        ("б":"b")       |
+                        ("т":"t")       |
+                        ("д":"d")       |
+                        ("к":"k")       |
+                        ("г":"g")       |
+                        ("м":"m")       |
+                        ("н":"n")       |
+                        ("л":"l")       |
+                        ("р":"r")       |
+                        ("ф":"f")       |
+                        ("в":"v")       |
+                        ("с":"s")       |
+                        ("з":"z")       |
+                        ("ж":"Z")       |
+                        ("ш":"S")       |
+                        ("щ":"[SJ]")    |
+                        ("х":"x")       |
+                        ("ц":"[t_s]")   |
+                        ("ч":"[t_SJ]")
+                        ];
+
+letter_g2p = CDRewrite[letter_pairs,
+                       "",
+                       "",
+                       alphabets.sigma_star
+                      ];
+
+#----------------------------------------------------------------------------
+
+export devoicing_pairs = ("b":"p")           |
+                         ("d":"t")           |
+                         ("g":"k")           |
+                         ("[bJ]":"[pJ]")     |
+                         ("[dJ]":"[tJ]")     |
+                         ("[gJ]":"[kJ]")     |
+                         ("[d_d]":"[t_t]")   |
+                         ("[d_dJ]":"[t_tJ]") |
+
+                         ("Z":"S")           |
+                         ("v":"f")           |
+                         ("z":"s")           |
+                         ("[ZJ]":"[SJ]")     |
+                         ("[vJ]":"[fJ]")     |
+                         ("[zJ]":"[sJ]")     |
+
+                         ("[d_z]":"[t_s]")   |
+                         ("[d_ZJ]":"[t_SJ]")
+;
+
+export voicing_pairs = ("p":"b")           |
+                       ("t":"d")           |
+                       ("k":"g")           |
+                       ("[pJ]":"[bJ]")     |
+                       ("[tJ]":"[dJ]")     |
+                       ("[kJ]":"[gJ]")     |
+                       ("[t_t]":"[d_d]")   |
+                       ("[t_tJ]":"[d_dJ]") |
+
+                       ("S":"Z")           |
+                       ("f":"v")           |
+                       ("s":"z")           |
+                       ("[SJ]":"[ZJ]")     |
+                       ("[fJ]":"[vJ]")     |
+                       ("[sJ]":"[zJ]")     |
+
+                       ("[t_s]":"[d_z]")   |
+                       ("[t_SJ]":"[d_ZJ]")
+;
+
+export voicing_context = Optimize[(alphabets.voiced_consonants -
+                                    ("v" | "[vJ]" | "j" |
+                                     alphabets.liquids  |
+                                     alphabets.nasals
+                                    )
+                                  )
+                                 ];
+
+devoicing_context = alphabets.voiceless_consonants;
+
+voicing = CDRewrite[voicing_pairs*,
+                    "",
+                    WUD? voicing_context,
+                    alphabets.sigma_star
+                   ];
+
+devoicing = CDRewrite[devoicing_pairs*,
+                      "",
+                      WUD? devoicing_context,
+                      alphabets.sigma_star
+                     ];
+
+export voice_assimilation = Optimize[voicing @ devoicing];
+
+#----------------------------------------------------------------------------
+
+# context dependent palatalization rules
+
+# [d] --> [dJ] / _ [dJ] | [zJ] | [nJ]
+phonetic_palatalization1 = CDRewrite[("d":"[dJ]"),
+                                     "",
+                                     WUD? ("[dJ]" | "[zJ]" | "[nJ]"),
+                                     alphabets.sigma_star
+                                    ];
+
+# [d] --> [tJ] / _ [tJ]
+phonetic_palatalization2 = CDRewrite[("d":"[tJ]"),
+                                     "",
+                                     WUD? "[tJ]",
+                                     alphabets.sigma_star
+                                    ];
+
+# [n] --> [nJ] / _ [tJ] | [sJ] | [t_SJ] | [nJ] | [SJ]
+phonetic_palatalization3 = CDRewrite[("n":"[nJ]"),
+                                     "",
+                                     WUD? ("[tJ]"   | "[sJ]" |
+                                           "[t_SJ]" | "[nJ]" | "[SJ]"),
+                                     alphabets.sigma_star
+                                    ];
+
+# [s] --> [SJ] / _ [t_SJ]
+phonetic_palatalization4 = CDRewrite[("s":"[SJ]"),
+                                     "",
+                                     WUD? "[t_SJ]",
+                                     alphabets.sigma_star
+                                    ];
+
+# [s] --> [S]  / _ [S]
+phonetic_palatalization5 = CDRewrite[("s":"S"),
+                                     "",
+                                     WUD? "S",
+                                     alphabets.sigma_star
+                                    ];
+
+# [s] --> [Z]  / _ [Z]
+phonetic_palatalization6 = CDRewrite[("s":"Z"),
+                                     "",
+                                     WUD? "Z",
+                                     alphabets.sigma_star
+                                    ];
+
+# [s] --> [sJ] / _ [sJ] | [tJ] | [nJ]
+phonetic_palatalization7 = CDRewrite[("s":"[sJ]"),
+                                     "",
+                                     WUD? ("[sJ]" | "[tJ]" | "[nJ]"),
+                                     alphabets.sigma_star
+                                    ];
+
+# [s] --> [zJ] / _ [zJ]
+phonetic_palatalization8 = CDRewrite[("s":"[zJ]"),
+                                     "",
+                                     WUD? "[zJ]",
+                                     alphabets.sigma_star
+                                    ];
+
+# [t] --> [dJ] / _ [dJ]
+phonetic_palatalization9 = CDRewrite[("t":"[dJ]"),
+                                     "",
+                                     WUD? "[dJ]",
+                                     alphabets.sigma_star
+                                    ];
+
+# [t] --> [tJ] / _ [tJ] | [sJ] | [t_SJ] | [nJ] | [SJ]
+phonetic_palatalization10 = CDRewrite[("t":"[tJ]"),
+                                      "",
+                                      WUD? ("[tJ]"   | "[sJ]" |
+                                            "[t_SJ]" | "[nJ]" | "[SJ]"),
+                                      alphabets.sigma_star
+                                     ];
+
+# [v] --> [vJ] / _ [vJ]
+# [f] --> [vJ] / _ [vJ]
+phonetic_palatalization11a = CDRewrite[("v":"[vJ]") | ("f":"[vJ]"),
+                                       "",
+                                       WUD? "[vJ]",
+                                       alphabets.sigma_star
+                                      ];
+
+# [f] --> [fJ] / _ [fJ]
+# [v] --> [fJ] / _ [fJ]
+phonetic_palatalization11b = CDRewrite[("f":"[fJ]") | ("v":"[fJ]"),
+                                       "",
+                                       WUD? "[fJ]",
+                                       alphabets.sigma_star
+                                      ];
+
+
+# [m] --> [mJ] / _ [mJ]
+phonetic_palatalization11c = CDRewrite[("m":"[mJ]"),
+                                       "",
+                                       WUD? "[mJ]",
+                                       alphabets.sigma_star
+                                      ];
+
+# [r] --> [rJ] / _ [rJ]
+phonetic_palatalization11d = CDRewrite[("r":"[rJ]"),
+                                       "",
+                                       WUD? "[rJ]",
+                                       alphabets.sigma_star
+                                      ];
+
+# [l] --> [lJ] / _ [lJ]
+phonetic_palatalization11e = CDRewrite[("l":"[lJ]"),
+                                       "",
+                                       WUD? "[lJ]",
+                                       alphabets.sigma_star
+                                      ];
+
+# [z] --> [S]  / _ [S]
+phonetic_palatalization12 = CDRewrite[("z":"S"),
+                                      "",
+                                      WUD? "S",
+                                      alphabets.sigma_star
+                                     ];
+
+# [z] --> [Z]  / _ [Z]
+phonetic_palatalization13 = CDRewrite[("z":"Z"),
+                                      "",
+                                      WUD? "Z",
+                                      alphabets.sigma_star
+                                     ];
+
+# [z] --> [sJ] / _ [sJ] | [tJ]
+phonetic_palatalization14 = CDRewrite[("z":"[sJ]"),
+                                      "",
+                                      WUD? ("[sJ]" | "[tJ]"),
+                                      alphabets.sigma_star
+                                     ];
+
+# [z] --> [zJ] / _ [zJ] | [dJ] | [nJ]
+phonetic_palatalization15 = CDRewrite[("z":"[zJ]"),
+                                      "",
+                                      WUD? ("[zJ]" | "[dJ]" | "[nJ]"),
+                                      alphabets.sigma_star
+                                     ];
+
+phonetic_palatalization = Optimize[phonetic_palatalization1   @
+                                   phonetic_palatalization2   @
+                                   phonetic_palatalization3   @
+                                   phonetic_palatalization4   @
+                                   phonetic_palatalization5   @
+                                   phonetic_palatalization6   @
+                                   phonetic_palatalization7   @
+                                   phonetic_palatalization8   @
+                                   phonetic_palatalization9   @
+                                   phonetic_palatalization10  @
+                                   phonetic_palatalization11a @
+                                   phonetic_palatalization11b @
+                                   phonetic_palatalization11c @
+                                   phonetic_palatalization11d @
+                                   phonetic_palatalization11e @
+                                   phonetic_palatalization12  @
+                                   phonetic_palatalization13  @
+                                   phonetic_palatalization14  @
+                                   phonetic_palatalization15
+                                  ];
+
+#----------------------------------------------------------------------------
+
+# devoice final consonants (before WUD) in SIL or EOS context
+
+wud_final_devoicing = CDRewrite[devoicing_pairs*,
+                                "",
+                                WUD ("[SIL]" | "[EOS]"),
+                                alphabets.sigma_star
+                               ];
+
+#----------------------------------------------------------------------------
+
+# ([s] | [z]) --> EPS / _ [S] [t_S]
+
+consonant_simplification_pairs = ("s":"") | ("z":"");
+
+consonant_simplification1 = CDRewrite[consonant_simplification_pairs*,
+                                      "",
+                                      ("S" "[t_SJ]"),
+                                      alphabets.sigma_star
+                                     ];
+
+consonant_simplification2 = CDRewrite["[t_s]":"",
+                                      "",
+                                      "-"? "[t_s]",
+                                      alphabets.sigma_star
+                                     ];
+
+consonant_simplification = Optimize[consonant_simplification1 @
+                                    consonant_simplification2
+                                   ];
+
+#----------------------------------------------------------------------------
+
+# gemination
+
+# SYMBOL       transcription          example
+# ---------------------------------------------
+# PH: t_t      @_o t_t o k            отток
+# PH: t_tJ     p @_o t_tJ e m @       подтема
+# PH: d_d      @_o d_d a m            отдам
+# PH: d_dJ     @_o d_dJ e l           отдел
+# PH: s_s      r @_o s_s a d @        рассада
+# PH: s_sJ     r a s_sJ e l I n @     расселина
+# PH: n_n      v a n_n @              ванна
+# PH: n_nJ     v a n_nJ @             ванне
+# PH: l_l      vJ i l_l @             вилла
+# PH: l_lJ     vJ i l_lJ @            Вилли
+
+hard_geminate_pairs = (("t":"[t_t]") "t") |
+                      (("d":"[d_d]") "d") |
+                      (("s":"[s_s]") "s") |
+                      (("n":"[n_n]") "n") |
+                      (("l":"[l_l]") "l")
+;
+
+hard_gemination = CDRewrite[hard_geminate_pairs,
+                            "",
+                            "",
+                            alphabets.sigma_star
+                           ];
+
+clean_hard_geminate_pairs = ("[t_t]" ("t":"")) |
+                            ("[d_d]" ("d":"")) |
+                            ("[s_s]" ("s":"")) |
+                            ("[n_n]" ("n":"")) |
+                            ("[l_l]" ("l":""))
+;
+
+clean_hard_gemination = CDRewrite[clean_hard_geminate_pairs,
+                                  "",
+                                  "",
+                                  alphabets.sigma_star
+                                 ];
+
+soft_geminate_pairs1 = ("t":"[t_tJ]") "[tJ]" |
+                       ("d":"[d_dJ]") "[dJ]" |
+                       ("s":"[s_sJ]") "[sJ]" |
+                       ("n":"[n_nJ]") "[nJ]" |
+                       ("l":"[l_lJ]") "[lJ]"
+;
+
+soft_geminate_pairs2 = ("[tJ]":"[t_tJ]") "[tJ]" |
+                       ("[dJ]":"[d_dJ]") "[dJ]" |
+                       ("[sJ]":"[s_sJ]") "[sJ]" |
+                       ("[nJ]":"[n_nJ]") "[nJ]" |
+                       ("[lJ]":"[l_lJ]") "[lJ]"
+;
+
+soft_gemination = CDRewrite[soft_geminate_pairs1 |
+                            soft_geminate_pairs2,
+                            "",
+                            "",
+                            alphabets.sigma_star
+                           ];
+
+clean_soft_geminate_pairs = ("[t_tJ]" ("[tJ]":"")) |
+                            ("[d_dJ]" ("[dJ]":"")) |
+                            ("[s_sJ]" ("[sJ]":"")) |
+                            ("[n_nJ]" ("[nJ]":"")) |
+                            ("[l_lJ]" ("[lJ]":""))
+;
+
+clean_soft_gemination = CDRewrite[clean_soft_geminate_pairs,
+                                  "",
+                                  "",
+                                  alphabets.sigma_star
+                                 ];
+
+gemination = Optimize[hard_gemination       @
+                      clean_hard_gemination @
+                      soft_gemination       @
+                      clean_soft_gemination
+                     ];
+
+#----------------------------------------------------------------------------
+
+export consonant_rules = Optimize[letter_simplifications   @
+                                  hard_soft_letters        @
+                                  clean_soft_hard_chars    @
+                                  letter_g2p               @
+                                  voice_assimilation       @
+                                  phonetic_palatalization  @
+                                  wud_final_devoicing      @
+                                  consonant_simplification @
+                                  gemination
+                                 ];
+

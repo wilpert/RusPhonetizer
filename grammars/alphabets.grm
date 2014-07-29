@@ -1,0 +1,358 @@
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Copyright 2014 Yandex LLC
+# All Rights Reserved.
+#
+# Author : Alexis Wilpert
+
+
+
+# CYRILLIC
+# --------
+
+export letter = Optimize[
+    "а" | "б" | "в" | "г" | "д" | "е" | "ё" | "ж" | "з" |
+    "и" | "й" | "к" | "л" | "м" | "н" | "о" | "п" | "р" |
+    "с" | "т" | "у" | "ф" | "х" | "ц" | "ч" | "ш" | "щ" |
+    "ъ" | "ы" | "ь" | "э" | "ю" | "я"
+];
+
+export voiceless_consonant_letters =
+    "к" | "п" | "с" | "т" | "ф" | "х" | "ц" | "ч" | "ш" | "щ"
+;
+
+export voiced_consonant_letters =
+    "б" | "в" | "г" | "д" | "ж" | "з" | "л" | "м" | "н" | "р"
+;
+
+export cons_letter = Optimize[voiceless_consonant_letters |
+                              voiced_consonant_letters |
+                              "ъ" | "ь" | "й"
+                             ];
+
+export soft_vow_letter =  "е" | "ё" | "и" | "ю" | "я";
+export hard_vow_letter =  "а" | "о" | "у" | "э" | "ы" ;
+
+export vow_letter = Optimize[soft_vow_letter | hard_vow_letter];
+
+export word_sep = " ";
+
+# --------------------------------------------------------------------------------------
+
+# PHONETIC
+# --------
+
+# plosives
+
+export hard_plosives = "p"   | "b"   | "t"   | "d"   | "k"   | "g";
+export soft_plosives = "[pJ]" | "[bJ]" | "[tJ]" | "[dJ]" | "[kJ]" | "[gJ]";
+
+export geminated_hard_plosives = "[t_t]"   | "[d_d]";
+export geminated_soft_plosives = "[t_tJ]" | "[d_dJ]";
+
+export coronal_plosives = "t" | "d" | "[tJ]" | "[dJ]" | "[t_t]" | "[d_d]" | "[t_tJ]" | "[d_dJ]";
+
+export anterior_plosives = "p"   | "b"   | "t"   | "d" |
+                           "[pJ]" | "[bJ]" | "[tJ]" | "[dJ]" |
+                           "[t_t]"   | "[d_d]" |
+                           "[t_tJ]" | "[d_dJ]"
+;
+
+export geminated_plosives = Optimize[geminated_hard_plosives | geminated_soft_plosives];
+
+export voiced_plosives =    "b" | "d" | "g" | "[bJ]" | "[dJ]" | "[gJ]" | "[d_d]" | "[d_dJ]";
+export voiceless_plosives = "p" | "t" | "k" | "[pJ]" | "[tJ]" | "[kJ]" | "[t_t]" | "[t_tJ]";
+
+export plosives = Optimize[hard_plosives | soft_plosives | geminated_plosives];
+
+# fricatives
+
+export hard_fricatives = "S"   | "Z"   | "f"   | "s"   | "v"   | "x"  | "z";
+export soft_fricatives = "[SJ]" | "[ZJ]" | "[fJ]" | "[sJ]" | "[vJ]" | "[xJ]" | "[zJ]";
+
+export geminated_hard_fricatives = "[s_s]";
+export geminated_soft_fricatives = "[s_sJ]";
+
+export geminated_fricatives = Optimize[geminated_hard_fricatives |
+                                       geminated_soft_fricatives
+                                      ];
+
+export coronal_fricatives = "S"   | "Z"   | "s"   | "z"   |
+                            "[SJ]" | "[ZJ]" | "[sJ]" | "[zJ]" |
+                            "[S_S]" | "[Z_Z]" | "[s_s]" | "[z_z]" |
+                            "[S_SJ]" | "[Z_ZJ]" | "[s_sJ]" | "[z_zJ]"
+;
+
+export anterior_fricatives = "f"   | "s"   | "v"   | "z"   |
+                             "[fJ]" | "[sJ]" | "[vJ]" | "[zJ]" |
+                             "[s_s]"   | "[v_v]"   | "[z_z]" |
+                             "[s_sJ]" | "[v_vJ]" | "[z_zJ]"
+;
+
+export voiced_fricatives =    "Z" | "v" | "z" | "[ZJ]" | "[vJ]" | "[zJ]" | "[Z_Z]" | "[v_v]" |
+                              "[z_z]" | "[Z_ZJ]" | "[z_zJ]" | "[v_vJ]"
+;
+
+export voiceless_fricatives = "S" | "f" | "s" | "[SJ]" | "[fJ]" | "[sJ]" | "[S_S]" | "[s_s]" |
+                              "[s_s]" | "[S_SJ]" | "[s_sJ]" | "x" | "[xJ]"
+;
+
+export fricatives = Optimize[hard_fricatives | soft_fricatives | geminated_fricatives];
+
+# nasals
+
+export hard_nasals = "m"   | "n";
+export soft_nasals = "[mJ]" | "[nJ]";
+export geminated_hard_nasals = "[n_n]";
+export geminated_soft_nasals = "[n_nJ]";
+export coronal_nasals = "n" | "[nJ]" | "[n_n]" | "[n_nJ]";
+
+export geminated_nasals = Optimize[geminated_hard_nasals | geminated_soft_nasals];
+
+export nasals = Optimize[hard_nasals | soft_nasals | geminated_nasals];
+
+# liquids
+
+export hard_liquids = "l"   | "r";
+export soft_liquids = "[lJ]" | "[rJ]";
+export geminated_hard_liquids = "[l_l]"   | "[r_r]";
+export geminated_soft_liquids = "[l_lJ]" | "[r_rJ]";
+export laterals = "l" | "[lJ]" | "[l_l]" | "[l_lJ]";
+
+export geminated_liquids = Optimize[geminated_hard_liquids | geminated_soft_liquids];
+
+export liquids = Optimize[hard_liquids | soft_liquids | geminated_liquids];
+
+# approximant
+
+export approximant = "j";
+
+# affricates
+
+export hard_affricates =  "[d_Z]" | "[d_z]" | "[t_s]";
+export soft_affricates = "[t_SJ]" | "[d_ZJ]";
+
+export voiced_affricates =    "[d_Z]" | "[d_z]" | "[d_ZJ]";
+export voiceless_affricates = "[t_s]" | "[t_SJ]";
+
+export anterior_affricates = "[d_z]" | "[t_s]";
+
+export affricates = Optimize[hard_affricates | soft_affricates];
+
+# consonants
+
+export hard_cons_phono = Optimize[hard_plosives             |
+                                  geminated_hard_plosives   |
+                                  hard_fricatives           |
+                                  geminated_hard_fricatives |
+                                  hard_nasals               |
+                                  geminated_hard_nasals     |
+                                  hard_liquids              |
+                                  geminated_hard_liquids    |
+                                  hard_affricates
+                                 ];
+
+export voiced_consonants = Optimize[voiced_plosives   |
+                                    voiced_fricatives |
+                                    nasals            |
+                                    liquids           |
+                                    approximant       |
+                                    voiced_affricates
+                                   ];
+
+export voiceless_consonants = Optimize[voiceless_plosives   |
+                                       voiceless_fricatives |
+                                       voiceless_affricates
+                                      ];
+
+export consonants = Optimize[voiced_consonants | voiceless_consonants];
+
+# vowels
+
+export stressed_close_vowels = "i" | "[i_x]" | "e";
+export stressed_other_vowels = "a" | "u" | "o";
+
+export stressed_vowels = Optimize[stressed_close_vowels | stressed_other_vowels];
+
+export reduced_vowels = "[@_o]" | "E" | "[@_r]" | "I" | "U" | "@" | "[U_x]";
+
+export vowels = Optimize[stressed_vowels | reduced_vowels];
+
+# diphthongs
+
+export stressed_front_diphthongs = "[i_i]" | "[e_i]";
+export stressed_other_diphthongs = "[a_i]" | "[o_i]" | "[u_i]";
+
+export stressed_diphthongs = Optimize[stressed_front_diphthongs |
+                                      stressed_other_diphthongs
+                                     ];
+
+export reduced_diphthongs = "[I_i]" | "[@_o_i]" | "[@_i]" | "[U_i]" | "[@_r_i]";
+
+export diphthongs = Optimize[stressed_diphthongs | reduced_diphthongs];
+
+# vowels + diphthongs
+
+export stressed_front_nuclei = Optimize[stressed_close_vowels |
+                                        stressed_front_diphthongs];
+
+export soft_nuclei = "i" | "e" | "[i_i]" | "[e_i]";
+
+export nuclei = Optimize[vowels | diphthongs];
+
+export phone = Optimize[nuclei | consonants];
+
+# --------------------------------------------------------------------------------------
+
+# MIXED
+# -----
+
+export voiced = Optimize[voiced_consonant_letters | voiced_consonants];
+export voiceless = Optimize[voiceless_consonant_letters | voiceless_consonants];
+
+# --------------------------------------------------------------------------------------
+
+# COMPLETE ALPHABET
+# -----------------
+
+export letter_star = Optimize[letter*];
+export phone_star = Optimize[phone*];
+export sigma = Optimize[letter   | phone     |
+                        " "      | "-"       | "+" |
+                        "[SIL]"  | "[ERROR]" |
+                        "[ADJ]"  | "[VERB]"  |
+                        "[WUD]"
+                       ];
+export sigma_star = Optimize[sigma*];
+
+# --------------------------------------------------------------------------------------
+
+# FOR TESTING
+# -----------
+composed_char = ("I_i":"[I_i]") |
+                ("@_o":"[@_o]") |
+                ("ZJ":"[ZJ]") |
+                ("t_tJ":"[t_tJ]") |
+                ("l_l":"[l_l]") |
+                ("rJ":"[rJ]") |
+                ("tJ":"[tJ]") |
+                ("s_s":"[s_s]") |
+                ("fJ":"[fJ]") |
+                ("t_SJ":"[t_SJ]") |
+                ("vJ":"[vJ]") |
+                ("i_i":"[i_i]") |
+                ("d_d":"[d_d]") |
+                ("dJ":"[dJ]") |
+                ("n_n":"[n_n]") |
+                ("U_i":"[U_i]") |
+                ("l_lJ":"[l_lJ]") |
+                ("d_Z":"[d_Z]") |
+                ("d_dJ":"[d_dJ]") |
+                ("s_sJ":"[s_sJ]") |
+                ("gJ":"[gJ]") |
+                ("kJ":"[kJ]") |
+                ("t_t":"[t_t]") |
+                ("e_i":"[e_i]") |
+                ("t_s":"[t_s]") |
+                ("i_x":"[i_x]") |
+                ("sJ":"[sJ]") |
+                ("d_z":"[d_z]") |
+                ("SJ":"[SJ]") |
+                ("mJ":"[mJ]") |
+                ("@_o_i":"[@_o_i]") |
+                ("pJ":"[pJ]") |
+                ("zJ":"[zJ]") |
+                ("xJ":"[xJ]") |
+                ("a_i":"[a_i]") |
+                ("@_r":"[@_r]") |
+                ("bJ":"[bJ]") |
+                ("u_i":"[u_i]") |
+                ("o_i":"[o_i]") |
+                ("d_ZJ":"[d_ZJ]") |
+                ("nJ":"[nJ]") |
+                ("@_i":"[@_i]") |
+                ("U_x":"[U_x]") |
+                ("lJ":"[lJ]") |
+                ("@_r_i":"[@_r_i]") |
+                ("n_nJ":"[n_nJ]") |
+                ("SIL":"[SIL]") |
+                ("ERROR":"[ERROR]") |
+                ("ADJ":"[ADJ]") |
+                ("VERB":"[VERB]") |
+                ("WUD":"[WUD]")
+;
+
+inv_composed_char = ("[@_i]":"@_i") |
+                    ("[i_i]":"i_i") |
+                    ("[u_i]":"u_i") |
+                    ("[o_i]":"o_i") |
+                    ("[tJ]":"tJ") |
+                    ("[t_tJ]":"t_tJ") |
+                    ("[vJ]":"vJ") |
+                    ("[t_t]":"t_t") |
+                    ("[U_x]":"U_x") |
+                    ("[lJ]":"lJ") |
+                    ("[n_n]":"n_n") |
+                    ("[xJ]":"xJ") |
+                    ("[n_nJ]":"n_nJ") |
+                    ("[dJ]":"dJ") |
+                    ("[I_i]":"I_i") |
+                    ("[fJ]":"fJ") |
+                    ("[bJ]":"bJ") |
+                    ("[l_l]":"l_l") |
+                    ("[zJ]":"zJ") |
+                    ("[@_r]":"@_r") |
+                    ("[d_ZJ]":"d_ZJ") |
+                    ("[i_x]":"i_x") |
+                    ("[a_i]":"a_i") |
+                    ("[e_i]":"e_i") |
+                    ("[d_d]":"d_d") |
+                    ("[s_s]":"s_s") |
+                    ("[kJ]":"kJ") |
+                    ("[l_lJ]":"l_lJ") |
+                    ("[t_s]":"t_s") |
+                    ("[d_z]":"d_z") |
+                    ("[nJ]":"nJ") |
+                    ("[t_SJ]":"t_SJ") |
+                    ("[d_dJ]":"d_dJ") |
+                    ("[SJ]":"SJ") |
+                    ("[@_o_i]":"@_o_i") |
+                    ("[pJ]":"pJ") |
+                    ("[s_sJ]":"s_sJ") |
+                    ("[gJ]":"gJ") |
+                    ("[U_i]":"U_i") |
+                    ("[sJ]":"sJ") |
+                    ("[@_o]":"@_o") |
+                    ("[d_Z]":"d_Z") |
+                    ("[ZJ]":"ZJ") |
+                    ("[mJ]":"mJ") |
+                    ("[@_r_i]":"@_r_i") |
+                    ("[rJ]":"rJ") |
+                    ("[ERROR]":"ERROR") |
+                    ("[SIL]":"SIL") |
+                    ("[ADJ]":"ADJ") |
+                    ("[VERB]":"VERB") |
+                    ("[WUD]":"WUD")
+;
+
+simple_char = "S" | "ш" | "a" | "щ" | "п" | "d" | "E" | "д" | "j" |
+              "Z" | "u" | "ь" | "k" | "g" | "ч" | "е" | "в" | "t" |
+              "б" | "e" | "у" | "а" | "v" | "s" | "й" | "b" | "I" |
+              "р" | "к" | "т" | "н" | "z" | "ц" | "U" | "м" | "r" |
+              "о" | "ж" | "з" | "x" | "и" | "ъ" | "с" | "ф" | "л" |
+              "я" | "@" | "f" | "i" | "n" | "ё" | "m" | "l" | "p" |
+              "г" | "х" | "э" | "ы" | "ю" | "o" | " " | "-" | "+"
+;
+
+export in_feeder = Optimize[(simple_char|composed_char)*];
+export out_feeder = Optimize[(simple_char|inv_composed_char)*];

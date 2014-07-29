@@ -1,0 +1,189 @@
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Copyright 2014 Yandex LLC
+# All Rights Reserved.
+#
+# Author : Alexis Wilpert
+
+
+
+import 'alphabets.grm' as alphabets;
+import 'definitions.grm' as defs;
+
+# set/class definitions
+
+LSEP = defs.LSEP;
+RSEP = defs.RSEP;
+LSEP_ALL = (defs.RSEP | "[SIL]" | "[BOS]" | "-");
+RSEP_ALL = (defs.RSEP | "[SIL]" | "[EOS]");
+vowel = defs.vowel;
+cons_letter_hyphen = defs.cons_letter_hyphen;
+stress_minus_1 = defs.stress_minus_1;
+before_stress = defs.before_stress;
+all = defs.all;
+soft_cons = defs.soft_cons;
+hard_cons = defs.hard_cons;
+always_hard_cons = defs.always_hard_cons;
+
+all_cons = (alphabets.consonants - "j")  |
+           (alphabets.cons_letter - "й")
+;
+
+#----------------------------------------------------------------------------
+
+# stressed diphthongs
+
+stressed_pairs = ("и":"[i_i]") |
+                 ("е":"[e_i]") |
+                 ("э":"[e_i]") |
+                 ("а":"[a_i]") |
+                 ("я":"[a_i]") |
+                 ("о":"[o_i]") |
+                 ("ё":"[o_i]") |
+                 ("у":"[u_i]") |
+                 ("ю":"[u_i]")
+;
+
+stress_diphthongs1 = CDRewrite[stressed_pairs,
+                               "+" "j"?,
+                               "й",
+                               alphabets.sigma_star
+                              ];
+
+# only for stressed <ый>, fo example <выйдя>
+
+stress_diphthongs2a = CDRewrite[("ы":"[i_x]"),
+                                "+",
+                                "й",
+                                alphabets.sigma_star
+                               ];
+stress_diphthongs2b = CDRewrite[("й":"I"),
+                                "[i_x]",
+                                "",
+                                alphabets.sigma_star
+                               ];
+
+stress_diphthongs = Optimize[stress_diphthongs1  @
+                             stress_diphthongs2a @
+                             stress_diphthongs2b
+                            ];
+
+#----------------------------------------------------------------------------
+
+# unstressed diphthongs
+
+
+diphthongs6a = CDRewrite[("и":"[I_i]") | ("е":"[I_i]"),
+                         soft_cons,
+                         "й",
+                         alphabets.sigma_star
+                        ];
+
+diphthongs6b = CDRewrite[("и":"[@_i]") | ("е":"[@_i]"),
+                         always_hard_cons,
+                         "й" RSEP_ALL,
+                         alphabets.sigma_star
+                        ];
+
+diphthongs7 = CDRewrite[("ы":"[@_r_i]"),
+                        hard_cons,
+                        "й",
+                        alphabets.sigma_star
+                       ];
+
+# left context
+diphthongs8 = CDRewrite[("а":"[@_o_i]") |
+                        ("о":"[@_o_i]") |
+                        ("я":"[@_o_i]") |
+                        ("ё":"[@_o_i]"),
+                        vowel | LSEP,
+                        "й",
+                        alphabets.sigma_star
+                       ];
+
+# right context
+diphthongs9 = CDRewrite[("а":"[@_o_i]") |
+                        ("о":"[@_o_i]") |
+                        ("я":"[@_o_i]") |
+                        ("ё":"[@_o_i]"),
+                        cons_letter_hyphen,
+                        "й" (stress_minus_1 | RSEP),
+                        alphabets.sigma_star
+                       ];
+
+diphthongs10 = CDRewrite[("а":"[@_i]") |
+                         ("о":"[@_i]") |
+                         ("я":"[@_i]") |
+                         ("ё":"[@_i]"),
+                         "",
+                         "й",
+                         alphabets.sigma_star
+                        ];
+
+diphthongs11 = CDRewrite[("у":"[U_i]") | ("ю":"[U_i]"),
+                         all | LSEP,
+                         "й",
+                         alphabets.sigma_star
+                        ];
+
+
+reduce_diphthongs = Optimize[diphthongs6a @
+                             diphthongs6b @
+                             diphthongs7  @
+                             diphthongs8  @
+                             diphthongs9  @
+                             diphthongs10 @
+                             diphthongs11
+                            ];
+
+#----------------------------------------------------------------------------
+
+# handling of <й> in other cases:
+
+# 1. stand-alone --> lexicon entry (<и краткое>)
+# 2. after consonant --> [j]
+# 3. at BOW --> [j]
+# 4. in all other cases --> DEL
+
+i_kratkoye1 = CDRewrite[("й":"j"),
+                        (LSEP_ALL | all_cons),
+                        "+"? vowel,
+                        alphabets.sigma_star
+                       ];
+
+# this rule could catch also stand-alone <й>, but this is already
+# caught by the lexicon lookup
+i_kratkoye2 = CDRewrite[("й":"и")*,
+                        (LSEP_ALL | all_cons),
+                        (RSEP_ALL | all_cons),
+                        alphabets.sigma_star
+                       ];
+
+i_kratkoye3 = CDRewrite[("й":"")*,
+                        "",
+                        "",
+                        alphabets.sigma_star
+                       ];
+
+i_kratkoye = Optimize[i_kratkoye1 @
+                      i_kratkoye2 @
+                      i_kratkoye3
+                     ];
+
+#----------------------------------------------------------------------------
+
+export diphthongs = Optimize[stress_diphthongs @
+                             reduce_diphthongs @
+                             i_kratkoye
+                            ];
+

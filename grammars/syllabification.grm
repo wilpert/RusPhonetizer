@@ -1,0 +1,299 @@
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Copyright 2014 Yandex LLC
+# All Rights Reserved.
+#
+# Author : Alexis Wilpert
+
+
+
+import 'alphabets.grm' as alphabets;
+
+# definitions used in the syllabification rules
+
+stops = alphabets.plosives | alphabets.affricates;
+
+liquids_glides = alphabets.liquids | alphabets.approximant;
+
+consonantal = alphabets.consonants;
+
+vocalic = alphabets.nuclei | liquids_glides;
+
+sonorant = vocalic | alphabets.nasals;
+
+continuant = (alphabets.phone - stops);
+
+coronal = alphabets.liquids            |
+          alphabets.coronal_nasals     |
+          alphabets.coronal_fricatives |
+          alphabets.coronal_plosives   |
+          alphabets.affricates
+;
+
+anterior = alphabets.laterals            |
+           alphabets.nasals              |
+           alphabets.anterior_plosives   |
+           alphabets.anterior_fricatives |
+           alphabets.anterior_affricates
+;
+
+lateral = alphabets.laterals;
+
+nasal = alphabets.nasals;
+
+delayed_release = alphabets.affricates;
+
+#-------------------------------------------------------------
+
+# RULES
+
+SEP = alphabets.word_sep | "[BOS]" | "[SIL]";
+
+# 1-consonant onset
+
+onset1 = consonantal;
+
+# 2-consonants onsets
+
+
+onset_33  = (consonantal - vocalic - delayed_release)
+            (consonantal @ vocalic)
+;
+
+onset_36  = ((consonantal @ continuant @ coronal @ anterior) - sonorant)
+            (consonantal - continuant)
+;
+
+onset_37  = SEP ((consonantal @ continuant @ coronal) - sonorant - anterior)
+            (consonantal - continuant - delayed_release)
+;
+
+onset_38a = SEP ((consonantal @ continuant @ anterior) - sonorant)
+            consonantal
+;
+
+onset_38b = ((consonantal @ continuant @ anterior) - sonorant)
+            (consonantal @ sonorant)
+;
+
+onset_40a = SEP (consonantal - sonorant - delayed_release)
+            ((consonantal @ sonorant @ nasal) - vocalic)
+;
+
+onset_40b = (consonantal - sonorant)
+            ((consonantal @ sonorant) - nasal)
+;
+
+onset2 = Optimize[onset_33  | onset_36  | onset_37  |
+                  onset_38a | onset_38b | onset_40a |
+                  onset_40b
+                 ];
+
+# 3-consonants onsets
+
+onset_42 = SEP ((consonantal @ continuant @ anterior) - sonorant - coronal)
+               ((consonantal @ continuant @ coronal @ anterior) - sonorant)
+               (consonantal @ sonorant)
+;
+
+onset_43 = ((consonantal @ continuant @ anterior) - sonorant - coronal)
+           ((consonantal @ continuant @ coronal @ anterior) - sonorant)
+           (consonantal - continuant - delayed_release)
+;
+
+onset_45 = ((consonantal @ continuant @ anterior) - sonorant)
+           (consonantal - continuant - delayed_release)
+           ((consonantal @ sonorant) - nasal)
+;
+
+onset_double_r = stops
+                 ("r" | "[rJ]")
+                 ("r" | "[rJ]")
+;
+
+onset3 = Optimize[onset_42 | onset_43 | onset_45 | onset_double_r];
+
+# 4-consonants onsets
+
+onset_47 = SEP ((consonantal @ continuant @ anterior) - sonorant - coronal)
+           ((consonantal @ continuant @ coronal @ anterior) - sonorant)
+           (consonantal - continuant - delayed_release)
+           (consonantal @ vocalic)
+;
+
+onset4 = Optimize[onset_47];
+
+# onset exceptions
+
+onset_except_1 = SEP "t" "[SJ]" "t";
+onset_except_2 = SEP "[lJ]" "d";
+onset_except_3 = SEP "g" "[dJ]";
+onset_except_4 = SEP "k" "t";
+onset_except_5 = SEP "l" "b";
+onset_except_6 = SEP "m" "[t_SJ]";
+onset_except_7 = SEP "m" "[nJ]";
+onset_except_8 = SEP "m" "n";
+onset_except_9 = SEP "p" "[tJ]";
+onset_except_10 = SEP "r" "t";
+onset_except_11 = SEP "s" "x" "v";
+onset_except_12 = SEP "[t_S]" "[t_SJ]";
+onset_except_13 = SEP "S" "[t_SJ]";
+
+onset_except = Optimize[onset_except_1  |
+                        onset_except_2  |
+                        onset_except_3  |
+                        onset_except_4  |
+                        onset_except_5  |
+                        onset_except_6  |
+                        onset_except_7  |
+                        onset_except_8  |
+                        onset_except_9  |
+                        onset_except_10 |
+                        onset_except_11 |
+                        onset_except_12 |
+                        onset_except_13
+                       ];
+
+onset = Optimize[onset1 | onset2 | onset3 | onset4 | onset_except];
+
+# codas
+
+coda1 = consonantal;
+
+coda_48 = (consonantal @ vocalic)
+          (consonantal - vocalic)
+;
+
+coda_49 = (consonantal - vocalic - delayed_release)
+          ((consonantal @ coronal @ anterior) - continuant - delayed_release)
+;
+
+coda_50a = ((consonantal @ sonorant @ nasal) - vocalic)
+           ((consonantal @ continuant @ coronal) - sonorant)
+;
+
+coda_50b = ((consonantal @ sonorant @ nasal) - vocalic)
+           (consonantal - continuant)
+;
+
+coda_x1 = (consonantal - continuant - coronal)
+          ((consonantal @ continuant @ coronal @ anterior) - sonorant)
+;
+
+coda_x2 = ((consonantal @ continuant @ coronal @ anterior) - sonorant)
+          (consonantal - continuant - coronal - anterior)
+;
+
+coda_x3 = ((consonantal @ continuant @ coronal) - sonorant - anterior)
+          ((consonantal @ coronal) - continuant - anterior)
+;
+
+coda_x4 = ((consonantal @ continuant @ coronal @ anterior) - sonorant)
+          ((consonantal @ anterior) - vocalic)
+;
+
+coda_x5 = (consonantal - continuant - delayed_release)
+          (consonantal @ vocalic @ coronal)
+;
+
+# coda exceptions
+
+coda_except1 ="s" "[lJ]";
+coda_except2 = "t" "[vJ]";
+coda_except3 = "Z" "b";
+coda_except4 = "l" "n" "t" "s";
+coda_except5 = "l" "l";
+coda_except6 = "r" "l";
+coda_except7 = "s" "l";
+coda_except8 = "m" "m";
+coda_except9 = "n" "n";
+coda_except10 = "p" "p";
+coda_except11 = "s" "[tJ]" "r";
+coda_except12 ="f" "r";
+coda_except13 = "n" "t" "r";
+coda_except14 = "s" "t" "r";
+coda_except15 = "n" "k" "t";
+coda_except16 = "[t_SJ]" "v";
+coda_except17 = "k" "v";
+coda_except18 = "s" "t" "v";
+
+# coda_except19 = ("j" | "[lJ]" | "d" | "n" | "r" | "s" | "t" |"v") "s" "t" "v";
+
+coda_except = Optimize[coda_except1  |
+                       coda_except2  |
+                       coda_except3  |
+                       coda_except4  |
+                       coda_except5  |
+                       coda_except6  |
+                       coda_except7  |
+                       coda_except8  |
+                       coda_except9  |
+                       coda_except10 |
+                       coda_except11 |
+                       coda_except12 |
+                       coda_except13 |
+                       coda_except14 |
+                       coda_except15 |
+                       coda_except16 |
+                       coda_except17 |
+                       coda_except18
+                      ];
+
+coda = Optimize[coda1    | coda_48 | coda_49  |
+                coda_50b | coda_x1 | coda_x2  |
+                coda_x3  | coda_x4 | coda_x5  |
+                coda_except
+               ];
+
+# syllable definitions
+
+syllable1 = onset alphabets.nuclei coda;
+syllable2 = onset alphabets.nuclei;
+syllable3 = alphabets.nuclei coda;
+syllable4 = alphabets.nuclei;
+
+syllable = syllable1 | syllable2 | syllable3 | syllable4;
+
+rewrite_alpha = (alphabets.phone | "-" | " " |
+                 "[SIL]" | "[ERROR]")*;
+
+syllabified0 = CDRewrite["":"-",
+                         syllable,        # left context
+                         "j",             # right context
+                         rewrite_alpha    # alphabet
+                        ];
+
+syllabified1 = CDRewrite["":"-",
+                         syllable,     # left context
+                         syllable,     # right context
+                         rewrite_alpha # alphabet
+                        ];
+
+# residual rule (trying to catch unsyllabified sequences)
+syllabified2 = CDRewrite["":"-",
+                         onset? alphabets.nuclei coda,  # left context
+                         consonantal* alphabets.nuclei, # right context
+                         rewrite_alpha                  # alphabet
+                        ];
+
+trailing_syll_removal = CDRewrite["-":"",
+                                  "",
+                                  SEP,
+                                  rewrite_alpha
+                                 ];
+
+export syllabified = Optimize[syllabified0          @
+                              syllabified1          @
+                              syllabified2          @
+                              trailing_syll_removal
+                             ];
