@@ -10,7 +10,7 @@
 
 - [OpenFST](http://www.openfst.org/twiki/bin/view/FST/WebHome): used by Phonetisaurus, Thrax, and the Transduce tool. Tested with version 1.3.4.
 - [OpenGrm Thrax Grammar Development Tools](http://openfst.cs.nyu.edu/twiki/bin/view/GRM/Thrax): needed to compile the grammar rules. Tested with version 1.0.2.
-- [The WFST-driven Phoneticizer Phonetisaurus](https://code.google.com/p/phonetisaurus/): required to build and use the stress prediction model.
+- [The WFST-driven Phoneticizer Phonetisaurus](https://github.com/JosefNovak/Phonetisaurus): required to build and use the stress prediction model.
 
 A tiny patch in the Thrax source code is needed before compilation. Please, refer to misc/README.
 
