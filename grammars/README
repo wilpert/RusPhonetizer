@@ -1,0 +1,19 @@
+To compile the rules and generate the final FSTs, just run ./make.sh. The
+exported FSTs are defined in the grammar file g2p.grm. The two FST files
+G2P1 and G2P2 are defined for being used with python transcriber script.
+They are split in two parts to minimize size on disk, but you may just
+export a single FST file, if you wish.
+
+After succesful compilation, you might test the rules using either:
+
+* tester.sh: a very simple interactive loop. Just write in or paste the
+  words/sentences you want to test.
+
+* transcribe.sh: which will transcribe a file with words or sentences
+  given as input.
+
+Thanks:
+
+The implementation of the rules would not have been possible without
+the Russian language advice from my colleague at Yandex Anastasiya
+Polkanova.

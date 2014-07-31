@@ -1,0 +1,7448 @@
+[SNUM]	1
+[SENT]	Суворов с любопытством расспрашивал славного мятежника о его военных действияхи намерениях и повез его в Симбирск, куда должен был приехать и граф Панин .
+[YOWR]	повёз
+[NORM]	суворов с любопытством расспрашивал славного мятежника о его военных действияхи намерениях и повёз его в симбирск , куда должен был приехать и граф панин
+[WORD]	суворов
+[INFO]	stress predicted
+[STRS]	сув+оров
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	любопытством
+[INFO]	stress predicted
+[STRS]	любоп+ытством
+[WORD]	расспрашивал
+[INFO]	entry found in lexicon
+[STRS]	распр+ашивал
+[WORD]	славного
+[INFO]	stress predicted
+[STRS]	сл+авного
+[WORD]	мятежника
+[INFO]	stress predicted
+[STRS]	мят+ежника
+[WORD]	о
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	военных
+[INFO]	stress predicted
+[STRS]	во+енных
+[WORD]	действияхи
+[INFO]	stress predicted
+[STRS]	д+ействиях+и
+[WORD]	намерениях
+[INFO]	stress predicted
+[STRS]	нам+ерениях
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	повёз
+[INFO]	stress predicted
+[STRS]	повёз
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	симбирск
+[INFO]	stress predicted
+[STRS]	симб+ирск
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	куда
+[INFO]	stress predicted
+[STRS]	куд+а
+[WORD]	должен
+[INFO]	stress predicted
+[STRS]	д+олжен
+[WORD]	был
+[INFO]	stress predicted
+[STRS]	б+ыл
+[WORD]	приехать
+[INFO]	stress predicted
+[STRS]	при+ехать
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	граф
+[INFO]	stress predicted
+[STRS]	гр+аф
+[WORD]	панин
+[INFO]	entry found in lexicon
+[STRS]	п+анин
+[SPHO]	sU-vo-r@f s lJU_x-b@_o-pi_xt-stv@m r@_o-spra-S@_r-v@l sla-vn@-g@ mJI-tJeZ-nJI-k@ @_o jI-vo v@_o-je-n_n@_rx dJe_ist-vJI-jI-xJi n@_o-mJe-rJI-nJI-j@x I p@-vJos jI-vo f sJIm-bJirsk SIL kU-da dol-Z@_rn bi_xl prJI-je-x@tJ I graf pa-nJIn
+
+[SNUM]	2
+[SENT]	И просто задохнулся от неожиданной радости .
+[NORM]	и просто задохнулся от неожиданной радости
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	просто
+[INFO]	stress predicted
+[STRS]	пр+осто
+[WORD]	задохнулся
+[INFO]	stress predicted
+[STRS]	задохн+улся
+[WORD]	от
+[INFO]	entry found in lexicon
+[STRS]	@_ot
+[WORD]	неожиданной
+[INFO]	stress predicted
+[STRS]	неож+иданной
+[WORD]	радости
+[INFO]	stress predicted
+[STRS]	р+адости
+[SPHO]	I pro-st@ z@-d@_ox-nul-sJ@ @_ot nJI-@_o-Zi_x-d@-n_n@_o_i ra-d@-sJtJI
+
+[SNUM]	3
+[SENT]	Вскоре начал накрапывать дождь , мочивший нас до самого места лагеря экспедиции , партии Елизаветы Владимировны .
+[NORM]	вскоре начал накрапывать дождь , мочивший нас до самого места лагеря экспедиции , партии елизаветы владимировны
+[WORD]	вскоре
+[INFO]	stress predicted
+[STRS]	вск+оре
+[WORD]	начал
+[DISA]	FREQ
+[STRS]	нач+ал
+[WORD]	накрапывать
+[INFO]	stress predicted
+[STRS]	накр+апывать
+[WORD]	дождь
+[INFO]	stress predicted
+[STRS]	д+ождь
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	мочивший
+[INFO]	stress predicted
+[STRS]	моч+ивший
+[WORD]	нас
+[INFO]	stress predicted
+[STRS]	н+ас
+[WORD]	до
+[INFO]	entry found in lexicon
+[STRS]	d@_o
+[WORD]	самого
+[DISA]	LEX1
+[STRS]	с+амово
+[WORD]	места
+[DISA]	FREQ
+[STRS]	м+еста
+[WORD]	лагеря
+[DISA]	FREQ
+[STRS]	л+агеря
+[WORD]	экспедиции
+[INFO]	stress predicted
+[STRS]	экспед+иции
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	партии
+[INFO]	stress predicted
+[STRS]	п+артии
+[WORD]	елизаветы
+[INFO]	stress predicted
+[STRS]	елизав+еты
+[WORD]	владимировны
+[INFO]	stress predicted
+[STRS]	влад+имировн+ы
+[SPHO]	fsko-rJI n@_o-t_SJal n@_o-kra-p@_r-v@dJ doZdJ SIL m@_o-t_SJif-S@_r_i naz d@_o sa-m@-v@ mJe-st@ la-gJI-rJ@ Ek-spJI-dJi-t_s@-I SIL par-tJI-I jI-lJI-z@_o-vJe-t@_r vl@_o-dJi-mJI-r@_o-vni_x
+
+[SNUM]	4
+[SENT]	Они сидели над миром , участвуя в общем процессе жизни и гибели и присоединяя к своей сущности все души , личности и чувства « Я » .
+[NORM]	они сидели над миром , участвуя в общем процессе жизни и гибели и присоединяя к своей сущности все души , личности и чувства я
+[WORD]	они
+[INFO]	stress predicted
+[STRS]	он+и
+[WORD]	сидели
+[INFO]	stress predicted
+[STRS]	сид+ели
+[WORD]	над
+[INFO]	entry found in lexicon
+[STRS]	n@_odWUD
+[WORD]	миром
+[INFO]	stress predicted
+[STRS]	м+иром
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	участвуя
+[INFO]	stress predicted
+[STRS]	уч+аствуя
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	общем
+[INFO]	stress predicted
+[STRS]	+общем
+[WORD]	процессе
+[INFO]	entry found in lexicon
+[STRS]	проц+есе
+[WORD]	жизни
+[INFO]	stress predicted
+[STRS]	ж+изни
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	гибели
+[INFO]	stress predicted
+[STRS]	г+ибели
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	присоединяя
+[INFO]	stress predicted
+[STRS]	присоедин+яя
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	своей
+[INFO]	stress predicted
+[STRS]	сво+ей
+[WORD]	сущности
+[INFO]	stress predicted
+[STRS]	с+ущности
+[WORD]	все
+[INFO]	entry found in lexicon
+[STRS]	вс+е
+[WORD]	души
+[DISA]	FREQ
+[STRS]	душ+и
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	личности
+[INFO]	stress predicted
+[STRS]	л+ичности
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	чувства
+[INFO]	stress predicted
+[STRS]	ч+увства
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[SPHO]	@_o-nJi sJI-dJe-lJI n@_od mJi-r@m SIL U-t_SJast-vU_x-j@ v op-SJIm pr@_o-t_se-sJI Zi_x-zJnJI I gJi-bJI-lJI I prJI-s@-jI-dJI-nJa-j@ k sv@_o-je_i suSJ-n@-sJtJI fsJe dU-Si_x SIL lJit_SJ-n@-sJtJI I t_SJust-v@ ja
+
+[SNUM]	5
+[SENT]	Его толстая шея вздулась багровыми жилами , и широкое скуластое лицо налилось кровью .
+[NORM]	его толстая шея вздулась багровыми жилами , и широкое скуластое лицо налилось кровью
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	толстая
+[INFO]	stress predicted
+[STRS]	т+олстая
+[WORD]	шея
+[INFO]	stress predicted
+[STRS]	ш+ея
+[WORD]	вздулась
+[INFO]	stress predicted
+[STRS]	взд+улась
+[WORD]	багровыми
+[INFO]	stress predicted
+[STRS]	багр+овыми
+[WORD]	жилами
+[INFO]	stress predicted
+[STRS]	ж+илами
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	широкое
+[INFO]	stress predicted
+[STRS]	шир+окое
+[WORD]	скуластое
+[INFO]	stress predicted
+[STRS]	скул+астое
+[WORD]	лицо
+[INFO]	stress predicted
+[STRS]	лиц+о
+[WORD]	налилось
+[INFO]	stress predicted
+[STRS]	нал+илось
+[WORD]	кровью
+[INFO]	stress predicted
+[STRS]	кр+овью
+[SPHO]	jI-vo tol-st@-j@ Se-j@ vzdu-l@zJ b@_o-gro-v@_r-mJI Zi_x-l@-mJI SIL I S@_r-ro-k@-jI skU-la-st@-jI lJI-t_so n@_o-lJi-l@sJ krovJ-jU_x
+
+[SNUM]	6
+[SENT]	Трусость его не дозволяла ему хорошенько изъясниться ; и так солгал он раза два или три без правил , а как господин закричал ему , чтобы он пошел домой , то тем дело и кончилось .
+[YOWR]	пошёл
+[NORM]	трусость его не дозволяла ему хорошенько изъясниться ; и так солгал он раза два или три без правил , а как господин закричал ему , чтобы он пошёл домой , то тем дело и кончилось
+[WORD]	трусость
+[INFO]	stress predicted
+[STRS]	тр+усость
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	дозволяла
+[INFO]	stress predicted
+[STRS]	дозвол+яла
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	хорошенько
+[DISA]	FREQ
+[STRS]	хорош+енько
+[WORD]	изъясниться
+[INFO]	stress predicted
+[STRS]	изъясн+иться
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	так
+[INFO]	stress predicted
+[STRS]	т+ак
+[WORD]	солгал
+[INFO]	stress predicted
+[STRS]	солг+ал
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	раза
+[INFO]	stress predicted
+[STRS]	р+аза
+[WORD]	два
+[INFO]	stress predicted
+[STRS]	дв+а
+[WORD]	или
+[INFO]	entry found in lexicon
+[STRS]	IlJI
+[WORD]	три
+[INFO]	stress predicted
+[STRS]	тр+и
+[WORD]	без
+[INFO]	entry found in lexicon
+[STRS]	bJIzWUD
+[WORD]	правил
+[DISA]	FREQ
+[STRS]	пр+авил
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	господин
+[INFO]	stress predicted
+[STRS]	господ+ин
+[WORD]	закричал
+[INFO]	stress predicted
+[STRS]	закрич+ал
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	чтобы
+[DISA]	FREQ
+[STRS]	шт+обы
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	пошёл
+[INFO]	stress predicted
+[STRS]	пошёл
+[WORD]	домой
+[INFO]	stress predicted
+[STRS]	дом+ой
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	то
+[DISA]	FREQ
+[STRS]	т+о
+[WORD]	тем
+[INFO]	stress predicted
+[STRS]	т+ем
+[WORD]	дело
+[INFO]	entry found in lexicon
+[STRS]	д+ело
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	кончилось
+[INFO]	stress predicted
+[STRS]	к+ончилось
+[SPHO]	tru-s@sJtJ jI-vo nJI d@z-v@_o-lJa-l@ jI-mu x@-r@_o-SenJ-k@ Iz-jI-sJnJitJ-sJ@ SIL I tak s@_ol-gal on ra-z@ dva I-lJI trJi bJIs pra-vJIl SIL @_o kag g@-sp@_o-dJin z@-krJI-t_SJal jI-mu SIL Sto-b@_r on p@-Sol d@_o-mo_i SIL to tJem dJe-l@ I konJ-t_SJI-l@sJ
+
+[SNUM]	7
+[SENT]	укладывается в узкий тоннель научных знаний - высмеивается или не замечается .
+[NORM]	укладывается в узкий тоннель научных знаний , высмеивается или не замечается
+[WORD]	укладывается
+[INFO]	stress predicted
+[STRS]	укл+адывается
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	узкий
+[INFO]	stress predicted
+[STRS]	+узкий
+[WORD]	тоннель
+[INFO]	entry found in lexicon
+[STRS]	тон+эль
+[WORD]	научных
+[INFO]	stress predicted
+[STRS]	на+учных
+[WORD]	знаний
+[INFO]	stress predicted
+[STRS]	зн+аний
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	высмеивается
+[INFO]	stress predicted
+[STRS]	высм+еивается
+[WORD]	или
+[INFO]	entry found in lexicon
+[STRS]	IlJI
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	замечается
+[INFO]	stress predicted
+[STRS]	замеч+ается
+[SPHO]	U-kla-d@_r-v@-jItJ-sJ@ v u-skJI_i t@_o-nelJ n@_o-ut_SJ-n@_rx zna-nJI_i SIL v@_r-smJe-I-v@-jItJ-sJ@ I-lJI nJI z@-mJI-t_SJa-jItJ-sJ@
+
+[SNUM]	8
+[SENT]	Комитет « Гражданское содействие » выдает им ходатайства о регистрации и обращения к сотрудникам МВД с разъяснением реального положения этих людей .
+[YOWR]	выдаёт
+[NORM]	комитет гражданское содействие выдаёт им ходатайства о регистрации и обращения к сотрудникам мвд с разъяснением реального положения этих людей
+[WORD]	комитет
+[INFO]	stress predicted
+[STRS]	комит+ет
+[WORD]	гражданское
+[INFO]	stress predicted
+[STRS]	гражд+анское
+[WORD]	содействие
+[INFO]	stress predicted
+[STRS]	сод+ействие
+[WORD]	выдаёт
+[INFO]	stress predicted
+[STRS]	выдаёт
+[WORD]	им
+[INFO]	entry found in lexicon
+[STRS]	+им
+[WORD]	ходатайства
+[INFO]	stress predicted
+[STRS]	ход+атайства
+[WORD]	о
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	регистрации
+[INFO]	stress predicted
+[STRS]	регистр+ации
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	обращения
+[INFO]	stress predicted
+[STRS]	обращ+ения
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	сотрудникам
+[INFO]	stress predicted
+[STRS]	сотр+удникам
+[WORD]	мвд
+[INFO]	stress predicted
+[STRS]	мвд
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	разъяснением
+[INFO]	stress predicted
+[STRS]	разъясн+ением
+[WORD]	реального
+[INFO]	stress predicted
+[STRS]	ре+ального
+[WORD]	положения
+[INFO]	stress predicted
+[STRS]	полож+ения
+[WORD]	этих
+[INFO]	stress predicted
+[STRS]	+этих
+[WORD]	людей
+[INFO]	stress predicted
+[STRS]	люд+ей
+[SPHO]	k@-mJI-tJed gr@_oZ-dan-sk@-jI s@_o-dJe_ist-vJI-jI v@_r-d@-jot i_xm x@_o-da-t@_ist-v@ @_o rJI-gJI-stra-t_s@-I I @_o-br@_o-SJe-nJI-j@ k s@_o-trudJ-nJI-k@m mft s r@z-jI-sJnJe-nJI-jIm rJI-alJ-n@-g@ p@-l@_o-Ze-nJI-j@ e-tJIx lJU-dJe_i
+
+[SNUM]	9
+[SENT]	Однако ДНК сама по себе несет важнейшую функцию кодирования аминокислотной последовательности белков , и мы не можем произвольно ее модифицировать , не затронув этой информации и не изменив способности ДНК к удвоению .
+[YOWR]	несёт
+[YOWR]	её
+[NORM]	однако днк сама по себе несёт важнейшую функцию кодирования аминокислотной последовательности белков , и мы не можем произвольно её модифицировать , не затронув этой информации и не изменив способности днк к удвоению
+[WORD]	однако
+[INFO]	stress predicted
+[STRS]	одн+ако
+[WORD]	днк
+[INFO]	stress predicted
+[STRS]	днк
+[WORD]	сама
+[INFO]	stress predicted
+[STRS]	сам+а
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	себе
+[INFO]	stress predicted
+[STRS]	себ+е
+[WORD]	несёт
+[INFO]	stress predicted
+[STRS]	несёт
+[WORD]	важнейшую
+[INFO]	stress predicted
+[STRS]	важн+ейшую
+[WORD]	функцию
+[INFO]	stress predicted
+[STRS]	ф+ункцию
+[WORD]	кодирования
+[INFO]	stress predicted
+[STRS]	код+ирования
+[WORD]	аминокислотной
+[INFO]	stress predicted
+[STRS]	аминокисл+отной
+[WORD]	последовательности
+[INFO]	stress predicted
+[STRS]	посл+едовательности
+[WORD]	белков
+[INFO]	stress predicted
+[STRS]	белк+ов
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	мы
+[INFO]	stress predicted
+[STRS]	м+ы
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	можем
+[INFO]	stress predicted
+[STRS]	м+ожем
+[WORD]	произвольно
+[INFO]	stress predicted
+[STRS]	произв+ольно
+[WORD]	её
+[INFO]	stress predicted
+[STRS]	её
+[WORD]	модифицировать
+[INFO]	stress predicted
+[STRS]	модифиц+ировать
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	затронув
+[INFO]	stress predicted
+[STRS]	затр+онув
+[WORD]	этой
+[INFO]	stress predicted
+[STRS]	+этой
+[WORD]	информации
+[INFO]	stress predicted
+[STRS]	информ+ации
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	изменив
+[INFO]	stress predicted
+[STRS]	измен+ив
+[WORD]	способности
+[INFO]	stress predicted
+[STRS]	спос+обности
+[WORD]	днк
+[INFO]	stress predicted
+[STRS]	днк
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	удвоению
+[INFO]	stress predicted
+[STRS]	удво+ению
+[SPHO]	@_od-na-k@ dnk s@_o-ma p@_o sJI-bJe nJI-sJot v@_oZ-nJe_i-SU_x-jU_x funk-t_s@-jU_x k@_o-dJi-r@-v@-nJI-j@ @_o-mJI-n@-kJI-slot-n@_o_i p@_o-slJe-d@-v@-tJIlJ-n@-sJtJI bJIl-kov SIL I mi_x nJI mo-Z@_rm pr@-Iz-volJ-n@ jI-jo m@-dJI-fJI-t_si_x-r@-v@tJ SIL nJI z@_o-tro-nU_xf e-t@_o_i In-f@_or-ma-t_s@-I I nJI I-zmJI-nJif sp@_o-sob-n@-sJtJI dnk k U_xd-v@_o-je-nJI-jU_x
+
+[SNUM]	10
+[SENT]	Сейчас очень интересную женщину пишут .
+[NORM]	сейчас очень интересную женщину пишут
+[WORD]	сейчас
+[DISA]	SINGLETON
+[STRS]	сич+ас
+[WORD]	очень
+[INFO]	stress predicted
+[STRS]	+очень
+[WORD]	интересную
+[INFO]	stress predicted
+[STRS]	интер+есную
+[WORD]	женщину
+[INFO]	stress predicted
+[STRS]	ж+енщину
+[WORD]	пишут
+[INFO]	stress predicted
+[STRS]	п+ишут
+[SPHO]	sJI-t_SJas o-t_SJInJ InJ-tJI-rJe-snU_x-jU_x ZenJ-SJI-nU_x pJi-SU_xt
+
+[SNUM]	11
+[SENT]	Заставляли молиться , готовили еду , рассказывали анекдоты .
+[NORM]	заставляли молиться , готовили еду , рассказывали анекдоты
+[WORD]	заставляли
+[INFO]	stress predicted
+[STRS]	заставл+яли
+[WORD]	молиться
+[INFO]	stress predicted
+[STRS]	мол+иться
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	готовили
+[INFO]	stress predicted
+[STRS]	гот+овили
+[WORD]	еду
+[DISA]	FREQ
+[STRS]	+еду
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	рассказывали
+[INFO]	entry found in lexicon
+[STRS]	раск+азывали
+[WORD]	анекдоты
+[INFO]	stress predicted
+[STRS]	анекд+оты
+[SPHO]	z@-st@_o-vlJa-lJI m@_o-lJitJ-sJ@ SIL g@_o-to-vJI-lJI je-dU_x SIL r@_o-ska-z@_r-v@-lJI @_o-nJIg-do-t@_r
+
+[SNUM]	12
+[SENT]	Офицерам и автоматчикам из роты охраны Поляков приказал тщательно осмотреть окрестность , а сам с немцами и занялся непосредственно участком , где располагалось ядро группы .
+[NORM]	офицерам и автоматчикам из роты охраны поляков приказал тщательно осмотреть окрестность , а сам с немцами и занялся непосредственно участком , где располагалось ядро группы
+[WORD]	офицерам
+[INFO]	stress predicted
+[STRS]	офиц+ерам
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	автоматчикам
+[INFO]	stress predicted
+[STRS]	автом+атчикам
+[WORD]	из
+[INFO]	entry found in lexicon
+[STRS]	IzWUD
+[WORD]	роты
+[INFO]	stress predicted
+[STRS]	р+оты
+[WORD]	охраны
+[INFO]	stress predicted
+[STRS]	охр+аны
+[WORD]	поляков
+[INFO]	stress predicted
+[STRS]	пол+яков
+[WORD]	приказал
+[INFO]	stress predicted
+[STRS]	приказ+ал
+[WORD]	тщательно
+[INFO]	entry found in lexicon
+[STRS]	чщ+ательно
+[WORD]	осмотреть
+[INFO]	stress predicted
+[STRS]	осмотр+еть
+[WORD]	окрестность
+[INFO]	stress predicted
+[STRS]	окр+естность
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	сам
+[INFO]	entry found in lexicon
+[STRS]	с+ам
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	немцами
+[INFO]	stress predicted
+[STRS]	н+емцами
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	занялся
+[DISA]	SINGLETON
+[STRS]	занялс+я
+[WORD]	непосредственно
+[INFO]	stress predicted
+[STRS]	непоср+едственно
+[WORD]	участком
+[INFO]	stress predicted
+[STRS]	уч+астком
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	где
+[INFO]	stress predicted
+[STRS]	гд+е
+[WORD]	располагалось
+[INFO]	stress predicted
+[STRS]	располаг+алось
+[WORD]	ядро
+[INFO]	stress predicted
+[STRS]	ядр+о
+[WORD]	группы
+[INFO]	stress predicted
+[STRS]	гр+уппы
+[SPHO]	@_o-fJI-t_se-r@m I @_of-t@_o-matJ-t_SJI-k@m Iz ro-t@_r @_o-xra-n@_r p@_o-lJa-k@f prJI-k@_o-zal t_SJSJa-tJIlJ-n@ @_o-sm@_o-trJetJ @_o-krJe-sn@sJtJ SIL @_o sam s nJem-t_s@-mJI I z@-nJIl-sJa nJI-p@_o-srJet-stvJI-n_n@ U-t_SJast-k@m SIL gdJe r@-sp@-l@_o-ga-l@sJ jI-dro grup-p@_r
+
+[SNUM]	13
+[SENT]	Калинин проехал , не заинтересовался .
+[NORM]	калинин проехал , не заинтересовался
+[WORD]	калинин
+[INFO]	stress predicted
+[STRS]	калинин
+[WORD]	проехал
+[INFO]	stress predicted
+[STRS]	про+ехал
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	заинтересовался
+[INFO]	stress predicted
+[STRS]	заинтересов+ался
+[SPHO]	k@-lJI-nJIn pr@_o-je-x@l SIL nJI z@-InJ-tJI-rJI-s@_o-val-sJ@
+
+[SNUM]	14
+[SENT]	Начнём с депутатов !
+[NORM]	начнём с депутатов
+[WORD]	начнём
+[INFO]	stress predicted
+[STRS]	начнём
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	депутатов
+[INFO]	stress predicted
+[STRS]	депут+атов
+[SPHO]	n@t_SJ-nJom z dJI-pU-ta-t@v
+
+[SNUM]	15
+[SENT]	В Нюрнберге была знаменитая фамилия Фуггеров , банкиров - купцов того времени , вроде Ротшильдов ; они предложили у курфирста взять на откуп индульгенции .
+[NORM]	в нюрнберге была знаменитая фамилия фуггеров , банкиров , купцов того времени , вроде ротшильдов ; они предложили у курфирста взять на откуп индульгенции
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	нюрнберге
+[INFO]	stress predicted
+[STRS]	нюрнб+ерге
+[WORD]	была
+[INFO]	stress predicted
+[STRS]	был+а
+[WORD]	знаменитая
+[INFO]	stress predicted
+[STRS]	знамен+итая
+[WORD]	фамилия
+[INFO]	stress predicted
+[STRS]	фам+илия
+[WORD]	фуггеров
+[INFO]	stress predicted
+[STRS]	фуггеров
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	банкиров
+[INFO]	stress predicted
+[STRS]	банк+иров
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	купцов
+[INFO]	stress predicted
+[STRS]	купц+ов
+[WORD]	того
+[INFO]	entry found in lexicon
+[STRS]	тов+о
+[WORD]	времени
+[DISA]	FREQ
+[STRS]	вр+емени
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	вроде
+[INFO]	stress predicted
+[STRS]	вр+оде
+[WORD]	ротшильдов
+[INFO]	stress predicted
+[STRS]	р+отшильдов
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	они
+[INFO]	stress predicted
+[STRS]	он+и
+[WORD]	предложили
+[INFO]	stress predicted
+[STRS]	предлож+или
+[WORD]	у
+[INFO]	entry found in lexicon
+[STRS]	U
+[WORD]	курфирста
+[INFO]	stress predicted
+[STRS]	курф+ирста
+[WORD]	взять
+[INFO]	stress predicted
+[STRS]	вз+ять
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	откуп
+[INFO]	entry found in lexicon
+[STRS]	+откуп
+[WORD]	индульгенции
+[INFO]	stress predicted
+[STRS]	индульг+енции
+[SPHO]	v nJUrn-bJer-gJI b@_r-la zn@-mJI-nJi-t@-j@ f@_o-mJi-lJI-j@ fU_xg-gJI-r@v SIL b@_on-kJi-r@v SIL kUp-t_sof t@_o-vo vrJe-mJI-nJI SIL vro-dJI rot-S@_rlJ-d@v SIL @_o-nJi prJI-dl@_o-Zi_x-lJI U kUr-fJir-st@ vzJatJ n@_o ot-kU_xp @_rn-dUlJ-gJen-t_s@-I
+
+[SNUM]	16
+[SENT]	Из-за смут и беспорядков этого времени , судоходство в португальских водах почти прекратилось , так что нечего было опасаться даже случайного обнаружения судна в этих местах .
+[NORM]	из-за смут и беспорядков этого времени , судоходство в португальских водах почти прекратилось , так что нечего было опасаться даже случайного обнаружения судна в этих местах
+[WORD]	из-за
+[INFO]	entry found in lexicon
+[STRS]	+из-з+а
+[WORD]	смут
+[INFO]	stress predicted
+[STRS]	см+ут
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	беспорядков
+[INFO]	stress predicted
+[STRS]	беспор+ядков
+[WORD]	этого
+[INFO]	entry found in lexicon
+[STRS]	+этово
+[WORD]	времени
+[DISA]	FREQ
+[STRS]	вр+емени
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	судоходство
+[INFO]	stress predicted
+[STRS]	судох+одство
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	португальских
+[INFO]	stress predicted
+[STRS]	португ+альских
+[WORD]	водах
+[DISA]	SINGLETON
+[STRS]	в+одах
+[WORD]	почти
+[INFO]	stress predicted
+[STRS]	почт+и
+[WORD]	прекратилось
+[INFO]	stress predicted
+[STRS]	прекрат+илось
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	так
+[INFO]	stress predicted
+[STRS]	т+ак
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	нечего
+[INFO]	entry found in lexicon
+[STRS]	н+ечево
+[WORD]	было
+[DISA]	FREQ
+[STRS]	б+ыло
+[WORD]	опасаться
+[INFO]	stress predicted
+[STRS]	опас+аться
+[WORD]	даже
+[INFO]	stress predicted
+[STRS]	д+аже
+[WORD]	случайного
+[INFO]	stress predicted
+[STRS]	случ+айного
+[WORD]	обнаружения
+[INFO]	stress predicted
+[STRS]	обнаруж+ения
+[WORD]	судна
+[INFO]	stress predicted
+[STRS]	с+удна
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	этих
+[INFO]	stress predicted
+[STRS]	+этих
+[WORD]	местах
+[INFO]	stress predicted
+[STRS]	мест+ах
+[SPHO]	iz-za smut I bJI-sp@_o-rJat-k@f e-t@-v@ vrJe-mJI-nJI SIL sU_x-d@_o-xot-stv@ f p@r-tU-galJ-skJIx vo-d@x p@_ot_SJ-tJi prJI-kr@_o-tJi-l@sJ SIL tak Sto nJe-t_SJI-v@ bi_x-l@ @_o-p@_o-satJ-sJ@ da-Z@_r slU-t_SJa_i-n@-g@ @_ob-n@-rU-Ze-nJI-j@ sud-n@ v e-tJIx mJI-stax
+
+[SNUM]	17
+[SENT]	Более того , мы считаем , что кредит в будущем может стать альтернативой долгу .
+[NORM]	более того , мы считаем , что кредит в будущем может стать альтернативой долгу
+[WORD]	более
+[INFO]	stress predicted
+[STRS]	б+олее
+[WORD]	того
+[INFO]	entry found in lexicon
+[STRS]	тов+о
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	мы
+[INFO]	stress predicted
+[STRS]	м+ы
+[WORD]	считаем
+[INFO]	stress predicted
+[STRS]	счит+аем
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	кредит
+[DISA]	SINGLETON
+[STRS]	кред+ит
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	будущем
+[INFO]	stress predicted
+[STRS]	б+удущем
+[WORD]	может
+[INFO]	stress predicted
+[STRS]	м+ожет
+[WORD]	стать
+[INFO]	entry found in lexicon
+[STRS]	ст+ать
+[WORD]	альтернативой
+[INFO]	entry found in lexicon
+[STRS]	альтэрнат+ивой
+[WORD]	долгу
+[DISA]	FREQ
+[STRS]	д+олгу
+[SPHO]	bo-lJI-jI t@_o-vo SIL mi_x SJt_SJI-ta-jIm SIL Sto krJI-dJit v bu-dU_x-SJIm mo-Z@_rt statJ @_olJ-t@_rr-n@_o-tJi-v@_o_i dol-gU_x
+
+[SNUM]	18
+[SENT]	Прошло по крайней мере с полчаса , пока утихли эти хватающие за сердце рыдания .
+[NORM]	прошло по крайней мере с полчаса , пока утихли эти хватающие за сердце рыдания
+[WORD]	прошло
+[DISA]	SINGLETON
+[STRS]	прошл+о
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	крайней
+[INFO]	stress predicted
+[STRS]	кр+айней
+[WORD]	мере
+[INFO]	stress predicted
+[STRS]	м+ере
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	полчаса
+[INFO]	entry found in lexicon
+[STRS]	полчас+а
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	пока
+[INFO]	stress predicted
+[STRS]	пок+а
+[WORD]	утихли
+[INFO]	stress predicted
+[STRS]	ут+ихли
+[WORD]	эти
+[INFO]	stress predicted
+[STRS]	+эти
+[WORD]	хватающие
+[INFO]	stress predicted
+[STRS]	хват+ающие
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	сердце
+[INFO]	stress predicted
+[STRS]	с+ердце
+[WORD]	рыдания
+[INFO]	stress predicted
+[STRS]	рыд+ания
+[SPHO]	pr@_o-Slo p@_o kra_i-nJI_i mJe-rJI s p@l-t_SJI-sa SIL p@_o-ka U-tJi-xlJI e-tJI xv@_o-ta-jU_x-SJI-jI z@_o sJer-t_s@ r@_r-da-nJI-j@
+
+[SNUM]	19
+[SENT]	На экранах - больших и малых - царят американские фильмы .
+[NORM]	на экранах , больших и малых , царят американские фильмы
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	экранах
+[INFO]	stress predicted
+[STRS]	экр+анах
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	больших
+[DISA]	LEX1
+[STRS]	больш+их
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	малых
+[INFO]	stress predicted
+[STRS]	м+алых
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	царят
+[INFO]	stress predicted
+[STRS]	цар+ят
+[WORD]	американские
+[INFO]	stress predicted
+[STRS]	америк+анские
+[WORD]	фильмы
+[INFO]	stress predicted
+[STRS]	ф+ильмы
+[SPHO]	n@_o I-kra-n@x SIL b@_olJ-Si_xx I ma-l@_rx SIL t_s@_o-rJat @_o-mJI-rJI-kan-skJI-jI fJilJ-m@_r
+
+[SNUM]	20
+[SENT]	Переход к простой брани был бы слишком крут и заметен без разных переливов , оттенков и мостов .
+[YOWR]	замётен
+[NORM]	переход к простой брани был бы слишком крут и замётен без разных переливов , оттенков и мостов
+[WORD]	переход
+[INFO]	stress predicted
+[STRS]	перех+од
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	простой
+[INFO]	stress predicted
+[STRS]	прост+ой
+[WORD]	брани
+[DISA]	FREQ
+[STRS]	бран+и
+[WORD]	был
+[INFO]	stress predicted
+[STRS]	б+ыл
+[WORD]	бы
+[INFO]	entry found in lexicon
+[STRS]	b@_r
+[WORD]	слишком
+[INFO]	stress predicted
+[STRS]	сл+ишком
+[WORD]	крут
+[INFO]	entry found in lexicon
+[STRS]	кр+ут
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	замётен
+[INFO]	stress predicted
+[STRS]	замётен
+[WORD]	без
+[INFO]	entry found in lexicon
+[STRS]	bJIzWUD
+[WORD]	разных
+[INFO]	stress predicted
+[STRS]	р+азных
+[WORD]	переливов
+[INFO]	stress predicted
+[STRS]	перел+ивов
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	оттенков
+[INFO]	stress predicted
+[STRS]	отт+енков
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	мостов
+[INFO]	entry found in lexicon
+[STRS]	мост+ов
+[SPHO]	pJI-rJI-xot k pr@_o-sto_i br@_o-nJi bi_xl b@_r slJiS-k@m krut I z@-mJo-tJIn bJIz ra-zn@_rx pJI-rJI-lJi-v@v SIL @_o-t_tJen-k@f I m@_o-stov
+
+[SNUM]	21
+[SENT]	Всех жильем обеспечил .
+[YOWR]	жильём
+[NORM]	всех жильём обеспечил
+[WORD]	всех
+[INFO]	stress predicted
+[STRS]	вс+ех
+[WORD]	жильём
+[INFO]	stress predicted
+[STRS]	жильём
+[WORD]	обеспечил
+[INFO]	stress predicted
+[STRS]	обесп+ечил
+[SPHO]	fsJex Z@_rlJ-jom @_o-bJI-spJe-t_SJIl
+
+[SNUM]	22
+[SENT]	Когда сотрудники КГБ выскочили из здания , то на указанном месте обнаружили лишь ключи от машины .
+[NORM]	когда сотрудники кгб выскочили из здания , то на указанном месте обнаружили лишь ключи от машины
+[WORD]	когда
+[INFO]	stress predicted
+[STRS]	когд+а
+[WORD]	сотрудники
+[INFO]	stress predicted
+[STRS]	сотр+удники
+[WORD]	кгб
+[INFO]	stress predicted
+[STRS]	кгб
+[WORD]	выскочили
+[INFO]	stress predicted
+[STRS]	в+ыскочили
+[WORD]	из
+[INFO]	entry found in lexicon
+[STRS]	IzWUD
+[WORD]	здания
+[INFO]	stress predicted
+[STRS]	зд+ания
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	то
+[DISA]	FREQ
+[STRS]	т+о
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	указанном
+[INFO]	stress predicted
+[STRS]	ук+азанном
+[WORD]	месте
+[INFO]	stress predicted
+[STRS]	м+есте
+[WORD]	обнаружили
+[INFO]	stress predicted
+[STRS]	обнар+ужили
+[WORD]	лишь
+[INFO]	entry found in lexicon
+[STRS]	л+ишь
+[WORD]	ключи
+[INFO]	stress predicted
+[STRS]	ключ+и
+[WORD]	от
+[INFO]	entry found in lexicon
+[STRS]	@_ot
+[WORD]	машины
+[INFO]	stress predicted
+[STRS]	маш+ины
+[SPHO]	k@_og-da s@_o-trudJ-nJI-kJI kkp vi_x-sk@-t_SJI-lJI Iz zda-nJI-j@ SIL to n@_o U-ka-z@-n_n@m mJe-sJtJI @_ob-n@_o-ru-Z@_r-lJI lJiS klJU-t_SJi @_ot m@_o-Si_x-n@_r
+
+[SNUM]	23
+[SENT]	Даже Николай запрещал об этом случае вспоминать - сразу беленился .
+[NORM]	даже николай запрещал об этом случае вспоминать , сразу беленился
+[WORD]	даже
+[INFO]	stress predicted
+[STRS]	д+аже
+[WORD]	николай
+[INFO]	stress predicted
+[STRS]	никол+ай
+[WORD]	запрещал
+[INFO]	stress predicted
+[STRS]	запрещ+ал
+[WORD]	об
+[INFO]	entry found in lexicon
+[STRS]	@_obWUD
+[WORD]	этом
+[INFO]	stress predicted
+[STRS]	+этом
+[WORD]	случае
+[INFO]	stress predicted
+[STRS]	сл+учае
+[WORD]	вспоминать
+[INFO]	stress predicted
+[STRS]	вспомин+ать
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	сразу
+[INFO]	stress predicted
+[STRS]	ср+азу
+[WORD]	беленился
+[INFO]	stress predicted
+[STRS]	белен+ился
+[SPHO]	da-Z@_r nJI-k@_o-la_i z@-prJI-SJal @_ob e-t@m slu-t_SJ@-jI fsp@-mJI-natJ SIL sra-zU_x bJI-lJI-nJil-sJ@
+
+[SNUM]	24
+[SENT]	И Данило Сазоныч завел разговор о Потемкине , который говорил ему , что переходит опять за Московскую заставу .
+[YOWR]	завёл
+[YOWR]	потёмкине
+[NORM]	и данило сазоныч завёл разговор о потёмкине , который говорил ему , что переходит опять за московскую заставу
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	данило
+[INFO]	entry found in lexicon
+[STRS]	дан+ило
+[WORD]	сазоныч
+[INFO]	stress predicted
+[STRS]	саз+оныч
+[WORD]	завёл
+[INFO]	stress predicted
+[STRS]	завёл
+[WORD]	разговор
+[INFO]	stress predicted
+[STRS]	разгов+ор
+[WORD]	о
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	потёмкине
+[INFO]	stress predicted
+[STRS]	потёмкине
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	который
+[INFO]	stress predicted
+[STRS]	кот+орый
+[WORD]	говорил
+[INFO]	stress predicted
+[STRS]	говор+ил
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	переходит
+[INFO]	stress predicted
+[STRS]	перех+одит
+[WORD]	опять
+[INFO]	stress predicted
+[STRS]	оп+ять
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	московскую
+[INFO]	stress predicted
+[STRS]	моск+овскую
+[WORD]	заставу
+[INFO]	stress predicted
+[STRS]	заст+аву
+[SPHO]	I d@_o-nJi-l@ s@_o-zo-n@_rd_ZJ z@-vJol r@-zg@_o-vor @_o p@-tJom-kJI-nJI SIL k@_o-to-r@_r_i g@-v@_o-rJil jI-mu SIL Sto pJI-rJI-xo-dJIt @_o-pJadJ z@_o m@_o-sko-fskU_x-jU_x z@_o-sta-vU_x
+
+[SNUM]	25
+[SENT]	Комната , в которой нас принимали , была , конечно , самая просторная в доме ; ее заранее мыли и чистили и перед образами затепляли лампады .
+[YOWR]	её
+[NORM]	комната , в которой нас принимали , была , конечно , самая просторная в доме ; её заранее мыли и чистили и перед образами затепляли лампады
+[WORD]	комната
+[INFO]	stress predicted
+[STRS]	к+омната
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	которой
+[INFO]	stress predicted
+[STRS]	кот+орой
+[WORD]	нас
+[INFO]	stress predicted
+[STRS]	н+ас
+[WORD]	принимали
+[INFO]	stress predicted
+[STRS]	приним+али
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	была
+[INFO]	stress predicted
+[STRS]	был+а
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	конечно
+[DISA]	FREQ
+[STRS]	кон+ечно
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	самая
+[INFO]	stress predicted
+[STRS]	с+амая
+[WORD]	просторная
+[INFO]	stress predicted
+[STRS]	прост+орная
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	доме
+[INFO]	stress predicted
+[STRS]	д+оме
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	её
+[INFO]	stress predicted
+[STRS]	её
+[WORD]	заранее
+[INFO]	stress predicted
+[STRS]	зар+анее
+[WORD]	мыли
+[INFO]	stress predicted
+[STRS]	м+ыли
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	чистили
+[INFO]	stress predicted
+[STRS]	ч+истили
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	перед
+[INFO]	entry found in lexicon
+[STRS]	pJIrJIdWUD
+[WORD]	образами
+[DISA]	LEX1
+[STRS]	+образами
+[WORD]	затепляли
+[INFO]	stress predicted
+[STRS]	зат+епляли
+[WORD]	лампады
+[INFO]	stress predicted
+[STRS]	ламп+ады
+[SPHO]	kom-n@-t@ SIL f k@_o-to-r@_o_i nas prJI-nJI-ma-lJI SIL b@_r-la SIL k@_o-nJet_SJ-n@ SIL sa-m@-j@ pr@_o-stor-n@-j@ v do-mJI SIL jI-jo z@_o-ra-nJI-jI mi_x-lJI I t_SJi-sJtJI-lJI I pJI-rJId o-br@-z@-mJI z@_o-tJe-plJ@-lJI l@_om-pa-d@_r
+
+[SNUM]	26
+[SENT]	Последний кайф лета перед скучищей учебы и повседневности .
+[YOWR]	учёбы
+[NORM]	последний кайф лета перед скучищей учёбы и повседневности
+[WORD]	последний
+[INFO]	stress predicted
+[STRS]	посл+едний
+[WORD]	кайф
+[INFO]	stress predicted
+[STRS]	к+айф
+[WORD]	лета
+[DISA]	LEX1
+[STRS]	л+ета
+[WORD]	перед
+[INFO]	entry found in lexicon
+[STRS]	pJIrJIdWUD
+[WORD]	скучищей
+[INFO]	stress predicted
+[STRS]	скуч+ищей
+[WORD]	учёбы
+[INFO]	stress predicted
+[STRS]	учёбы
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	повседневности
+[INFO]	stress predicted
+[STRS]	повседн+евности
+[SPHO]	p@_o-slJedJ-nJI_i ka_if lJe-t@ pJI-rJIt skU-t_SJi-SJI_i U_x-t_SJo-b@_r I p@f-sJIdJ-nJe-vn@-sJtJI
+
+[SNUM]	27
+[SENT]	Я видел теперь , что на самом деле он не узкоглазый , а просто из тех людей , которые всегда смотрят вприщур .
+[NORM]	я видел теперь , что на самом деле он не узкоглазый , а просто из тех людей , которые всегда смотрят вприщур
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	видел
+[INFO]	stress predicted
+[STRS]	в+идел
+[WORD]	теперь
+[INFO]	stress predicted
+[STRS]	теп+ерь
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	самом
+[DISA]	LEX1
+[STRS]	с+амом
+[WORD]	деле
+[INFO]	stress predicted
+[STRS]	д+еле
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	узкоглазый
+[INFO]	stress predicted
+[STRS]	узкогл+азый
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	просто
+[INFO]	stress predicted
+[STRS]	пр+осто
+[WORD]	из
+[INFO]	entry found in lexicon
+[STRS]	IzWUD
+[WORD]	тех
+[INFO]	stress predicted
+[STRS]	т+ех
+[WORD]	людей
+[INFO]	stress predicted
+[STRS]	люд+ей
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	которые
+[INFO]	stress predicted
+[STRS]	кот+орые
+[WORD]	всегда
+[INFO]	stress predicted
+[STRS]	всегд+а
+[WORD]	смотрят
+[INFO]	stress predicted
+[STRS]	см+отрят
+[WORD]	вприщур
+[INFO]	stress predicted
+[STRS]	вприщ+ур
+[SPHO]	ja vJi-dJIl tJI-pJerJ SIL Sto n@_o sa-m@m dJe-lJI on nJI U_x-sk@_o-gla-z@_r_i SIL @_o pro-st@ IsJ tJex lJU-dJe_i SIL k@_o-to-r@_r-jI fsJIg-da smo-trJ@t fprJI-SJur
+
+[SNUM]	28
+[SENT]	Только извините .
+[NORM]	только извините
+[WORD]	только
+[INFO]	stress predicted
+[STRS]	т+олько
+[WORD]	извините
+[INFO]	stress predicted
+[STRS]	извин+ите
+[SPHO]	tolJ-k@ Iz-vJI-nJi-tJI
+
+[SNUM]	29
+[SENT]	Вдруг поместился посреди « чистилища » , как бы никому и не мешая .
+[NORM]	вдруг поместился посреди чистилища , как бы никому и не мешая
+[WORD]	вдруг
+[INFO]	stress predicted
+[STRS]	вдр+уг
+[WORD]	поместился
+[INFO]	stress predicted
+[STRS]	помест+ился
+[WORD]	посреди
+[INFO]	stress predicted
+[STRS]	посред+и
+[WORD]	чистилища
+[INFO]	stress predicted
+[STRS]	чист+илища
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	бы
+[INFO]	entry found in lexicon
+[STRS]	b@_r
+[WORD]	никому
+[DISA]	SINGLETON
+[STRS]	ником+у
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	мешая
+[INFO]	stress predicted
+[STRS]	меш+ая
+[SPHO]	vdruk p@-mJI-sJtJil-sJ@ p@-srJI-dJi t_SJI-sJtJi-lJI-SJ@ SIL kag b@_r nJI-k@_o-mu I nJI mJI-Sa-j@
+
+[SNUM]	30
+[SENT]	такой интеллектуальный марафон .
+[NORM]	такой интеллектуальный марафон
+[WORD]	такой
+[INFO]	stress predicted
+[STRS]	так+ой
+[WORD]	интеллектуальный
+[INFO]	stress predicted
+[STRS]	интеллекту+альный
+[WORD]	марафон
+[INFO]	stress predicted
+[STRS]	мараф+он
+[SPHO]	t@_o-ko_i InJ-tJI-l_lJIk-tU-alJ-n@_r_i m@-r@_o-fon
+
+[SNUM]	31
+[SENT]	Старый туркмен , прозванный Хоробрых « царем Менелаем » , раздувал слухи , что в мергеле сидит злой дух и будет жестоко мстить каждому , кто дойдет до сердца горы .
+[YOWR]	царём
+[YOWR]	дойдёт
+[NORM]	старый туркмен , прозванный хоробрых царём менелаем , раздувал слухи , что в мергеле сидит злой дух и будет жестоко мстить каждому , кто дойдёт до сердца горы
+[WORD]	старый
+[INFO]	stress predicted
+[STRS]	ст+арый
+[WORD]	туркмен
+[INFO]	stress predicted
+[STRS]	туркм+ен
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	прозванный
+[INFO]	stress predicted
+[STRS]	пр+озванный
+[WORD]	хоробрых
+[INFO]	stress predicted
+[STRS]	хор+обрых
+[WORD]	царём
+[INFO]	stress predicted
+[STRS]	царём
+[WORD]	менелаем
+[INFO]	stress predicted
+[STRS]	менелаем
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	раздувал
+[INFO]	stress predicted
+[STRS]	раздув+ал
+[WORD]	слухи
+[INFO]	stress predicted
+[STRS]	сл+ухи
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	мергеле
+[INFO]	stress predicted
+[STRS]	м+ергеле
+[WORD]	сидит
+[INFO]	stress predicted
+[STRS]	сид+ит
+[WORD]	злой
+[INFO]	stress predicted
+[STRS]	зл+ой
+[WORD]	дух
+[INFO]	stress predicted
+[STRS]	д+ух
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	будет
+[INFO]	stress predicted
+[STRS]	б+удет
+[WORD]	жестоко
+[INFO]	stress predicted
+[STRS]	жест+око
+[WORD]	мстить
+[INFO]	stress predicted
+[STRS]	мст+ить
+[WORD]	каждому
+[INFO]	stress predicted
+[STRS]	к+аждому
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	кто
+[INFO]	stress predicted
+[STRS]	кт+о
+[WORD]	дойдёт
+[INFO]	stress predicted
+[STRS]	дойдёт
+[WORD]	до
+[INFO]	entry found in lexicon
+[STRS]	d@_o
+[WORD]	сердца
+[DISA]	FREQ
+[STRS]	с+ердца
+[WORD]	горы
+[DISA]	FREQ
+[STRS]	гор+ы
+[SPHO]	sta-r@_r_i tUrk-mJen SIL proz-v@-n_n@_r_i x@_o-ro-br@_rx t_s@-rJom mJI-nJI-l@-jIm SIL r@-zdU-val slu-xJI SIL Sto v mJer-gJI-lJI sJI-dJid zlo_i dux I bu-dJId ZI-sto-k@ msJtJitJ kaZ-d@-mU_x SIL kto d@_i-dJod d@_o sJer-t_s@ g@_o-ri_x
+
+[SNUM]	32
+[SENT]	Богословие в Киеве он читал по Аквинату .
+[NORM]	богословие в киеве он читал по аквинату
+[WORD]	богословие
+[INFO]	stress predicted
+[STRS]	богосл+овие
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	киеве
+[INFO]	stress predicted
+[STRS]	к+иеве
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	читал
+[INFO]	stress predicted
+[STRS]	чит+ал
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	аквинату
+[INFO]	stress predicted
+[STRS]	аквин+ату
+[SPHO]	b@-g@_o-slo-vJI-jI f kJi-jI-vJI on t_SJI-tal p@_o @_ok-vJI-na-tU_x
+
+[SNUM]	33
+[SENT]	И Севастьянов не удивляется , что Семка пишет письмо брату , спящему в соседней комнате , - не до того Севастьянову .
+[NORM]	и севастьянов не удивляется , что семка пишет письмо брату , спящему в соседней комнате , , не до того севастьянову
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	севастьянов
+[INFO]	stress predicted
+[STRS]	севасть+янов
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	удивляется
+[INFO]	stress predicted
+[STRS]	удивл+яется
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	семка
+[INFO]	stress predicted
+[STRS]	с+емка
+[WORD]	пишет
+[INFO]	stress predicted
+[STRS]	п+ишет
+[WORD]	письмо
+[INFO]	stress predicted
+[STRS]	письм+о
+[WORD]	брату
+[INFO]	stress predicted
+[STRS]	бр+ату
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	спящему
+[INFO]	stress predicted
+[STRS]	сп+ящему
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	соседней
+[INFO]	stress predicted
+[STRS]	сос+едней
+[WORD]	комнате
+[INFO]	stress predicted
+[STRS]	к+омнате
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	до
+[INFO]	entry found in lexicon
+[STRS]	d@_o
+[WORD]	того
+[INFO]	entry found in lexicon
+[STRS]	тов+о
+[WORD]	севастьянову
+[INFO]	stress predicted
+[STRS]	севасть+янову
+[SPHO]	I sJI-v@_osJtJ-ja-n@f nJI U_x-dJI-vlJa-jItJ-sJ@ SIL Sto sJem-k@ pJi-S@_rt pJI-sJmo bra-tU_x SIL spJa-SJI-mU_x f s@_o-sJedJ-nJI_i kom-n@-tJI SIL SIL nJI d@_o t@_o-vo sJI-v@_osJtJ-ja-n@-vU_x
+
+[SNUM]	34
+[SENT]	Мы не могли определить , что теперь : солнечный ли день или непроницаемый туман , ибо в лесу были сумерки , как в наших широтах через час после солнечного заката .
+[NORM]	мы не могли определить , что теперь : солнечный ли день или непроницаемый туман , ибо в лесу были сумерки , как в наших широтах через час после солнечного заката
+[WORD]	мы
+[INFO]	stress predicted
+[STRS]	м+ы
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	могли
+[INFO]	stress predicted
+[STRS]	могл+и
+[WORD]	определить
+[INFO]	stress predicted
+[STRS]	определ+ить
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	теперь
+[INFO]	stress predicted
+[STRS]	теп+ерь
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	солнечный
+[INFO]	stress predicted
+[STRS]	с+олнечный
+[WORD]	ли
+[INFO]	entry found in lexicon
+[STRS]	lJI
+[WORD]	день
+[INFO]	entry found in lexicon
+[STRS]	д+ень
+[WORD]	или
+[INFO]	entry found in lexicon
+[STRS]	IlJI
+[WORD]	непроницаемый
+[INFO]	stress predicted
+[STRS]	непрониц+аемый
+[WORD]	туман
+[INFO]	stress predicted
+[STRS]	тум+ан
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	ибо
+[INFO]	entry found in lexicon
+[STRS]	Ib@
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	лесу
+[DISA]	FREQ
+[STRS]	л+есу
+[WORD]	были
+[DISA]	SINGLETON
+[STRS]	б+ыли
+[WORD]	сумерки
+[INFO]	stress predicted
+[STRS]	с+умерки
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	наших
+[INFO]	stress predicted
+[STRS]	н+аших
+[WORD]	широтах
+[INFO]	stress predicted
+[STRS]	шир+отах
+[WORD]	через
+[INFO]	entry found in lexicon
+[STRS]	t_SJIrJIzWUD
+[WORD]	час
+[INFO]	stress predicted
+[STRS]	ч+ас
+[WORD]	после
+[DISA]	SINGLETON
+[STRS]	п+осле
+[WORD]	солнечного
+[INFO]	stress predicted
+[STRS]	с+олнечного
+[WORD]	заката
+[INFO]	stress predicted
+[STRS]	зак+ата
+[SPHO]	mi_x nJI m@_o-glJi @_o-prJI-dJI-lJitJ SIL Sto tJI-pJerJ SIL sol-nJIt_SJ-n@_r_i lJI dJenJ I-lJI nJI-pr@-nJI-t_sa-jI-m@_r_i tU-man SIL I-b@ v lJe-sU_x bi_x-lJI su-mJIr-kJI SIL kak v na-S@_rx S@_r-ro-t@x t_SJI-rJISJ t_SJas po-slJI sol-nJIt_SJ-n@-g@ z@_o-ka-t@
+
+[SNUM]	35
+[SENT]	Не избежал этой участи и Н .
+[NORM]	не избежал этой участи и н
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	избежал
+[INFO]	stress predicted
+[STRS]	избеж+ал
+[WORD]	этой
+[INFO]	stress predicted
+[STRS]	+этой
+[WORD]	участи
+[DISA]	SINGLETON
+[STRS]	+участи
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	н
+[DISA]	SINGLETON
+[STRS]	+эн
+[SPHO]	nJI I-zbJI-Zal e-t@_o_i u-t_SJ@-sJtJI I en
+
+[SNUM]	36
+[SENT]	Это же не паста , а чистая отрава !
+[NORM]	это же не паста , а чистая отрава
+[WORD]	это
+[INFO]	stress predicted
+[STRS]	+это
+[WORD]	же
+[DISA]	SINGLETON
+[STRS]	ж+е
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	паста
+[INFO]	stress predicted
+[STRS]	п+аста
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	чистая
+[INFO]	stress predicted
+[STRS]	ч+истая
+[WORD]	отрава
+[INFO]	stress predicted
+[STRS]	отр+ава
+[SPHO]	e-t@ Ze nJI pa-st@ SIL @_o t_SJi-st@-j@ @_o-tra-v@
+
+[SNUM]	37
+[SENT]	За ним она , прекрасная как всегда , вся в белом , вся в цветах померанца , с длинным блондовым вуалем на голове , который живописно спускался назад ; с блестящим шифром на левом плече .
+[NORM]	за ним она , прекрасная как всегда , вся в белом , вся в цветах померанца , с длинным блондовым вуалем на голове , который живописно спускался назад ; с блестящим шифром на левом плече
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	ним
+[INFO]	stress predicted
+[STRS]	н+им
+[WORD]	она
+[INFO]	stress predicted
+[STRS]	он+а
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	прекрасная
+[INFO]	stress predicted
+[STRS]	прекр+асная
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	всегда
+[INFO]	stress predicted
+[STRS]	всегд+а
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	вся
+[INFO]	stress predicted
+[STRS]	вс+я
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	белом
+[DISA]	SINGLETON
+[STRS]	б+елом
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	вся
+[INFO]	stress predicted
+[STRS]	вс+я
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	цветах
+[DISA]	SINGLETON
+[STRS]	цвет+ах
+[WORD]	померанца
+[INFO]	stress predicted
+[STRS]	помер+анца
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	длинным
+[INFO]	stress predicted
+[STRS]	дл+инным
+[WORD]	блондовым
+[INFO]	stress predicted
+[STRS]	бл+ондовым
+[WORD]	вуалем
+[INFO]	stress predicted
+[STRS]	ву+алем
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	голове
+[INFO]	stress predicted
+[STRS]	голов+е
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	который
+[INFO]	stress predicted
+[STRS]	кот+орый
+[WORD]	живописно
+[INFO]	stress predicted
+[STRS]	живоп+исно
+[WORD]	спускался
+[INFO]	stress predicted
+[STRS]	спуск+ался
+[WORD]	назад
+[INFO]	stress predicted
+[STRS]	наз+ад
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	блестящим
+[INFO]	stress predicted
+[STRS]	блест+ящим
+[WORD]	шифром
+[INFO]	stress predicted
+[STRS]	ш+ифром
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	левом
+[INFO]	entry found in lexicon
+[STRS]	л+евом
+[WORD]	плече
+[INFO]	entry found in lexicon
+[STRS]	плеч+е
+[SPHO]	z@_o nJim @_o-na SIL prJI-kra-sn@-j@ kak fsJIg-da SIL fsJa v bJe-l@m SIL fsJa f t_svJI-tax p@-mJI-ran-t_s@ SIL z dlJi-n_n@_rm blon-d@-v@_rm vU-a-lJIm n@_o g@-l@_o-vJe SIL k@_o-to-r@_r_i Z@_r-v@_o-pJi-sn@ spU-skal-sJ@ n@_o-zad SIL z blJI-sJtJa-SJIm Si_x-fr@m n@_o lJe-v@m plJI-t_SJe
+
+[SNUM]	38
+[SENT]	Если бы какой-либо священник вздумал устроить религиозные чтения для народа в своей же церкви , но в часы , когда нет богослужения в ней , для этого он предварительно должен испросить себе особое разрешение епархиальной власти .
+[NORM]	если бы какой-либо священник вздумал устроить религиозные чтения для народа в своей же церкви , но в часы , когда нет богослужения в ней , для этого он предварительно должен испросить себе особое разрешение епархиальной власти
+[WORD]	если
+[INFO]	stress predicted
+[STRS]	+если
+[WORD]	бы
+[INFO]	entry found in lexicon
+[STRS]	b@_r
+[WORD]	какой-либо
+[INFO]	entry found in lexicon
+[STRS]	как+ой-л+ибо
+[WORD]	священник
+[INFO]	stress predicted
+[STRS]	свящ+енник
+[WORD]	вздумал
+[INFO]	stress predicted
+[STRS]	взд+умал
+[WORD]	устроить
+[INFO]	stress predicted
+[STRS]	устр+оить
+[WORD]	религиозные
+[INFO]	stress predicted
+[STRS]	религи+озные
+[WORD]	чтения
+[INFO]	stress predicted
+[STRS]	чт+ения
+[WORD]	для
+[INFO]	entry found in lexicon
+[STRS]	dlJ@_o
+[WORD]	народа
+[INFO]	stress predicted
+[STRS]	нар+ода
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	своей
+[INFO]	stress predicted
+[STRS]	сво+ей
+[WORD]	же
+[DISA]	SINGLETON
+[STRS]	ж+е
+[WORD]	церкви
+[INFO]	stress predicted
+[STRS]	ц+еркви
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	но
+[INFO]	stress predicted
+[STRS]	н+о
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	часы
+[INFO]	stress predicted
+[STRS]	час+ы
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	когда
+[INFO]	stress predicted
+[STRS]	когд+а
+[WORD]	нет
+[INFO]	entry found in lexicon
+[STRS]	н+ет
+[WORD]	богослужения
+[INFO]	stress predicted
+[STRS]	богослуж+ения
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	ней
+[INFO]	entry found in lexicon
+[STRS]	н+ей
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	для
+[INFO]	entry found in lexicon
+[STRS]	dlJ@_o
+[WORD]	этого
+[INFO]	entry found in lexicon
+[STRS]	+этово
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	предварительно
+[INFO]	stress predicted
+[STRS]	предвар+ительно
+[WORD]	должен
+[INFO]	stress predicted
+[STRS]	д+олжен
+[WORD]	испросить
+[INFO]	stress predicted
+[STRS]	испрос+ить
+[WORD]	себе
+[INFO]	stress predicted
+[STRS]	себ+е
+[WORD]	особое
+[INFO]	stress predicted
+[STRS]	ос+обое
+[WORD]	разрешение
+[INFO]	stress predicted
+[STRS]	разреш+ение
+[WORD]	епархиальной
+[INFO]	stress predicted
+[STRS]	епархи+альной
+[WORD]	власти
+[INFO]	stress predicted
+[STRS]	вл+асти
+[SPHO]	je-slJI b@_r k@_o-ko_i-lJi-b@ svJI-SJe-n_nJIk vzdu-m@l U-stro-ItJ rJI-lJI-gJI-o-zn@_r-jI t_SJtJe-nJI-j@ dlJ@_o n@_o-ro-d@ f sv@_o-je_i Ze t_serk-vJI SIL no f t_SJI-si_x SIL k@_og-da nJed b@-g@-slU-Ze-nJI-j@ v nJe_i SIL dlJ@_o e-t@-v@ on prJId-v@_o-rJi-tJIlJ-n@ dol-Z@_rn @_r-spr@_o-sJitJ sJI-bJe @_o-so-b@-jI r@-zrJI-Se-nJI-jI jI-p@r-xJI-alJ-n@_o_i vla-sJtJI
+
+[SNUM]	39
+[SENT]	Как будто раньше люди со временем молодели .
+[NORM]	как будто раньше люди со временем молодели
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	будто
+[INFO]	stress predicted
+[STRS]	б+удто
+[WORD]	раньше
+[INFO]	stress predicted
+[STRS]	р+аньше
+[WORD]	люди
+[INFO]	stress predicted
+[STRS]	л+юди
+[WORD]	со
+[INFO]	entry found in lexicon
+[STRS]	s@_o
+[WORD]	временем
+[INFO]	stress predicted
+[STRS]	вр+еменем
+[WORD]	молодели
+[INFO]	stress predicted
+[STRS]	молод+ели
+[SPHO]	kag bu-t_t@ ranJ-S@_r lJu-dJI s@_o vrJe-mJI-nJIm m@-l@_o-dJe-lJI
+
+[SNUM]	40
+[SENT]	Кабинка была почище .
+[NORM]	кабинка была почище
+[WORD]	кабинка
+[INFO]	stress predicted
+[STRS]	каб+инка
+[WORD]	была
+[INFO]	stress predicted
+[STRS]	был+а
+[WORD]	почище
+[INFO]	stress predicted
+[STRS]	поч+ище
+[SPHO]	k@_o-bJin-k@ b@_r-la p@_o-t_SJi-SJI
+
+[SNUM]	41
+[SENT]	Сентябрь в Израиле - месяц новогодний и поэтому не очень перегруженный политикой .
+[NORM]	сентябрь в израиле , месяц новогодний и поэтому не очень перегруженный политикой
+[WORD]	сентябрь
+[INFO]	stress predicted
+[STRS]	сент+ябрь
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	израиле
+[INFO]	entry found in lexicon
+[STRS]	изр+аиле
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	месяц
+[INFO]	stress predicted
+[STRS]	м+есяц
+[WORD]	новогодний
+[INFO]	stress predicted
+[STRS]	новог+одний
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	поэтому
+[INFO]	stress predicted
+[STRS]	по+этому
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	очень
+[INFO]	stress predicted
+[STRS]	+очень
+[WORD]	перегруженный
+[INFO]	stress predicted
+[STRS]	перегр+уженный
+[WORD]	политикой
+[INFO]	stress predicted
+[STRS]	пол+итикой
+[SPHO]	sJInJ-tJabrJ v @_r-zra-I-lJI SIL mJe-sJ@t_s n@-v@_o-godJ-nJI_i I p@_o-e-t@-mU_x nJI o-t_SJInJ pJI-rJI-gru-Z@_r-n_n@_r_i p@_o-lJi-tJI-k@_o_i
+
+[SNUM]	42
+[SENT]	Сделала это с грустным видом маменька , толстая дама , большая курительница и специалистка в преферансе .
+[NORM]	сделала это с грустным видом маменька , толстая дама , большая курительница и специалистка в преферансе
+[WORD]	сделала
+[INFO]	stress predicted
+[STRS]	сд+елала
+[WORD]	это
+[INFO]	stress predicted
+[STRS]	+это
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	грустным
+[INFO]	stress predicted
+[STRS]	гр+устным
+[WORD]	видом
+[INFO]	stress predicted
+[STRS]	в+идом
+[WORD]	маменька
+[INFO]	stress predicted
+[STRS]	м+аменька
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	толстая
+[INFO]	stress predicted
+[STRS]	т+олстая
+[WORD]	дама
+[INFO]	stress predicted
+[STRS]	д+ама
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	большая
+[DISA]	LEX1
+[STRS]	больш+ая
+[WORD]	курительница
+[INFO]	stress predicted
+[STRS]	кур+ительница
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	специалистка
+[INFO]	stress predicted
+[STRS]	специал+истка
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	преферансе
+[INFO]	stress predicted
+[STRS]	префер+ансе
+[SPHO]	zJdJe-l@-l@ e-t@ z gru-sn@_rm vJi-d@m ma-mJInJ-k@ SIL tol-st@-j@ da-m@ SIL b@_olJ-Sa-j@ kU-rJi-tJIlJ-nJI-t_s@ I spJI-t_s@_r-@_o-lJist-k@ f prJI-fJI-ranJ-sJI
+
+[SNUM]	43
+[SENT]	Зосиму и Савватия .
+[NORM]	зосиму и савватия
+[WORD]	зосиму
+[INFO]	entry found in lexicon
+[STRS]	зос+иму
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	савватия
+[INFO]	stress predicted
+[STRS]	с+авват+ия
+[SPHO]	z@_o-sJi-mU_x I sav-v@_o-tJi-j@
+
+[SNUM]	44
+[SENT]	Через два месяца : вы больны оттого , что не побереглись .
+[NORM]	через два месяца : вы больны оттого , что не побереглись
+[WORD]	через
+[INFO]	entry found in lexicon
+[STRS]	t_SJIrJIzWUD
+[WORD]	два
+[INFO]	stress predicted
+[STRS]	дв+а
+[WORD]	месяца
+[INFO]	stress predicted
+[STRS]	м+есяца
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	вы
+[INFO]	entry found in lexicon
+[STRS]	vi_x
+[WORD]	больны
+[INFO]	stress predicted
+[STRS]	больн+ы
+[WORD]	оттого
+[INFO]	entry found in lexicon
+[STRS]	оттов+о
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	побереглись
+[INFO]	stress predicted
+[STRS]	поберегл+ись
+[SPHO]	t_SJI-rJIz dva mJe-sJ@-t_s@ SIL vi_x b@_olJ-ni_x @_o-t_t@_o-vo SIL Sto nJI p@-bJI-rJI-glJisJ
+
+[SNUM]	45
+[SENT]	Расчет у него был простой : чем меньше гости пробудут в лагере , тем лучше , - лагерь всегда казался ему кипящим котлом , ежеминутно готовым взорваться .
+[YOWR]	расчёт
+[NORM]	расчёт у него был простой : чем меньше гости пробудут в лагере , тем лучше , , лагерь всегда казался ему кипящим котлом , ежеминутно готовым взорваться
+[WORD]	расчёт
+[INFO]	entry found in lexicon
+[STRS]	ращёт
+[WORD]	у
+[INFO]	entry found in lexicon
+[STRS]	U
+[WORD]	него
+[INFO]	entry found in lexicon
+[STRS]	нев+о
+[WORD]	был
+[INFO]	stress predicted
+[STRS]	б+ыл
+[WORD]	простой
+[INFO]	stress predicted
+[STRS]	прост+ой
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	чем
+[INFO]	entry found in lexicon
+[STRS]	ч+ем
+[WORD]	меньше
+[INFO]	stress predicted
+[STRS]	м+еньше
+[WORD]	гости
+[DISA]	FREQ
+[STRS]	г+ости
+[WORD]	пробудут
+[INFO]	stress predicted
+[STRS]	проб+удут
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	лагере
+[INFO]	stress predicted
+[STRS]	л+агере
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	тем
+[INFO]	stress predicted
+[STRS]	т+ем
+[WORD]	лучше
+[INFO]	stress predicted
+[STRS]	л+учше
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	лагерь
+[INFO]	stress predicted
+[STRS]	л+агерь
+[WORD]	всегда
+[INFO]	stress predicted
+[STRS]	всегд+а
+[WORD]	казался
+[INFO]	stress predicted
+[STRS]	каз+ался
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	кипящим
+[INFO]	stress predicted
+[STRS]	кип+ящим
+[WORD]	котлом
+[INFO]	stress predicted
+[STRS]	котл+ом
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	ежеминутно
+[INFO]	stress predicted
+[STRS]	ежемин+утно
+[WORD]	готовым
+[INFO]	stress predicted
+[STRS]	гот+овым
+[WORD]	взорваться
+[INFO]	stress predicted
+[STRS]	взорв+аться
+[SPHO]	r@-SJot U nJI-vo bi_xl pr@_o-sto_i SIL t_SJem mJenJ-S@_r go-sJtJI pr@_o-bu-dU_xt v la-gJI-rJI SIL tJem lut_SJ-S@_r SIL SIL la-gJIrJ fsJIg-da k@_o-zal-sJ@ jI-mu kJI-pJa-SJIm k@_o-tlom SIL jI-Z@_r-mJI-nut-n@ g@_o-to-v@_rm vz@_or-vatJ-sJ@
+
+[SNUM]	46
+[SENT]	Всегда мечтала иметь много детей , а тут счастье в руки : девочка славная , самостоятельная .
+[NORM]	всегда мечтала иметь много детей , а тут счастье в руки : девочка славная , самостоятельная
+[WORD]	всегда
+[INFO]	stress predicted
+[STRS]	всегд+а
+[WORD]	мечтала
+[INFO]	stress predicted
+[STRS]	мечт+ала
+[WORD]	иметь
+[INFO]	stress predicted
+[STRS]	им+еть
+[WORD]	много
+[DISA]	FREQ
+[STRS]	мн+ого
+[WORD]	детей
+[INFO]	stress predicted
+[STRS]	дет+ей
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	тут
+[INFO]	stress predicted
+[STRS]	т+ут
+[WORD]	счастье
+[INFO]	stress predicted
+[STRS]	сч+астье
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	руки
+[DISA]	FREQ
+[STRS]	рук+и
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	девочка
+[INFO]	stress predicted
+[STRS]	д+евочка
+[WORD]	славная
+[INFO]	stress predicted
+[STRS]	сл+авная
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	самостоятельная
+[INFO]	stress predicted
+[STRS]	самосто+ятельная
+[SPHO]	fsJIg-da mJIt_SJ-ta-l@ I-mJetJ mno-g@ dJI-tJe_i SIL @_o tut SJt_SJasJtJ-jI v rU-kJi SIL dJe-v@t_SJ-k@ sla-vn@-j@ SIL s@-m@-st@_o-ja-tJIlJ-n@-j@
+
+[SNUM]	47
+[SENT]	Или друг к другу - враждебно пристрастные .
+[NORM]	или друг к другу , враждебно пристрастные
+[WORD]	или
+[INFO]	entry found in lexicon
+[STRS]	IlJI
+[WORD]	друг
+[INFO]	stress predicted
+[STRS]	др+уг
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	другу
+[INFO]	stress predicted
+[STRS]	др+угу
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	враждебно
+[INFO]	stress predicted
+[STRS]	вражд+ебно
+[WORD]	пристрастные
+[INFO]	stress predicted
+[STRS]	пристр+астные
+[SPHO]	I-lJI druk g dru-gU_x SIL vr@_oZ-dJeb-n@ prJI-stra-sn@_r-jI
+
+[SNUM]	48
+[SENT]	Государственная территория , дотоле заключенная в пределах первоначального расселения великорусского племени , теперь переходит далеко за эти пределы и постепенно вбирает в себя всю русскую равнину , распространяясь как до географических ее границ , так почти везде до пределов русского народонаселения .
+[YOWR]	заключённая
+[YOWR]	её
+[NORM]	государственная территория , дотоле заключённая в пределах первоначального расселения великорусского племени , теперь переходит далеко за эти пределы и постепенно вбирает в себя всю русскую равнину , распространяясь как до географических её границ , так почти везде до пределов русского народонаселения
+[WORD]	государственная
+[INFO]	stress predicted
+[STRS]	госуд+арственная
+[WORD]	территория
+[INFO]	stress predicted
+[STRS]	террит+ория
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	дотоле
+[INFO]	stress predicted
+[STRS]	дот+оле
+[WORD]	заключённая
+[INFO]	stress predicted
+[STRS]	заключённая
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	пределах
+[INFO]	stress predicted
+[STRS]	пред+елах
+[WORD]	первоначального
+[INFO]	stress predicted
+[STRS]	первонач+ального
+[WORD]	расселения
+[INFO]	stress predicted
+[STRS]	рассел+ения
+[WORD]	великорусского
+[INFO]	entry found in lexicon
+[STRS]	великор+уского
+[WORD]	племени
+[INFO]	stress predicted
+[STRS]	пл+емени
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	теперь
+[INFO]	stress predicted
+[STRS]	теп+ерь
+[WORD]	переходит
+[INFO]	stress predicted
+[STRS]	перех+одит
+[WORD]	далеко
+[INFO]	stress predicted
+[STRS]	далек+о
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	эти
+[INFO]	stress predicted
+[STRS]	+эти
+[WORD]	пределы
+[INFO]	stress predicted
+[STRS]	пред+елы
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	постепенно
+[INFO]	stress predicted
+[STRS]	постеп+енно
+[WORD]	вбирает
+[INFO]	stress predicted
+[STRS]	вбир+ает
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	себя
+[INFO]	stress predicted
+[STRS]	себ+я
+[WORD]	всю
+[INFO]	stress predicted
+[STRS]	вс+ю
+[WORD]	русскую
+[INFO]	entry found in lexicon
+[STRS]	р+ускую
+[WORD]	равнину
+[INFO]	stress predicted
+[STRS]	равн+ину
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	распространяясь
+[INFO]	stress predicted
+[STRS]	распростран+яясь
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	до
+[INFO]	entry found in lexicon
+[STRS]	d@_o
+[WORD]	географических
+[INFO]	stress predicted
+[STRS]	географ+ических
+[WORD]	её
+[INFO]	stress predicted
+[STRS]	её
+[WORD]	границ
+[INFO]	stress predicted
+[STRS]	гран+иц
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	так
+[INFO]	stress predicted
+[STRS]	т+ак
+[WORD]	почти
+[INFO]	stress predicted
+[STRS]	почт+и
+[WORD]	везде
+[INFO]	stress predicted
+[STRS]	везд+е
+[WORD]	до
+[INFO]	entry found in lexicon
+[STRS]	d@_o
+[WORD]	пределов
+[INFO]	stress predicted
+[STRS]	пред+елов
+[WORD]	русского
+[INFO]	entry found in lexicon
+[STRS]	р+уского
+[WORD]	народонаселения
+[INFO]	stress predicted
+[STRS]	народонасел+ения
+[SPHO]	g@-sU-dar-stvJI-n_n@-j@ tJI-rJI-to-rJI-j@ SIL d@_o-to-lJI z@-klJU_x-t_SJo-n_n@-j@ f prJI-dJe-l@x pJIr-v@-n@_o-t_SJalJ-n@-g@ r@-s_sJI-lJe-nJI-j@ vJI-lJI-k@_o-ru-sk@-g@ plJe-mJI-nJI SIL tJI-pJerJ pJI-rJI-xo-dJId d@-lJI-ko z@_o e-tJI prJI-dJe-l@_r I p@-sJtJI-pJe-n_n@ vbJI-ra-jIt f sJI-bJa fsJu ru-skU_x-jU_x r@_o-vnJi-nU_x SIL r@-spr@-str@_o-nJa-j@sJ kag d@_o gJI-@_o-gr@_o-fJi-t_SJI-skJIx jI-jo gr@_o-nJit_s SIL tak p@_ot_SJ-tJi vJI-zJdJe d@_o prJI-dJe-l@f ru-sk@-g@ n@-r@-d@-n@-sJI-lJe-nJI-j@
+
+[SNUM]	49
+[SENT]	Здесь прежде всего большое значение имеет правильный отбор поступающих на военную службу .
+[NORM]	здесь прежде всего большое значение имеет правильный отбор поступающих на военную службу
+[WORD]	здесь
+[INFO]	stress predicted
+[STRS]	зд+есь
+[WORD]	прежде
+[INFO]	stress predicted
+[STRS]	пр+ежде
+[WORD]	всего
+[INFO]	entry found in lexicon
+[STRS]	всев+о
+[WORD]	большое
+[INFO]	stress predicted
+[STRS]	больш+ое
+[WORD]	значение
+[INFO]	stress predicted
+[STRS]	знач+ение
+[WORD]	имеет
+[INFO]	stress predicted
+[STRS]	им+еет
+[WORD]	правильный
+[DISA]	SINGLETON
+[STRS]	пр+авильный
+[WORD]	отбор
+[INFO]	stress predicted
+[STRS]	отб+ор
+[WORD]	поступающих
+[INFO]	stress predicted
+[STRS]	поступ+ающих
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	военную
+[INFO]	stress predicted
+[STRS]	во+енную
+[WORD]	службу
+[INFO]	stress predicted
+[STRS]	сл+ужбу
+[SPHO]	zJdJesJ prJeZ-dJI fsJI-vo b@_olJ-So-jI zn@_o-t_SJe-nJI-jI I-mJe-jIt pra-vJIlJ-n@_r_i @_od-bor p@-stU-pa-jU_x-SJIx n@_o v@_o-je-n_nU_x-jU_x sluZ-bU_x
+
+[SNUM]	50
+[SENT]	Моя кобыла-то еще зимой до того привыкла солому возить , что с закрытыми глазами по тому маршруту ходила .
+[YOWR]	ещё
+[NORM]	моя кобыла-то ещё зимой до того привыкла солому возить , что с закрытыми глазами по тому маршруту ходила
+[WORD]	моя
+[DISA]	FREQ
+[STRS]	м+оя
+[WORD]	кобыла-то
+[INFO]	stress predicted
+[STRS]	коб+ыла-то
+[WORD]	ещё
+[INFO]	stress predicted
+[STRS]	ещё
+[WORD]	зимой
+[INFO]	stress predicted
+[STRS]	зим+ой
+[WORD]	до
+[INFO]	entry found in lexicon
+[STRS]	d@_o
+[WORD]	того
+[INFO]	entry found in lexicon
+[STRS]	тов+о
+[WORD]	привыкла
+[INFO]	stress predicted
+[STRS]	прив+ыкла
+[WORD]	солому
+[INFO]	stress predicted
+[STRS]	сол+ому
+[WORD]	возить
+[INFO]	stress predicted
+[STRS]	воз+ить
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	закрытыми
+[INFO]	stress predicted
+[STRS]	закр+ытыми
+[WORD]	глазами
+[INFO]	stress predicted
+[STRS]	глаз+ами
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	тому
+[DISA]	FREQ
+[STRS]	том+у
+[WORD]	маршруту
+[INFO]	stress predicted
+[STRS]	маршр+уту
+[WORD]	ходила
+[INFO]	stress predicted
+[STRS]	ход+ила
+[SPHO]	mo-j@ k@_o-bi_x-l@-t@ jI-SJo zJI-mo_i d@_o t@_o-vo prJI-vi_x-kl@ s@_o-lo-mU_x v@_o-zJitJ SIL Sto z z@_o-kri_x-t@_r-mJI gl@_o-za-mJI p@_o t@_o-mu m@_or-Sru-tU_x x@_o-dJi-l@
+
+[SNUM]	51
+[SENT]	Сотрудники милиции даже выезжали на « стрелки » , где очень быстро и доступно объясняли своим оппонентам необходимость оставить в покое опекаемых или коммерсантов .
+[NORM]	сотрудники милиции даже выезжали на стрелки , где очень быстро и доступно объясняли своим оппонентам необходимость оставить в покое опекаемых или коммерсантов
+[WORD]	сотрудники
+[INFO]	stress predicted
+[STRS]	сотр+удники
+[WORD]	милиции
+[INFO]	stress predicted
+[STRS]	мил+иции
+[WORD]	даже
+[INFO]	stress predicted
+[STRS]	д+аже
+[WORD]	выезжали
+[INFO]	stress predicted
+[STRS]	выезж+али
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	стрелки
+[DISA]	LEX1
+[STRS]	стр+елки
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	где
+[INFO]	stress predicted
+[STRS]	гд+е
+[WORD]	очень
+[INFO]	stress predicted
+[STRS]	+очень
+[WORD]	быстро
+[INFO]	stress predicted
+[STRS]	б+ыстро
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	доступно
+[INFO]	stress predicted
+[STRS]	дост+упно
+[WORD]	объясняли
+[INFO]	stress predicted
+[STRS]	объясняли
+[WORD]	своим
+[INFO]	stress predicted
+[STRS]	сво+им
+[WORD]	оппонентам
+[INFO]	stress predicted
+[STRS]	оппон+ентам
+[WORD]	необходимость
+[INFO]	stress predicted
+[STRS]	необход+имость
+[WORD]	оставить
+[INFO]	stress predicted
+[STRS]	ост+авить
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	покое
+[INFO]	stress predicted
+[STRS]	пок+ое
+[WORD]	опекаемых
+[INFO]	stress predicted
+[STRS]	опек+аемых
+[WORD]	или
+[INFO]	entry found in lexicon
+[STRS]	IlJI
+[WORD]	коммерсантов
+[INFO]	stress predicted
+[STRS]	коммерс+антов
+[SPHO]	s@_o-trudJ-nJI-kJI mJI-lJi-t_s@-I da-Z@_r v@_r-jIZ-Za-lJI n@_o strJel-kJI SIL gdJe o-t_SJInJ bi_x-str@ I d@_o-stup-n@ @_ob-j@-sJnJ@-lJI sv@_o-im @_op-p@_o-nJen-t@m nJI-@_op-x@_o-dJi-m@sJtJ @_o-sta-vJItJ f p@_o-ko-jI @_o-pJI-ka-jI-m@_rx I-lJI k@mJ-mJIr-san-t@v
+
+[SNUM]	52
+[SENT]	Любовь - мера одаренности жизнью людей , но она , вопреки всему , в очень малой степени сексуальность .
+[NORM]	любовь , мера одаренности жизнью людей , но она , вопреки всему , в очень малой степени сексуальность
+[WORD]	любовь
+[INFO]	stress predicted
+[STRS]	люб+овь
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	мера
+[INFO]	stress predicted
+[STRS]	м+ера
+[WORD]	одаренности
+[INFO]	stress predicted
+[STRS]	одаренности
+[WORD]	жизнью
+[INFO]	stress predicted
+[STRS]	ж+изнью
+[WORD]	людей
+[INFO]	stress predicted
+[STRS]	люд+ей
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	но
+[INFO]	stress predicted
+[STRS]	н+о
+[WORD]	она
+[INFO]	stress predicted
+[STRS]	он+а
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	вопреки
+[INFO]	stress predicted
+[STRS]	вопрек+и
+[WORD]	всему
+[INFO]	stress predicted
+[STRS]	всем+у
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	очень
+[INFO]	stress predicted
+[STRS]	+очень
+[WORD]	малой
+[INFO]	stress predicted
+[STRS]	м+алой
+[WORD]	степени
+[INFO]	stress predicted
+[STRS]	ст+епени
+[WORD]	сексуальность
+[INFO]	stress predicted
+[STRS]	сексу+альность
+[SPHO]	lJU-bovJ SIL mJe-r@ @_o-d@-rJI-n_n@-sJtJI Zi_xzJnJ-jU_x lJU-dJe_i SIL no @_o-na SIL v@-prJI-kJi fsJI-mu SIL v o-t_SJInJ ma-l@_o_i sJtJe-pJI-nJI sJIk-sU-alJ-n@sJtJ
+
+[SNUM]	53
+[SENT]	Ну , вы храбрый .
+[NORM]	ну , вы храбрый
+[WORD]	ну
+[INFO]	entry found in lexicon
+[STRS]	nU
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	вы
+[INFO]	entry found in lexicon
+[STRS]	vi_x
+[WORD]	храбрый
+[INFO]	stress predicted
+[STRS]	хр+абрый
+[SPHO]	nU SIL vi_x xra-br@_r_i
+
+[SNUM]	54
+[SENT]	Бог весть , встретимся ли еще .
+[YOWR]	ещё
+[NORM]	бог весть , встретимся ли ещё
+[WORD]	бог
+[DISA]	SINGLETON
+[STRS]	б+ох
+[WORD]	весть
+[INFO]	stress predicted
+[STRS]	в+есть
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	встретимся
+[INFO]	stress predicted
+[STRS]	встр+етимся
+[WORD]	ли
+[INFO]	entry found in lexicon
+[STRS]	lJI
+[WORD]	ещё
+[INFO]	stress predicted
+[STRS]	ещё
+[SPHO]	box vJesJtJ SIL fstrJe-tJIm-sJ@ lJI jI-SJo
+
+[SNUM]	55
+[SENT]	ибо как бы ни был человек мал , но есть какие-то результаты его жизни !
+[NORM]	ибо как бы ни был человек мал , но есть какие-то результаты его жизни
+[WORD]	ибо
+[INFO]	entry found in lexicon
+[STRS]	Ib@
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	бы
+[INFO]	entry found in lexicon
+[STRS]	b@_r
+[WORD]	ни
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	был
+[INFO]	stress predicted
+[STRS]	б+ыл
+[WORD]	человек
+[INFO]	stress predicted
+[STRS]	челов+ек
+[WORD]	мал
+[INFO]	stress predicted
+[STRS]	м+ал
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	но
+[INFO]	stress predicted
+[STRS]	н+о
+[WORD]	есть
+[INFO]	stress predicted
+[STRS]	+есть
+[WORD]	какие-то
+[INFO]	stress predicted
+[STRS]	как+ие-то
+[WORD]	результаты
+[INFO]	stress predicted
+[STRS]	результ+аты
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	жизни
+[INFO]	stress predicted
+[STRS]	ж+изни
+[SPHO]	I-b@ kag b@_r nJI bi_xl t_SJI-l@_o-vJek mal SIL no jesJtJ k@_o-kJi-jI-t@ rJI-zUlJ-ta-t@_r jI-vo Zi_x-zJnJI
+
+[SNUM]	56
+[SENT]	Став один раз вразрез с матерью и сестрами , она не умела с ними сойтись снова , а они этого не искали .
+[YOWR]	сёстрами
+[NORM]	став один раз вразрез с матерью и сёстрами , она не умела с ними сойтись снова , а они этого не искали
+[WORD]	став
+[INFO]	stress predicted
+[STRS]	ст+ав
+[WORD]	один
+[INFO]	entry found in lexicon
+[STRS]	од+ин
+[WORD]	раз
+[INFO]	stress predicted
+[STRS]	р+аз
+[WORD]	вразрез
+[INFO]	stress predicted
+[STRS]	вразр+ез
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	матерью
+[INFO]	stress predicted
+[STRS]	м+атерью
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	сёстрами
+[INFO]	stress predicted
+[STRS]	сёстрами
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	она
+[INFO]	stress predicted
+[STRS]	он+а
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	умела
+[DISA]	LEX1
+[STRS]	ум+ела
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	ними
+[INFO]	stress predicted
+[STRS]	н+ими
+[WORD]	сойтись
+[INFO]	stress predicted
+[STRS]	сойт+ись
+[WORD]	снова
+[INFO]	stress predicted
+[STRS]	сн+ова
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	они
+[INFO]	stress predicted
+[STRS]	он+и
+[WORD]	этого
+[INFO]	entry found in lexicon
+[STRS]	+этово
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	искали
+[INFO]	stress predicted
+[STRS]	иск+али
+[SPHO]	staf @_o-dJin ras vr@_o-zrJes s ma-tJIrJ-jU_x I sJo-str@-mJI SIL @_o-na nJI U-mJe-l@ s nJi-mJI s@_o_i-tJisJ sno-v@ SIL @_o @_o-nJi e-t@-v@ nJI I-ska-lJI
+
+[SNUM]	57
+[SENT]	Один засунул его в настенные часы с кукушкой .
+[NORM]	один засунул его в настенные часы с кукушкой
+[WORD]	один
+[INFO]	entry found in lexicon
+[STRS]	од+ин
+[WORD]	засунул
+[INFO]	stress predicted
+[STRS]	зас+унул
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	настенные
+[INFO]	stress predicted
+[STRS]	наст+енные
+[WORD]	часы
+[INFO]	stress predicted
+[STRS]	час+ы
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	кукушкой
+[INFO]	stress predicted
+[STRS]	кук+ушкой
+[SPHO]	@_o-dJin z@_o-su-nU_xl jI-vo v n@_o-sJtJe-n_n@_r-jI t_SJI-si_x s kU-kuS-k@_o_i
+
+[SNUM]	58
+[SENT]	Тогда я , оборотясь , увидел на горе против нас , за речкой , множество колюжей , а сверх того человек двадцать бежавших , чтоб отрезать нас троих от наших товарищей ; между тем стрелы сыпались на нас , как град .
+[NORM]	тогда я , оборотясь , увидел на горе против нас , за речкой , множество колюжей , а сверх того человек двадцать бежавших , чтоб отрезать нас троих от наших товарищей ; между тем стрелы сыпались на нас , как град
+[WORD]	тогда
+[INFO]	stress predicted
+[STRS]	тогд+а
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	оборотясь
+[INFO]	stress predicted
+[STRS]	оборот+ясь
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	увидел
+[INFO]	stress predicted
+[STRS]	ув+идел
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	горе
+[DISA]	LEX1
+[STRS]	г+оре
+[WORD]	против
+[INFO]	stress predicted
+[STRS]	пр+отив
+[WORD]	нас
+[INFO]	stress predicted
+[STRS]	н+ас
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	речкой
+[INFO]	stress predicted
+[STRS]	р+ечкой
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	множество
+[INFO]	stress predicted
+[STRS]	мн+ожество
+[WORD]	колюжей
+[INFO]	stress predicted
+[STRS]	кол+южей
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	сверх
+[INFO]	stress predicted
+[STRS]	св+ерх
+[WORD]	того
+[INFO]	entry found in lexicon
+[STRS]	тов+о
+[WORD]	человек
+[INFO]	stress predicted
+[STRS]	челов+ек
+[WORD]	двадцать
+[INFO]	entry found in lexicon
+[STRS]	дв+адцать
+[WORD]	бежавших
+[INFO]	stress predicted
+[STRS]	беж+авших
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	чтоб
+[DISA]	FREQ
+[STRS]	шт+об
+[WORD]	отрезать
+[DISA]	LEX1
+[STRS]	отр+езать
+[WORD]	нас
+[INFO]	stress predicted
+[STRS]	н+ас
+[WORD]	троих
+[INFO]	stress predicted
+[STRS]	тро+их
+[WORD]	от
+[INFO]	entry found in lexicon
+[STRS]	@_ot
+[WORD]	наших
+[INFO]	stress predicted
+[STRS]	н+аших
+[WORD]	товарищей
+[INFO]	stress predicted
+[STRS]	тов+арищей
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	между
+[INFO]	stress predicted
+[STRS]	м+ежду
+[WORD]	тем
+[INFO]	stress predicted
+[STRS]	т+ем
+[WORD]	стрелы
+[DISA]	FREQ
+[STRS]	стрел+ы
+[WORD]	сыпались
+[INFO]	stress predicted
+[STRS]	с+ыпались
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	нас
+[INFO]	stress predicted
+[STRS]	н+ас
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	град
+[INFO]	stress predicted
+[STRS]	гр+ад
+[SPHO]	t@_og-da ja SIL @_o-b@-r@_o-tJasJ SIL U-vJi-dJIl n@_o go-rJI pro-tJIf nas SIL z@_o rJet_SJ-k@_o_i SIL mno-Z@_rst-v@ k@_o-lJu-Z@_i SIL @_o svJerx t@_o-vo t_SJI-l@_o-vJeg dvat-t_s@dJ bJI-Zaf-S@_rx SIL Stop @_o-trJe-z@tJ nas tr@_o-ix @_ot na-S@_rx t@_o-va-rJI-SJI_i SIL mJeZ-dU_x tJem strJI-li_x si_x-p@-lJIsJ n@_o nas SIL kag grad
+
+[SNUM]	59
+[SENT]	Мы не останавливаемся на достигнутом , стараясь охватить весь спектр направлений подготовки студентов .
+[NORM]	мы не останавливаемся на достигнутом , стараясь охватить весь спектр направлений подготовки студентов
+[WORD]	мы
+[INFO]	stress predicted
+[STRS]	м+ы
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	останавливаемся
+[INFO]	stress predicted
+[STRS]	остан+авливаемся
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	достигнутом
+[INFO]	stress predicted
+[STRS]	дост+игнутом
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	стараясь
+[INFO]	stress predicted
+[STRS]	стар+аясь
+[WORD]	охватить
+[INFO]	stress predicted
+[STRS]	охват+ить
+[WORD]	весь
+[INFO]	stress predicted
+[STRS]	в+есь
+[WORD]	спектр
+[INFO]	stress predicted
+[STRS]	сп+ектр
+[WORD]	направлений
+[INFO]	stress predicted
+[STRS]	направл+ений
+[WORD]	подготовки
+[INFO]	stress predicted
+[STRS]	подгот+овки
+[WORD]	студентов
+[INFO]	stress predicted
+[STRS]	студ+ентов
+[SPHO]	mi_x nJI @_o-st@_o-na-vlJI-v@-jIm-sJ@ n@_o d@_o-sJtJig-nU_x-t@m SIL st@_o-ra-j@sJ @_ox-v@_o-tJitJ vJesJ spJektr n@-pr@_o-vlJe-nJI_i p@d-g@_o-tof-kJI stU-dJen-t@v
+
+[SNUM]	60
+[SENT]	А на мне , я знал , лежала вся ответственность за успех ее .
+[YOWR]	её
+[NORM]	а на мне , я знал , лежала вся ответственность за успех её
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	мне
+[INFO]	stress predicted
+[STRS]	мн+е
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	знал
+[INFO]	stress predicted
+[STRS]	зн+ал
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	лежала
+[INFO]	stress predicted
+[STRS]	леж+ала
+[WORD]	вся
+[INFO]	stress predicted
+[STRS]	вс+я
+[WORD]	ответственность
+[INFO]	stress predicted
+[STRS]	отв+етственность
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	успех
+[INFO]	stress predicted
+[STRS]	усп+ех
+[WORD]	её
+[INFO]	stress predicted
+[STRS]	её
+[SPHO]	@_o n@_o mnJe SIL ja znal SIL lJI-Za-l@ fsJa @_ot-vJet-stvJI-n_n@zJdJ z@_o U-spJex jI-jo
+
+[SNUM]	61
+[SENT]	Собою их не заслоню , хотя я и автор , вернее - одно из второстепенных лиц на задах массовки .
+[NORM]	собою их не заслоню , хотя я и автор , вернее , одно из второстепенных лиц на задах массовки
+[WORD]	собою
+[INFO]	stress predicted
+[STRS]	соб+ою
+[WORD]	их
+[INFO]	stress predicted
+[STRS]	+их
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	заслоню
+[INFO]	stress predicted
+[STRS]	заслон+ю
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	хотя
+[INFO]	stress predicted
+[STRS]	хот+я
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	автор
+[INFO]	stress predicted
+[STRS]	+автор
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	вернее
+[INFO]	stress predicted
+[STRS]	верн+ее
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	одно
+[INFO]	entry found in lexicon
+[STRS]	одн+о
+[WORD]	из
+[INFO]	entry found in lexicon
+[STRS]	IzWUD
+[WORD]	второстепенных
+[INFO]	stress predicted
+[STRS]	второстеп+енных
+[WORD]	лиц
+[INFO]	stress predicted
+[STRS]	л+иц
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	задах
+[INFO]	stress predicted
+[STRS]	зад+ах
+[WORD]	массовки
+[INFO]	stress predicted
+[STRS]	масс+овки
+[SPHO]	s@_o-bo-jU_x ix nJI z@-sl@_o-nJu SIL x@_o-tJa ja I af-t@r SIL vJIr-nJe-jI SIL @_od-no Is ft@-r@-sJtJI-pJe-n_n@_rx lJit_s n@_o z@_o-dax m@_o-s_sof-kJI
+
+[SNUM]	62
+[SENT]	Покачивая головой и сгорбившись , он возвращается к окну ; отряд длинной и неровной цепью выползает через ворота плац-парада .
+[NORM]	покачивая головой и сгорбившись , он возвращается к окну ; отряд длинной и неровной цепью выползает через ворота плац-парада
+[WORD]	покачивая
+[INFO]	stress predicted
+[STRS]	пок+ачивая
+[WORD]	головой
+[INFO]	stress predicted
+[STRS]	голов+ой
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	сгорбившись
+[INFO]	stress predicted
+[STRS]	сг+орбившись
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	возвращается
+[INFO]	stress predicted
+[STRS]	возвращ+ается
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	окну
+[INFO]	stress predicted
+[STRS]	окн+у
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	отряд
+[INFO]	stress predicted
+[STRS]	отр+яд
+[WORD]	длинной
+[INFO]	stress predicted
+[STRS]	дл+инной
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	неровной
+[INFO]	stress predicted
+[STRS]	нер+овной
+[WORD]	цепью
+[INFO]	stress predicted
+[STRS]	ц+епью
+[WORD]	выползает
+[DISA]	SINGLETON
+[STRS]	выполз+ает
+[WORD]	через
+[INFO]	entry found in lexicon
+[STRS]	t_SJIrJIzWUD
+[WORD]	ворота
+[DISA]	LEX1
+[STRS]	в+орота
+[WORD]	плац-парада
+[INFO]	entry found in lexicon
+[STRS]	пл+ац-пар+ада
+[SPHO]	p@_o-ka-t_SJI-v@-j@ g@-l@_o-vo_i I zgor-bJIf-S@_rsJ SIL on v@z-vr@_o-SJa-jItJ-sJ@ k @_ok-nu SIL @_o-trJad dlJi-n_n@_o_i I nJI-ro-vn@_o_i t_sepJ-jU_x v@_r-p@_ol-za-jIt t_SJI-rJIz vo-r@-t@ plat_s-p@_o-ra-d@
+
+[SNUM]	63
+[SENT]	Но это оказалось реальностью , и теперь мир уже не будет таким , каким он был вчера .
+[NORM]	но это оказалось реальностью , и теперь мир уже не будет таким , каким он был вчера
+[WORD]	но
+[INFO]	stress predicted
+[STRS]	н+о
+[WORD]	это
+[INFO]	stress predicted
+[STRS]	+это
+[WORD]	оказалось
+[INFO]	stress predicted
+[STRS]	оказ+алось
+[WORD]	реальностью
+[INFO]	stress predicted
+[STRS]	ре+альностью
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	теперь
+[INFO]	stress predicted
+[STRS]	теп+ерь
+[WORD]	мир
+[INFO]	stress predicted
+[STRS]	м+ир
+[WORD]	уже
+[DISA]	LEX1
+[STRS]	уж+е
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	будет
+[INFO]	stress predicted
+[STRS]	б+удет
+[WORD]	таким
+[INFO]	stress predicted
+[STRS]	так+им
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	каким
+[INFO]	stress predicted
+[STRS]	как+им
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	был
+[INFO]	stress predicted
+[STRS]	б+ыл
+[WORD]	вчера
+[INFO]	stress predicted
+[STRS]	вчер+а
+[SPHO]	no e-t@ @_o-k@_o-za-l@sJ rJI-alJ-n@sJtJ-jU_x SIL I tJI-pJerJ mJir U-Ze nJI bu-dJIt t@_o-kJim SIL k@_o-kJim on bi_xl ft_SJI-ra
+
+[SNUM]	64
+[SENT]	По счастью , падали деревья ночью , часа в четыре , в безлюдье .
+[NORM]	по счастью , падали деревья ночью , часа в четыре , в безлюдье
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	счастью
+[INFO]	stress predicted
+[STRS]	сч+астью
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	падали
+[INFO]	stress predicted
+[STRS]	п+адали
+[WORD]	деревья
+[INFO]	stress predicted
+[STRS]	дер+евья
+[WORD]	ночью
+[INFO]	stress predicted
+[STRS]	н+очью
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	часа
+[DISA]	SINGLETON
+[STRS]	ч+аса
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	четыре
+[INFO]	stress predicted
+[STRS]	чет+ыре
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	безлюдье
+[INFO]	stress predicted
+[STRS]	безл+юдье
+[SPHO]	p@_o SJt_SJasJtJ-jU_x SIL pa-d@-lJI dJI-rJevJ-j@ not_SJ-jU_x SIL t_SJa-s@ f t_SJI-ti_x-rJI SIL v bJI-zlJudJ-jI
+
+[SNUM]	65
+[SENT]	Сам тощой , а места занял , как баба откормленная .
+[NORM]	сам тощой , а места занял , как баба откормленная
+[WORD]	сам
+[INFO]	entry found in lexicon
+[STRS]	с+ам
+[WORD]	тощой
+[INFO]	stress predicted
+[STRS]	тощ+ой
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	места
+[DISA]	FREQ
+[STRS]	м+еста
+[WORD]	занял
+[INFO]	stress predicted
+[STRS]	з+анял
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	баба
+[INFO]	stress predicted
+[STRS]	б+аба
+[WORD]	откормленная
+[INFO]	stress predicted
+[STRS]	отк+ормленная
+[SPHO]	sam t@_o-SJo_i SIL @_o mJe-st@ za-nJ@l SIL kag ba-b@ @_ot-kor-mlJI-n_n@-j@
+
+[SNUM]	66
+[SENT]	Неважно !
+[NORM]	неважно
+[WORD]	неважно
+[INFO]	stress predicted
+[STRS]	нев+ажно
+[SPHO]	nJI-vaZ-n@
+
+[SNUM]	67
+[SENT]	Когда мы выехали , была уже ночь , и дорога лежала через девственный лес с вековыми соснами , лиственницей и елью гигантских размеров .
+[NORM]	когда мы выехали , была уже ночь , и дорога лежала через девственный лес с вековыми соснами , лиственницей и елью гигантских размеров
+[WORD]	когда
+[INFO]	stress predicted
+[STRS]	когд+а
+[WORD]	мы
+[INFO]	stress predicted
+[STRS]	м+ы
+[WORD]	выехали
+[INFO]	stress predicted
+[STRS]	в+ыехали
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	была
+[INFO]	stress predicted
+[STRS]	был+а
+[WORD]	уже
+[DISA]	LEX1
+[STRS]	уж+е
+[WORD]	ночь
+[INFO]	stress predicted
+[STRS]	н+очь
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	дорога
+[DISA]	FREQ
+[STRS]	дор+ога
+[WORD]	лежала
+[INFO]	stress predicted
+[STRS]	леж+ала
+[WORD]	через
+[INFO]	entry found in lexicon
+[STRS]	t_SJIrJIzWUD
+[WORD]	девственный
+[INFO]	stress predicted
+[STRS]	д+евственный
+[WORD]	лес
+[INFO]	stress predicted
+[STRS]	л+ес
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	вековыми
+[INFO]	stress predicted
+[STRS]	веков+ыми
+[WORD]	соснами
+[INFO]	stress predicted
+[STRS]	с+оснами
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	лиственницей
+[INFO]	stress predicted
+[STRS]	л+иственницей
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	елью
+[INFO]	stress predicted
+[STRS]	+елью
+[WORD]	гигантских
+[INFO]	stress predicted
+[STRS]	гиг+антских
+[WORD]	размеров
+[INFO]	stress predicted
+[STRS]	разм+еров
+[SPHO]	k@_og-da mi_x vi_x-jI-x@-lJI SIL b@_r-la U-Ze not_SJ SIL I d@_o-ro-g@ lJI-Za-l@ t_SJI-rJIzJ dJef-stvJI-n_n@_r_i lJes s vJI-k@_o-vi_x-mJI so-sn@-mJI SIL lJist-vJI-n_nJI-t_s@_i I jelJ-jU_x gJI-gant-skJIx r@_o-zmJe-r@v
+
+[SNUM]	68
+[SENT]	Оставалась ровная , спокойная и незамужняя .
+[NORM]	оставалась ровная , спокойная и незамужняя
+[WORD]	оставалась
+[INFO]	stress predicted
+[STRS]	остав+алась
+[WORD]	ровная
+[INFO]	stress predicted
+[STRS]	р+овная
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	спокойная
+[INFO]	stress predicted
+[STRS]	спок+ойная
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	незамужняя
+[INFO]	stress predicted
+[STRS]	незам+ужняя
+[SPHO]	@_o-st@_o-va-l@sJ ro-vn@-j@ SIL sp@_o-ko_i-n@-j@ I nJI-z@_o-muZ-nJ@-j@
+
+[SNUM]	69
+[SENT]	Эта сука в оценке мужиков и их дурацких качеств почти всегда бывает права .
+[NORM]	эта сука в оценке мужиков и их дурацких качеств почти всегда бывает права
+[WORD]	эта
+[INFO]	stress predicted
+[STRS]	+эта
+[WORD]	сука
+[DISA]	LEX1
+[STRS]	сук+а
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	оценке
+[INFO]	stress predicted
+[STRS]	оц+енке
+[WORD]	мужиков
+[INFO]	stress predicted
+[STRS]	мужик+ов
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	их
+[INFO]	stress predicted
+[STRS]	+их
+[WORD]	дурацких
+[INFO]	stress predicted
+[STRS]	дур+ацких
+[WORD]	качеств
+[INFO]	stress predicted
+[STRS]	к+ачеств
+[WORD]	почти
+[INFO]	stress predicted
+[STRS]	почт+и
+[WORD]	всегда
+[INFO]	stress predicted
+[STRS]	всегд+а
+[WORD]	бывает
+[INFO]	stress predicted
+[STRS]	быв+ает
+[WORD]	права
+[DISA]	FREQ
+[STRS]	прав+а
+[SPHO]	e-t@ sU-ka v @_o-t_sen-kJI mU_x-Z@_r-kof I ix dU-rat_s-kJIx ka-t_SJIstf p@_ot_SJ-tJi fsJIg-da b@_r-va-jIt pr@_o-va
+
+[SNUM]	70
+[SENT]	Им это не мешало .
+[NORM]	им это не мешало
+[WORD]	им
+[INFO]	entry found in lexicon
+[STRS]	+им
+[WORD]	это
+[INFO]	stress predicted
+[STRS]	+это
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	мешало
+[INFO]	stress predicted
+[STRS]	меш+ало
+[SPHO]	im e-t@ nJI mJI-Sa-l@
+
+[SNUM]	71
+[SENT]	Но еще пыром , дырявым ботинком он и тут успел врезать сержанту меж ног - и это тоже со счастливой мыслью .
+[YOWR]	ещё
+[NORM]	но ещё пыром , дырявым ботинком он и тут успел врезать сержанту меж ног , и это тоже со счастливой мыслью
+[WORD]	но
+[INFO]	stress predicted
+[STRS]	н+о
+[WORD]	ещё
+[INFO]	stress predicted
+[STRS]	ещё
+[WORD]	пыром
+[INFO]	stress predicted
+[STRS]	п+ыром
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	дырявым
+[INFO]	stress predicted
+[STRS]	дыр+явым
+[WORD]	ботинком
+[INFO]	stress predicted
+[STRS]	бот+инком
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	тут
+[INFO]	stress predicted
+[STRS]	т+ут
+[WORD]	успел
+[INFO]	stress predicted
+[STRS]	усп+ел
+[WORD]	врезать
+[DISA]	LEX1
+[STRS]	вр+езать
+[WORD]	сержанту
+[INFO]	stress predicted
+[STRS]	серж+анту
+[WORD]	меж
+[INFO]	stress predicted
+[STRS]	м+еж
+[WORD]	ног
+[INFO]	stress predicted
+[STRS]	н+ог
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	это
+[INFO]	stress predicted
+[STRS]	+это
+[WORD]	тоже
+[INFO]	stress predicted
+[STRS]	т+оже
+[WORD]	со
+[INFO]	entry found in lexicon
+[STRS]	s@_o
+[WORD]	счастливой
+[INFO]	stress predicted
+[STRS]	счастл+ивой
+[WORD]	мыслью
+[INFO]	stress predicted
+[STRS]	м+ыслью
+[SPHO]	no jI-SJo pi_x-r@m SIL d@_r-rJa-v@_rm b@_o-tJin-k@m on I tut U-spJel vrJe-z@tJ sJIr-Zan-tU_x mJeS nog SIL I e-t@ to-Z@_r s@_o SJI-stlJi-v@_o_i mi_xslJ-jU_x
+
+[SNUM]	72
+[SENT]	Навевает мысли о стабильности и постоянстве .
+[NORM]	навевает мысли о стабильности и постоянстве
+[WORD]	навевает
+[INFO]	stress predicted
+[STRS]	навев+ает
+[WORD]	мысли
+[INFO]	stress predicted
+[STRS]	м+ысли
+[WORD]	о
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	стабильности
+[INFO]	stress predicted
+[STRS]	стаб+ильности
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	постоянстве
+[INFO]	stress predicted
+[STRS]	посто+янстве
+[SPHO]	n@-vJI-va-jIt mi_x-slJI @_o st@_o-bJilJ-n@-sJtJI I p@-st@_o-jan-stvJI
+
+[SNUM]	73
+[SENT]	Послышались женские всхлипывания .
+[NORM]	послышались женские всхлипывания
+[WORD]	послышались
+[INFO]	stress predicted
+[STRS]	посл+ышались
+[WORD]	женские
+[INFO]	stress predicted
+[STRS]	ж+енские
+[WORD]	всхлипывания
+[INFO]	stress predicted
+[STRS]	всхл+ипывания
+[SPHO]	p@_o-sli_x-S@-lJIzJ Zen-skJI-jI fsxlJi-p@_r-v@-nJI-j@
+
+[SNUM]	74
+[SENT]	А так как деятельность его происходила среди очень молодых людей , принимавших его безграничную самоуверенность за глубокомыслие и мудрость , то большинство подчинялось ему , и он имел большой успех в революционных кругах .
+[NORM]	а так как деятельность его происходила среди очень молодых людей , принимавших его безграничную самоуверенность за глубокомыслие и мудрость , то большинство подчинялось ему , и он имел большой успех в революционных кругах
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	так
+[INFO]	stress predicted
+[STRS]	т+ак
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	деятельность
+[INFO]	stress predicted
+[STRS]	д+еятельность
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	происходила
+[INFO]	stress predicted
+[STRS]	происход+ила
+[WORD]	среди
+[INFO]	stress predicted
+[STRS]	сред+и
+[WORD]	очень
+[INFO]	stress predicted
+[STRS]	+очень
+[WORD]	молодых
+[INFO]	stress predicted
+[STRS]	молод+ых
+[WORD]	людей
+[INFO]	stress predicted
+[STRS]	люд+ей
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	принимавших
+[INFO]	stress predicted
+[STRS]	приним+авших
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	безграничную
+[INFO]	stress predicted
+[STRS]	безгран+ичную
+[WORD]	самоуверенность
+[INFO]	stress predicted
+[STRS]	самоув+еренность
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	глубокомыслие
+[INFO]	stress predicted
+[STRS]	глубоком+ыслие
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	мудрость
+[INFO]	stress predicted
+[STRS]	м+удрость
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	то
+[DISA]	FREQ
+[STRS]	т+о
+[WORD]	большинство
+[INFO]	stress predicted
+[STRS]	большинств+о
+[WORD]	подчинялось
+[INFO]	stress predicted
+[STRS]	подчин+ялось
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	имел
+[INFO]	stress predicted
+[STRS]	им+ел
+[WORD]	большой
+[INFO]	stress predicted
+[STRS]	больш+ой
+[WORD]	успех
+[INFO]	stress predicted
+[STRS]	усп+ех
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	революционных
+[INFO]	stress predicted
+[STRS]	революци+онных
+[WORD]	кругах
+[INFO]	stress predicted
+[STRS]	круг+ах
+[SPHO]	@_o tak kag dJe-j@-tJIlJ-n@sJtJ jI-vo pr@-Is-x@_o-dJi-l@ srJI-dJi o-t_SJInJ m@-l@_o-di_xx lJU-dJe_i SIL prJI-nJI-maf-S@_rx jI-vo bJI-zgr@_o-nJit_SJ-nU_x-jU_x s@-m@-U-vJe-rJI-n_n@zJdJ z@_o glU_x-b@-k@_o-mi_x-slJI-jI I mu-dr@sJtJ SIL to b@lJ-S@_rn-stvo p@tJ-t_SJI-nJa-l@sJ jI-mu SIL I on @_r-mJel b@_olJ-So_i U-spJex v rJI-v@-lJU_x-t_s@_r-o-n_n@_rx krU-gax
+
+[SNUM]	75
+[SENT]	Стараясь не сбиться с общего шага , он снова представил себе сыновей и мысленно обратился к ним с продолжением своего рассказа .
+[NORM]	стараясь не сбиться с общего шага , он снова представил себе сыновей и мысленно обратился к ним с продолжением своего рассказа
+[WORD]	стараясь
+[INFO]	stress predicted
+[STRS]	стар+аясь
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	сбиться
+[INFO]	stress predicted
+[STRS]	сб+иться
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	общего
+[INFO]	entry found in lexicon
+[STRS]	+общего
+[WORD]	шага
+[INFO]	stress predicted
+[STRS]	ш+ага
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	снова
+[INFO]	stress predicted
+[STRS]	сн+ова
+[WORD]	представил
+[INFO]	stress predicted
+[STRS]	предст+авил
+[WORD]	себе
+[INFO]	stress predicted
+[STRS]	себ+е
+[WORD]	сыновей
+[INFO]	stress predicted
+[STRS]	сынов+ей
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	мысленно
+[INFO]	stress predicted
+[STRS]	м+ысленно
+[WORD]	обратился
+[INFO]	stress predicted
+[STRS]	обрат+ился
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	ним
+[INFO]	stress predicted
+[STRS]	н+им
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	продолжением
+[INFO]	stress predicted
+[STRS]	продолж+ением
+[WORD]	своего
+[INFO]	entry found in lexicon
+[STRS]	своев+о
+[WORD]	рассказа
+[INFO]	entry found in lexicon
+[STRS]	раск+аза
+[SPHO]	st@_o-ra-j@sJ nJI zbJitJ-sJ@ s op-SJI-g@ Sa-g@ SIL on sno-v@ prJIt-sta-vJIl sJI-bJe s@_r-n@_o-vJe_i I mi_x-slJI-n_n@ @_o-br@_o-tJil-sJ@ k nJim s pr@-d@_ol-Ze-nJI-jIm sv@-jI-vo r@_o-ska-z@
+
+[SNUM]	76
+[SENT]	Общество , в котором властвовала партийная номенклатура , насквозь пропитанная догмами , неизлечимо больная утопической идеологией .
+[NORM]	общество , в котором властвовала партийная номенклатура , насквозь пропитанная догмами , неизлечимо больная утопической идеологией
+[WORD]	общество
+[INFO]	stress predicted
+[STRS]	+общество
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	котором
+[INFO]	stress predicted
+[STRS]	кот+ором
+[WORD]	властвовала
+[INFO]	stress predicted
+[STRS]	вл+аствовала
+[WORD]	партийная
+[INFO]	stress predicted
+[STRS]	парт+ийная
+[WORD]	номенклатура
+[INFO]	stress predicted
+[STRS]	номенклат+ура
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	насквозь
+[INFO]	stress predicted
+[STRS]	наскв+озь
+[WORD]	пропитанная
+[INFO]	stress predicted
+[STRS]	проп+итанная
+[WORD]	догмами
+[INFO]	stress predicted
+[STRS]	д+огмами
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	неизлечимо
+[INFO]	stress predicted
+[STRS]	неизлеч+имо
+[WORD]	больная
+[INFO]	stress predicted
+[STRS]	больн+ая
+[WORD]	утопической
+[INFO]	stress predicted
+[STRS]	утоп+ической
+[WORD]	идеологией
+[INFO]	stress predicted
+[STRS]	идеол+огией
+[SPHO]	op-SJIst-v@ SIL f k@_o-to-r@m vlast-v@-v@-l@ p@_or-tJi_i-n@-j@ n@-mJIn-kl@_o-tu-r@ SIL n@_osk-vosJ pr@_o-pJi-t@-n_n@-j@ dog-m@-mJI SIL nJI-I-zlJI-t_SJi-m@ b@_olJ-na-j@ U_x-t@_o-pJi-t_SJI-sk@_o_i I-dJI-@_o-lo-gJI-jI_i
+
+[SNUM]	77
+[SENT]	Этого желает моя высокая повелительница .
+[NORM]	этого желает моя высокая повелительница
+[WORD]	этого
+[INFO]	entry found in lexicon
+[STRS]	+этово
+[WORD]	желает
+[INFO]	stress predicted
+[STRS]	жел+ает
+[WORD]	моя
+[DISA]	FREQ
+[STRS]	м+оя
+[WORD]	высокая
+[INFO]	stress predicted
+[STRS]	выс+окая
+[WORD]	повелительница
+[INFO]	stress predicted
+[STRS]	повел+ительница
+[SPHO]	e-t@-v@ ZI-la-jIt mo-j@ v@_r-so-k@-j@ p@-vJI-lJi-tJIlJ-nJI-t_s@
+
+[SNUM]	78
+[SENT]	Настоящий громила с узким лбом , с лохматыми бровями над близко сведенными черными глазами , а длинные руки , словно клешни , - одной ладонью всю мою спину прикроют .
+[YOWR]	сведёнными
+[YOWR]	чёрными
+[NORM]	настоящий громила с узким лбом , с лохматыми бровями над близко сведёнными чёрными глазами , а длинные руки , словно клешни , , одной ладонью всю мою спину прикроют
+[WORD]	настоящий
+[INFO]	stress predicted
+[STRS]	насто+ящий
+[WORD]	громила
+[INFO]	stress predicted
+[STRS]	гром+ила
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	узким
+[INFO]	stress predicted
+[STRS]	+узким
+[WORD]	лбом
+[INFO]	stress predicted
+[STRS]	лб+ом
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	лохматыми
+[INFO]	stress predicted
+[STRS]	лохм+атыми
+[WORD]	бровями
+[INFO]	stress predicted
+[STRS]	бров+ями
+[WORD]	над
+[INFO]	entry found in lexicon
+[STRS]	n@_odWUD
+[WORD]	близко
+[INFO]	stress predicted
+[STRS]	бл+изко
+[WORD]	сведёнными
+[INFO]	stress predicted
+[STRS]	сведёнными
+[WORD]	чёрными
+[INFO]	stress predicted
+[STRS]	чёрными
+[WORD]	глазами
+[INFO]	stress predicted
+[STRS]	глаз+ами
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	длинные
+[INFO]	stress predicted
+[STRS]	дл+инные
+[WORD]	руки
+[DISA]	FREQ
+[STRS]	рук+и
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	словно
+[INFO]	stress predicted
+[STRS]	сл+овно
+[WORD]	клешни
+[INFO]	stress predicted
+[STRS]	клешн+и
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	одной
+[INFO]	entry found in lexicon
+[STRS]	одн+ой
+[WORD]	ладонью
+[INFO]	stress predicted
+[STRS]	лад+онью
+[WORD]	всю
+[INFO]	stress predicted
+[STRS]	вс+ю
+[WORD]	мою
+[DISA]	FREQ
+[STRS]	мо+ю
+[WORD]	спину
+[INFO]	stress predicted
+[STRS]	сп+ину
+[WORD]	прикроют
+[INFO]	stress predicted
+[STRS]	прикр+оют
+[SPHO]	n@-st@_o-ja-SJI_i gr@_o-mJi-l@ s u-skJIm lbom SIL s l@_ox-ma-t@_r-mJI br@_o-vJa-mJI n@_od blJi-sk@ svJI-dJo-n_n@_r-mJI t_SJor-n@_r-mJI gl@_o-za-mJI SIL @_o dlJi-n_n@_r-jI rU-kJi SIL slo-vn@ klJIS-nJi SIL SIL @_od-no_i l@_o-donJ-jU_x fsJu m@_o-ju spJi-nU_x prJI-kro-jU_xt
+
+[SNUM]	79
+[SENT]	Те ценные результаты , о которых мы говорили , - итог длительного и напряженного труда .
+[YOWR]	напряжённого
+[NORM]	те ценные результаты , о которых мы говорили , , итог длительного и напряжённого труда
+[WORD]	те
+[INFO]	entry found in lexicon
+[STRS]	т+е
+[WORD]	ценные
+[INFO]	stress predicted
+[STRS]	ц+енные
+[WORD]	результаты
+[INFO]	stress predicted
+[STRS]	результ+аты
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	о
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	которых
+[INFO]	stress predicted
+[STRS]	кот+орых
+[WORD]	мы
+[INFO]	stress predicted
+[STRS]	м+ы
+[WORD]	говорили
+[INFO]	stress predicted
+[STRS]	говор+или
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	итог
+[INFO]	stress predicted
+[STRS]	ит+ог
+[WORD]	длительного
+[INFO]	stress predicted
+[STRS]	дл+ительного
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	напряжённого
+[INFO]	stress predicted
+[STRS]	напряжённого
+[WORD]	труда
+[INFO]	stress predicted
+[STRS]	труд+а
+[SPHO]	tJe t_se-n_n@_r-jI rJI-zUlJ-ta-t@_r SIL @_o k@_o-to-r@_rx mi_x g@-v@_o-rJi-lJI SIL SIL I-tog dlJi-tJIlJ-n@-g@ I n@-prJ@-Zo-n_n@-g@ trU-da
+
+[SNUM]	80
+[SENT]	Освобожденный от необходимости на каждом шагу доказывать свою независимость , всякий делал свое дело спокойно , без раздражения .
+[YOWR]	освобождённый
+[YOWR]	своё
+[NORM]	освобождённый от необходимости на каждом шагу доказывать свою независимость , всякий делал своё дело спокойно , без раздражения
+[WORD]	освобождённый
+[INFO]	stress predicted
+[STRS]	освобождённый
+[WORD]	от
+[INFO]	entry found in lexicon
+[STRS]	@_ot
+[WORD]	необходимости
+[INFO]	stress predicted
+[STRS]	необход+имости
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	каждом
+[INFO]	stress predicted
+[STRS]	к+аждом
+[WORD]	шагу
+[INFO]	stress predicted
+[STRS]	ш+агу
+[WORD]	доказывать
+[INFO]	stress predicted
+[STRS]	док+азывать
+[WORD]	свою
+[DISA]	SINGLETON
+[STRS]	сво+ю
+[WORD]	независимость
+[INFO]	stress predicted
+[STRS]	незав+исимость
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	всякий
+[INFO]	stress predicted
+[STRS]	вс+який
+[WORD]	делал
+[INFO]	stress predicted
+[STRS]	д+елал
+[WORD]	своё
+[INFO]	stress predicted
+[STRS]	своё
+[WORD]	дело
+[INFO]	entry found in lexicon
+[STRS]	д+ело
+[WORD]	спокойно
+[INFO]	stress predicted
+[STRS]	спок+ойно
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	без
+[INFO]	entry found in lexicon
+[STRS]	bJIzWUD
+[WORD]	раздражения
+[INFO]	stress predicted
+[STRS]	раздраж+ения
+[SPHO]	@_os-v@-b@Z-dJo-n_n@_r_i @_ot nJI-@_op-x@_o-dJi-m@-sJtJI n@_o kaZ-d@m Sa-gU_x d@_o-ka-z@_r-v@tJ sv@_o-ju nJI-z@_o-vJi-sJI-m@sJtJ SIL fsJa-kJI_i dJe-l@l sv@-jo dJe-l@ sp@_o-ko_i-n@ SIL bJIz r@-zdr@_o-Ze-nJI-j@
+
+[SNUM]	81
+[SENT]	Сегодня они больше всего боятся , что придворная знать и крупные капиталисты не захотят их брать всерьез .
+[YOWR]	всерьёз
+[NORM]	сегодня они больше всего боятся , что придворная знать и крупные капиталисты не захотят их брать всерьёз
+[WORD]	сегодня
+[INFO]	stress predicted
+[STRS]	сег+одня
+[WORD]	они
+[INFO]	stress predicted
+[STRS]	он+и
+[WORD]	больше
+[INFO]	stress predicted
+[STRS]	б+ольше
+[WORD]	всего
+[INFO]	entry found in lexicon
+[STRS]	всев+о
+[WORD]	боятся
+[INFO]	stress predicted
+[STRS]	бо+ятся
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	придворная
+[INFO]	stress predicted
+[STRS]	придв+орная
+[WORD]	знать
+[INFO]	stress predicted
+[STRS]	зн+ать
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	крупные
+[INFO]	stress predicted
+[STRS]	кр+упные
+[WORD]	капиталисты
+[INFO]	stress predicted
+[STRS]	капитал+исты
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	захотят
+[INFO]	stress predicted
+[STRS]	захот+ят
+[WORD]	их
+[INFO]	stress predicted
+[STRS]	+их
+[WORD]	брать
+[INFO]	stress predicted
+[STRS]	бр+ать
+[WORD]	всерьёз
+[INFO]	stress predicted
+[STRS]	всерьёз
+[SPHO]	sJI-godJ-nJ@ @_o-nJi bolJ-S@_r fsJI-vo b@_o-jatJ-sJ@ SIL Sto prJId-vor-n@-j@ znatJ I krup-n@_r-jI k@-pJI-t@_o-lJi-st@_r nJI z@-x@_o-tJat i_xx bratJ fsJIrJ-joz
+
+[SNUM]	82
+[SENT]	Скорее всего он не умеет понять противоречие между ответственностью их миссии и теми « ядовитыми » характеристиками , которыми наделяет их Ленин .
+[NORM]	скорее всего он не умеет понять противоречие между ответственностью их миссии и теми ядовитыми характеристиками , которыми наделяет их ленин
+[WORD]	скорее
+[INFO]	stress predicted
+[STRS]	скор+ее
+[WORD]	всего
+[INFO]	entry found in lexicon
+[STRS]	всев+о
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	умеет
+[INFO]	stress predicted
+[STRS]	ум+еет
+[WORD]	понять
+[INFO]	stress predicted
+[STRS]	пон+ять
+[WORD]	противоречие
+[INFO]	stress predicted
+[STRS]	противор+ечие
+[WORD]	между
+[INFO]	stress predicted
+[STRS]	м+ежду
+[WORD]	ответственностью
+[INFO]	stress predicted
+[STRS]	отв+етственностью
+[WORD]	их
+[INFO]	stress predicted
+[STRS]	+их
+[WORD]	миссии
+[INFO]	stress predicted
+[STRS]	м+иссии
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	теми
+[INFO]	stress predicted
+[STRS]	т+еми
+[WORD]	ядовитыми
+[INFO]	stress predicted
+[STRS]	ядов+итыми
+[WORD]	характеристиками
+[INFO]	stress predicted
+[STRS]	характер+истиками
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	которыми
+[INFO]	stress predicted
+[STRS]	кот+орыми
+[WORD]	наделяет
+[INFO]	stress predicted
+[STRS]	надел+яет
+[WORD]	их
+[INFO]	stress predicted
+[STRS]	+их
+[WORD]	ленин
+[INFO]	stress predicted
+[STRS]	л+енин
+[SPHO]	sk@_o-rJe-jI fsJI-vo on nJI U-mJe-jIt p@_o-nJatJ pr@-tJI-v@_o-rJe-t_SJI-jI mJeZ-dU_x @_ot-vJet-stvJI-n_n@sJtJ-jU_x ix mJi-s_sJI-I I tJe-mJI jI-d@_o-vJi-t@_r-mJI x@-r@k-tJI-rJi-sJtJI-k@-mJI SIL k@_o-to-r@_r-mJI n@-dJI-lJa-jIt i_xx lJe-nJIn
+
+[SNUM]	83
+[SENT]	Ну , вот , мы и проверим , милая трусиха , насколько оправдаются ваши страхи .
+[NORM]	ну , вот , мы и проверим , милая трусиха , насколько оправдаются ваши страхи
+[WORD]	ну
+[INFO]	entry found in lexicon
+[STRS]	nU
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	вот
+[INFO]	stress predicted
+[STRS]	в+от
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	мы
+[INFO]	stress predicted
+[STRS]	м+ы
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	проверим
+[INFO]	stress predicted
+[STRS]	пров+ерим
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	милая
+[INFO]	stress predicted
+[STRS]	м+илая
+[WORD]	трусиха
+[INFO]	stress predicted
+[STRS]	трус+иха
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	насколько
+[INFO]	stress predicted
+[STRS]	наск+олько
+[WORD]	оправдаются
+[INFO]	stress predicted
+[STRS]	оправд+аются
+[WORD]	ваши
+[INFO]	stress predicted
+[STRS]	в+аши
+[WORD]	страхи
+[INFO]	stress predicted
+[STRS]	стр+ахи
+[SPHO]	nU SIL vot SIL mi_x I pr@_o-vJe-rJIm SIL mJi-l@-j@ trU-sJi-x@ SIL n@_o-skolJ-k@ @_o-pr@_ov-da-jU_xtJ-sJ@ va-S@_r stra-xJI
+
+[SNUM]	84
+[SENT]	Женщина обрадовалась разговору , и сама все рассказала , лаская его узкое лицо шелковистыми своими глазами .
+[NORM]	женщина обрадовалась разговору , и сама все рассказала , лаская его узкое лицо шелковистыми своими глазами
+[WORD]	женщина
+[INFO]	stress predicted
+[STRS]	ж+енщина
+[WORD]	обрадовалась
+[INFO]	stress predicted
+[STRS]	обр+адовалась
+[WORD]	разговору
+[INFO]	stress predicted
+[STRS]	разгов+ору
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	сама
+[INFO]	stress predicted
+[STRS]	сам+а
+[WORD]	все
+[INFO]	entry found in lexicon
+[STRS]	вс+е
+[WORD]	рассказала
+[INFO]	entry found in lexicon
+[STRS]	расказ+ала
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	лаская
+[INFO]	stress predicted
+[STRS]	ласк+ая
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	узкое
+[INFO]	stress predicted
+[STRS]	+узкое
+[WORD]	лицо
+[INFO]	stress predicted
+[STRS]	лиц+о
+[WORD]	шелковистыми
+[INFO]	stress predicted
+[STRS]	шелков+истыми
+[WORD]	своими
+[INFO]	stress predicted
+[STRS]	сво+ими
+[WORD]	глазами
+[INFO]	stress predicted
+[STRS]	глаз+ами
+[SPHO]	ZenJ-SJI-n@ @_o-bra-d@-v@-l@sJ r@-zg@_o-vo-rU_x SIL I s@_o-ma fsJe r@-sk@_o-za-l@ SIL l@_o-ska-j@ jI-vo u-sk@-jI lJI-t_so S@_rl-k@_o-vJi-st@_r-mJI sv@_o-i-mJI gl@_o-za-mJI
+
+[SNUM]	85
+[SENT]	России хватит на всех .
+[NORM]	россии хватит на всех
+[WORD]	россии
+[INFO]	entry found in lexicon
+[STRS]	рос+ии
+[WORD]	хватит
+[INFO]	stress predicted
+[STRS]	хв+атит
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	всех
+[INFO]	stress predicted
+[STRS]	вс+ех
+[SPHO]	r@_o-sJi-I xva-tJIt n@_o fsJex
+
+[SNUM]	86
+[SENT]	А где-то - водка , где-то - самогон , где-то - « чернила » обыкновенные .
+[NORM]	а где-то , водка , где-то , самогон , где-то , чернила обыкновенные
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	где-то
+[INFO]	stress predicted
+[STRS]	гд+е-то
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	водка
+[INFO]	stress predicted
+[STRS]	в+одка
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	где-то
+[INFO]	stress predicted
+[STRS]	гд+е-то
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	самогон
+[INFO]	stress predicted
+[STRS]	самог+он
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	где-то
+[INFO]	stress predicted
+[STRS]	гд+е-то
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	чернила
+[INFO]	stress predicted
+[STRS]	черн+ила
+[WORD]	обыкновенные
+[INFO]	stress predicted
+[STRS]	обыкнов+енные
+[SPHO]	@_o gdJe-t@ SIL vot-k@ SIL gdJe-t@ SIL s@-m@_o-gon SIL gdJe-t@ SIL t_SJIr-nJi-l@ @_o-b@_rk-n@_o-vJe-n_n@_r-jI
+
+[SNUM]	87
+[SENT]	Но они не любопытны .
+[NORM]	но они не любопытны
+[WORD]	но
+[INFO]	stress predicted
+[STRS]	н+о
+[WORD]	они
+[INFO]	stress predicted
+[STRS]	он+и
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	любопытны
+[INFO]	stress predicted
+[STRS]	любоп+ытны
+[SPHO]	no @_o-nJi nJI lJU_x-b@_o-pi_xt-n@_r
+
+[SNUM]	88
+[SENT]	результативность .
+[NORM]	результативность
+[WORD]	результативность
+[INFO]	stress predicted
+[STRS]	результат+ивность
+[SPHO]	rJI-zU_xlJ-t@_o-tJi-vn@sJtJ
+
+[SNUM]	89
+[SENT]	И всегда мысль « Бог со мною » .
+[NORM]	и всегда мысль бог со мною
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	всегда
+[INFO]	stress predicted
+[STRS]	всегд+а
+[WORD]	мысль
+[INFO]	stress predicted
+[STRS]	м+ысль
+[WORD]	бог
+[DISA]	SINGLETON
+[STRS]	б+ох
+[WORD]	со
+[INFO]	entry found in lexicon
+[STRS]	s@_o
+[WORD]	мною
+[INFO]	stress predicted
+[STRS]	мн+ою
+[SPHO]	I fsJIg-da mi_xslJ box s@_o mno-jU_x
+
+[SNUM]	90
+[SENT]	Ефим Игнатьич только мигает , а до горячих пирожков не дотрагивается .
+[NORM]	ефим игнатьич только мигает , а до горячих пирожков не дотрагивается
+[WORD]	ефим
+[INFO]	stress predicted
+[STRS]	еф+им
+[WORD]	игнатьич
+[INFO]	stress predicted
+[STRS]	игнать+ич
+[WORD]	только
+[INFO]	stress predicted
+[STRS]	т+олько
+[WORD]	мигает
+[INFO]	stress predicted
+[STRS]	миг+ает
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	до
+[INFO]	entry found in lexicon
+[STRS]	d@_o
+[WORD]	горячих
+[INFO]	stress predicted
+[STRS]	гор+ячих
+[WORD]	пирожков
+[INFO]	stress predicted
+[STRS]	пирожк+ов
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	дотрагивается
+[INFO]	stress predicted
+[STRS]	дотр+агивается
+[SPHO]	jI-fJim @_rg-n@_o-tJit_SJ tolJ-k@ mJI-ga-jIt SIL @_o d@_o g@_o-rJa-t_SJIx pJI-r@_oS-kof nJI d@_o-tra-gJI-v@-jItJ-sJ@
+
+[SNUM]	91
+[SENT]	У тетушки Марьи Алексеевны она прожила недолго .
+[YOWR]	тётушки
+[NORM]	у тётушки марьи алексеевны она прожила недолго
+[WORD]	у
+[INFO]	entry found in lexicon
+[STRS]	U
+[WORD]	тётушки
+[INFO]	stress predicted
+[STRS]	тётушки
+[WORD]	марьи
+[INFO]	stress predicted
+[STRS]	м+арьи
+[WORD]	алексеевны
+[DISA]	SINGLETON
+[STRS]	алекс+еевны
+[WORD]	она
+[INFO]	stress predicted
+[STRS]	он+а
+[WORD]	прожила
+[INFO]	stress predicted
+[STRS]	прожил+а
+[WORD]	недолго
+[INFO]	stress predicted
+[STRS]	нед+олго
+[SPHO]	U tJo-tU_xS-kJI ma-rJI @_o-lJIk-sJe-jI-vn@_r @_o-na pr@-Z@_r-la nJI-dol-g@
+
+[SNUM]	92
+[SENT]	Эта постоянная необычность для нас , вероятно , основана на имманентной иллюзии каузальности временной организации психического .
+[NORM]	эта постоянная необычность для нас , вероятно , основана на имманентной иллюзии каузальности временной организации психического
+[WORD]	эта
+[INFO]	stress predicted
+[STRS]	+эта
+[WORD]	постоянная
+[INFO]	stress predicted
+[STRS]	посто+янная
+[WORD]	необычность
+[INFO]	stress predicted
+[STRS]	необ+ычность
+[WORD]	для
+[INFO]	entry found in lexicon
+[STRS]	dlJ@_o
+[WORD]	нас
+[INFO]	stress predicted
+[STRS]	н+ас
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	вероятно
+[INFO]	stress predicted
+[STRS]	веро+ятно
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	основана
+[INFO]	stress predicted
+[STRS]	осн+ована
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	имманентной
+[INFO]	stress predicted
+[STRS]	имман+ентной
+[WORD]	иллюзии
+[INFO]	stress predicted
+[STRS]	илл+юзии
+[WORD]	каузальности
+[INFO]	stress predicted
+[STRS]	кауз+альности
+[WORD]	временной
+[DISA]	LEX1
+[STRS]	вр+еменной
+[WORD]	организации
+[INFO]	stress predicted
+[STRS]	организ+ации
+[WORD]	психического
+[INFO]	stress predicted
+[STRS]	псих+ического
+[SPHO]	e-t@ p@-st@_o-ja-n_n@-j@ nJI-@_o-bi_xt_SJ-n@zJdJ dlJ@_o nas SIL vJI-r@_o-jat-n@ SIL @_o-sno-v@-n@ n@_o Im-m@_o-nJent-n@_o_i I-l_lJu-zJI-I k@-U-zalJ-n@-sJtJI vrJe-mJI-n_n@_o_i @_or-g@-nJI-za-t_s@-I psJI-xJi-t_SJI-sk@-g@
+
+[SNUM]	93
+[SENT]	Сыр , масло , кожа , мед , лес и - долой фабрики !
+[YOWR]	мёд
+[NORM]	сыр , масло , кожа , мёд , лес и , долой фабрики
+[WORD]	сыр
+[INFO]	stress predicted
+[STRS]	с+ыр
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	масло
+[INFO]	stress predicted
+[STRS]	м+асло
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	кожа
+[INFO]	stress predicted
+[STRS]	к+ожа
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	мёд
+[INFO]	stress predicted
+[STRS]	мёд
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	лес
+[INFO]	stress predicted
+[STRS]	л+ес
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	долой
+[INFO]	stress predicted
+[STRS]	дол+ой
+[WORD]	фабрики
+[INFO]	stress predicted
+[STRS]	ф+абрики
+[SPHO]	si_xr SIL ma-sl@ SIL ko-Z@ SIL mJod SIL lJes I SIL d@_o-lo_i fa-brJI-kJI
+
+[SNUM]	94
+[SENT]	Одно время , например , уговаривали Л .
+[NORM]	одно время , например , уговаривали л
+[WORD]	одно
+[INFO]	entry found in lexicon
+[STRS]	одн+о
+[WORD]	время
+[INFO]	stress predicted
+[STRS]	вр+емя
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	например
+[INFO]	stress predicted
+[STRS]	наприм+ер
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	уговаривали
+[INFO]	stress predicted
+[STRS]	угов+аривали
+[WORD]	л
+[DISA]	SINGLETON
+[STRS]	+эл
+[SPHO]	@_od-no vrJe-mJ@ SIL n@-prJI-mJer SIL U_x-g@_o-va-rJI-v@-lJI el
+
+[SNUM]	95
+[SENT]	Стоя у подножия маяка , надо высоко задирать голову , чтобы увидеть его вершину , и только тогда постигаешь все величие сооружения .
+[NORM]	стоя у подножия маяка , надо высоко задирать голову , чтобы увидеть его вершину , и только тогда постигаешь все величие сооружения
+[WORD]	стоя
+[INFO]	entry found in lexicon
+[STRS]	ст+оя
+[WORD]	у
+[INFO]	entry found in lexicon
+[STRS]	U
+[WORD]	подножия
+[INFO]	stress predicted
+[STRS]	подн+ожия
+[WORD]	маяка
+[INFO]	stress predicted
+[STRS]	маяк+а
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	надо
+[INFO]	stress predicted
+[STRS]	н+адо
+[WORD]	высоко
+[DISA]	FREQ
+[STRS]	высок+о
+[WORD]	задирать
+[INFO]	stress predicted
+[STRS]	задир+ать
+[WORD]	голову
+[DISA]	SINGLETON
+[STRS]	г+олову
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	чтобы
+[DISA]	FREQ
+[STRS]	шт+обы
+[WORD]	увидеть
+[INFO]	stress predicted
+[STRS]	ув+идеть
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	вершину
+[INFO]	stress predicted
+[STRS]	верш+ину
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	только
+[INFO]	stress predicted
+[STRS]	т+олько
+[WORD]	тогда
+[INFO]	stress predicted
+[STRS]	тогд+а
+[WORD]	постигаешь
+[INFO]	stress predicted
+[STRS]	постиг+аешь
+[WORD]	все
+[INFO]	entry found in lexicon
+[STRS]	вс+е
+[WORD]	величие
+[INFO]	stress predicted
+[STRS]	вел+ичие
+[WORD]	сооружения
+[INFO]	stress predicted
+[STRS]	сооруж+ения
+[SPHO]	sto-j@ U p@_od-no-Z@_r-j@ m@-jI-ka SIL na-d@ v@_r-s@_o-ko z@-dJI-radJ go-l@-vU_x SIL Sto-b@_r U-vJi-dJItJ jI-vo vJIr-Si_x-nU_x SIL I tolJ-k@ t@_og-da p@-sJtJI-ga-jIS fsJe vJI-lJi-t_SJI-jI s@-@_o-rU-Ze-nJI-j@
+
+[SNUM]	96
+[SENT]	Больше ничего не говорит , говорит только , что там очень плохо .
+[NORM]	больше ничего не говорит , говорит только , что там очень плохо
+[WORD]	больше
+[INFO]	stress predicted
+[STRS]	б+ольше
+[WORD]	ничего
+[INFO]	entry found in lexicon
+[STRS]	ничег+о
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	говорит
+[INFO]	stress predicted
+[STRS]	говор+ит
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	говорит
+[INFO]	stress predicted
+[STRS]	говор+ит
+[WORD]	только
+[INFO]	stress predicted
+[STRS]	т+олько
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	там
+[INFO]	entry found in lexicon
+[STRS]	т+ам
+[WORD]	очень
+[INFO]	stress predicted
+[STRS]	+очень
+[WORD]	плохо
+[INFO]	stress predicted
+[STRS]	пл+охо
+[SPHO]	bolJ-S@_r nJI-t_SJI-go nJI g@-v@_o-rJit SIL g@-v@_o-rJit tolJ-k@ SIL Sto tam o-t_SJInJ plo-x@
+
+[SNUM]	97
+[SENT]	Так же как в начале прошлого века конные скачки , а в начале позапрошлого - стрельба из лука .
+[NORM]	так же как в начале прошлого века конные скачки , а в начале позапрошлого , стрельба из лука
+[WORD]	так
+[INFO]	stress predicted
+[STRS]	т+ак
+[WORD]	же
+[DISA]	SINGLETON
+[STRS]	ж+е
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	начале
+[INFO]	stress predicted
+[STRS]	нач+але
+[WORD]	прошлого
+[INFO]	stress predicted
+[STRS]	пр+ошлого
+[WORD]	века
+[DISA]	LEX1
+[STRS]	в+ека
+[WORD]	конные
+[INFO]	stress predicted
+[STRS]	к+онные
+[WORD]	скачки
+[DISA]	LEX1
+[STRS]	ск+ачки
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	начале
+[INFO]	stress predicted
+[STRS]	нач+але
+[WORD]	позапрошлого
+[INFO]	stress predicted
+[STRS]	позапр+ошлого
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	стрельба
+[INFO]	stress predicted
+[STRS]	стрельб+а
+[WORD]	из
+[INFO]	entry found in lexicon
+[STRS]	IzWUD
+[WORD]	лука
+[DISA]	LEX1
+[STRS]	л+ука
+[SPHO]	tag Ze kak v n@_o-t_SJa-lJI pro-Sl@-g@ vJe-k@ ko-n_n@_r-jI skat_SJ-kJI SIL @_o v n@_o-t_SJa-lJI p@-z@_o-pro-Sl@-g@ SIL strJIlJ-ba Iz lu-k@
+
+[SNUM]	98
+[SENT]	Афонской горы .
+[NORM]	афонской горы
+[WORD]	афонской
+[INFO]	stress predicted
+[STRS]	аф+онской
+[WORD]	горы
+[DISA]	FREQ
+[STRS]	гор+ы
+[SPHO]	@_o-fon-sk@_o_i g@_o-ri_x
+
+[SNUM]	99
+[SENT]	Как не знать Андрея Михайлыча !
+[NORM]	как не знать андрея михайлыча
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	знать
+[INFO]	stress predicted
+[STRS]	зн+ать
+[WORD]	андрея
+[INFO]	stress predicted
+[STRS]	андр+ея
+[WORD]	михайлыча
+[INFO]	stress predicted
+[STRS]	михайл+ыча
+[SPHO]	kak nJI znatJ @_on-drJe-j@ mJI-x@_o_i-li_x-t_SJ@
+
+[SNUM]	100
+[SENT]	Степан Тимохин .
+[NORM]	степан тимохин
+[WORD]	степан
+[INFO]	stress predicted
+[STRS]	степан
+[WORD]	тимохин
+[INFO]	stress predicted
+[STRS]	тимох+ин
+[SPHO]	sJtJI-p@n tJI-m@_o-xJin
+
+[SNUM]	101
+[SENT]	Последнее мое свидание с Гоголем было в Петербурге , когда он останавливался в Зимнем дворце , у Жуковского .
+[YOWR]	моё
+[NORM]	последнее моё свидание с гоголем было в петербурге , когда он останавливался в зимнем дворце , у жуковского
+[WORD]	последнее
+[INFO]	stress predicted
+[STRS]	посл+еднее
+[WORD]	моё
+[INFO]	stress predicted
+[STRS]	моё
+[WORD]	свидание
+[INFO]	stress predicted
+[STRS]	свид+ание
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	гоголем
+[INFO]	stress predicted
+[STRS]	г+оголем
+[WORD]	было
+[DISA]	FREQ
+[STRS]	б+ыло
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	петербурге
+[INFO]	stress predicted
+[STRS]	петерб+урге
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	когда
+[INFO]	stress predicted
+[STRS]	когд+а
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	останавливался
+[INFO]	stress predicted
+[STRS]	остан+авливался
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	зимнем
+[INFO]	stress predicted
+[STRS]	з+имнем
+[WORD]	дворце
+[INFO]	stress predicted
+[STRS]	дворц+е
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	у
+[INFO]	entry found in lexicon
+[STRS]	U
+[WORD]	жуковского
+[INFO]	stress predicted
+[STRS]	жук+овского
+[SPHO]	p@_o-slJedJ-nJI-jI m@-jo svJI-da-nJI-jI z go-g@-lJIm bi_x-l@ f pJI-tJIr-bur-gJI SIL k@_og-da on @_o-st@_o-na-vlJI-v@l-sJ@ v zJim-nJIm dv@_or-t_se SIL U ZU-ko-fsk@-g@
+
+[SNUM]	102
+[SENT]	Мы уже узнали, что он собирался прочесть нам новое свое произведение , но приступить к делу было не легко .
+[YOWR]	своё
+[NORM]	мы уже узнали , что он собирался прочесть нам новое своё произведение , но приступить к делу было не легко
+[WORD]	мы
+[INFO]	stress predicted
+[STRS]	м+ы
+[WORD]	уже
+[DISA]	LEX1
+[STRS]	уж+е
+[WORD]	узнали
+[INFO]	stress predicted
+[STRS]	узн+али
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	собирался
+[INFO]	stress predicted
+[STRS]	собир+ался
+[WORD]	прочесть
+[INFO]	stress predicted
+[STRS]	проч+есть
+[WORD]	нам
+[INFO]	entry found in lexicon
+[STRS]	н+ам
+[WORD]	новое
+[INFO]	entry found in lexicon
+[STRS]	н+овое
+[WORD]	своё
+[INFO]	stress predicted
+[STRS]	своё
+[WORD]	произведение
+[INFO]	stress predicted
+[STRS]	произвед+ение
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	но
+[INFO]	stress predicted
+[STRS]	н+о
+[WORD]	приступить
+[INFO]	stress predicted
+[STRS]	приступ+ить
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	делу
+[INFO]	stress predicted
+[STRS]	д+елу
+[WORD]	было
+[DISA]	FREQ
+[STRS]	б+ыло
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	легко
+[INFO]	stress predicted
+[STRS]	легк+о
+[SPHO]	mi_x U-Ze U-zna-lJI SIL Sto on s@-bJI-ral-sJ@ pr@_o-t_SJesJtJ nam no-v@-jI sv@-jo pr@-Iz-vJI-dJe-nJI-jI SIL no prJI-stU-pJitJ g dJe-lU_x bi_x-l@ nJI lJIx-ko
+
+[SNUM]	103
+[SENT]	Гоголь как ни в чем не бывало ходил по комнате , добродушно подсмеивался над некоторыми общими знакомыми , а о чтении и помину не было .
+[NORM]	гоголь как ни в чем не бывало ходил по комнате , добродушно подсмеивался над некоторыми общими знакомыми , а о чтении и помину не было
+[WORD]	гоголь
+[INFO]	stress predicted
+[STRS]	г+оголь
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	ни
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	чем
+[INFO]	entry found in lexicon
+[STRS]	ч+ем
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	бывало
+[INFO]	stress predicted
+[STRS]	быв+ало
+[WORD]	ходил
+[INFO]	stress predicted
+[STRS]	ход+ил
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	комнате
+[INFO]	stress predicted
+[STRS]	к+омнате
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	добродушно
+[INFO]	stress predicted
+[STRS]	доброд+ушно
+[WORD]	подсмеивался
+[INFO]	stress predicted
+[STRS]	подсм+еивался
+[WORD]	над
+[INFO]	entry found in lexicon
+[STRS]	n@_odWUD
+[WORD]	некоторыми
+[INFO]	stress predicted
+[STRS]	н+екоторыми
+[WORD]	общими
+[INFO]	stress predicted
+[STRS]	+общими
+[WORD]	знакомыми
+[INFO]	stress predicted
+[STRS]	знак+омыми
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	о
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	чтении
+[INFO]	stress predicted
+[STRS]	чт+ении
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	помину
+[INFO]	stress predicted
+[STRS]	пом+ину
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	было
+[DISA]	FREQ
+[STRS]	б+ыло
+[SPHO]	go-g@lJ kak nJI f t_SJem nJI b@_r-va-l@ x@_o-dJil p@_o kom-n@-tJI SIL d@-br@_o-duS-n@ p@_ot-smJe-I-v@l-sJ@ n@_odJ nJe-k@-t@-r@_r-mJI op-SJI-mJI zn@_o-ko-m@_r-mJI SIL @_o @_o t_SJtJe-nJI-I I p@_o-mJi-nU_x nJI bi_x-l@
+
+[SNUM]	104
+[SENT]	Даже раз он намекнул , что можно отложить заседание .
+[NORM]	даже раз он намекнул , что можно отложить заседание
+[WORD]	даже
+[INFO]	stress predicted
+[STRS]	д+аже
+[WORD]	раз
+[INFO]	stress predicted
+[STRS]	р+аз
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	намекнул
+[INFO]	stress predicted
+[STRS]	намекн+ул
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	можно
+[INFO]	stress predicted
+[STRS]	м+ожно
+[WORD]	отложить
+[INFO]	stress predicted
+[STRS]	отлож+ить
+[WORD]	заседание
+[INFO]	stress predicted
+[STRS]	засед+ание
+[SPHO]	da-Z@_r ras on n@-mJIk-nul SIL Sto moZ-n@ @_o-tl@_o-Zi_xdJ z@-sJI-da-nJI-jI
+
+[SNUM]	105
+[SENT]	Он подошел к Гоголю сзади, ощупал карманы его фрака, вытащил оттуда тетрадь почтовой бумаги в осьмушку .
+[YOWR]	подошёл
+[NORM]	он подошёл к гоголю сзади , ощупал карманы его фрака , вытащил оттуда тетрадь почтовой бумаги в осьмушку
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	подошёл
+[INFO]	stress predicted
+[STRS]	подошёл
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	гоголю
+[INFO]	stress predicted
+[STRS]	г+оголю
+[WORD]	сзади
+[INFO]	stress predicted
+[STRS]	сз+ади
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	ощупал
+[INFO]	stress predicted
+[STRS]	ощ+упал
+[WORD]	карманы
+[INFO]	stress predicted
+[STRS]	карм+аны
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	фрака
+[INFO]	stress predicted
+[STRS]	фр+ака
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	вытащил
+[INFO]	stress predicted
+[STRS]	в+ытащил
+[WORD]	оттуда
+[INFO]	stress predicted
+[STRS]	отт+уда
+[WORD]	тетрадь
+[INFO]	stress predicted
+[STRS]	тетр+адь
+[WORD]	почтовой
+[INFO]	stress predicted
+[STRS]	почт+овой
+[WORD]	бумаги
+[INFO]	stress predicted
+[STRS]	бум+аги
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	осьмушку
+[INFO]	stress predicted
+[STRS]	осьм+ушку
+[SPHO]	on p@-d@-Sol g go-g@-lJU_x zza-dJI SIL @_o-SJu-p@l k@_or-ma-n@_r jI-vo fra-k@ SIL vi_x-t@-SJIl @_o-t_tu-d@ tJI-tratJ p@_ot_SJ-to-v@_o_i bU-ma-gJI v @_o-sJmuS-kU_x
+
+[SNUM]	106
+[SENT]	Гоголь сердито выхватил тетрадку , сел мрачно на диван и тотчас же начал читать при всеобщем молчании .
+[NORM]	гоголь сердито выхватил тетрадку , сел мрачно на диван и тотчас же начал читать при всеобщем молчании
+[WORD]	гоголь
+[INFO]	stress predicted
+[STRS]	г+оголь
+[WORD]	сердито
+[INFO]	stress predicted
+[STRS]	серд+ито
+[WORD]	выхватил
+[INFO]	stress predicted
+[STRS]	в+ыхватил
+[WORD]	тетрадку
+[INFO]	stress predicted
+[STRS]	тетр+адку
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	сел
+[INFO]	stress predicted
+[STRS]	с+ел
+[WORD]	мрачно
+[INFO]	stress predicted
+[STRS]	мр+ачно
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	диван
+[INFO]	stress predicted
+[STRS]	див+ан
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	тотчас
+[DISA]	SINGLETON
+[STRS]	т+отч+ас
+[WORD]	же
+[DISA]	SINGLETON
+[STRS]	ж+е
+[WORD]	начал
+[DISA]	FREQ
+[STRS]	нач+ал
+[WORD]	читать
+[INFO]	stress predicted
+[STRS]	чит+ать
+[WORD]	при
+[INFO]	entry found in lexicon
+[STRS]	prJI
+[WORD]	всеобщем
+[INFO]	stress predicted
+[STRS]	все+общем
+[WORD]	молчании
+[INFO]	stress predicted
+[STRS]	молч+ании
+[SPHO]	go-g@lJ sJIr-dJi-t@ vi_xx-v@-tJIl tJI-trat-kU_x SIL sJel mrat_SJ-n@ n@_o dJI-van I totJ-t_SJaz Ze n@_o-t_SJal t_SJI-tatJ prJI fsJI-op-SJIm m@_ol-t_SJa-nJI-I
+
+[SNUM]	107
+[SENT]	Он читал без перерыва до тех пор , пока истощился весь его голос и зарябило в глазах .
+[NORM]	он читал без перерыва до тех пор , пока истощился весь его голос и зарябило в глазах
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	читал
+[INFO]	stress predicted
+[STRS]	чит+ал
+[WORD]	без
+[INFO]	entry found in lexicon
+[STRS]	bJIzWUD
+[WORD]	перерыва
+[INFO]	stress predicted
+[STRS]	перер+ыва
+[WORD]	до
+[INFO]	entry found in lexicon
+[STRS]	d@_o
+[WORD]	тех
+[INFO]	stress predicted
+[STRS]	т+ех
+[WORD]	пор
+[INFO]	stress predicted
+[STRS]	п+ор
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	пока
+[INFO]	stress predicted
+[STRS]	пок+а
+[WORD]	истощился
+[INFO]	stress predicted
+[STRS]	истощ+ился
+[WORD]	весь
+[INFO]	stress predicted
+[STRS]	в+есь
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	голос
+[INFO]	stress predicted
+[STRS]	г+олос
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	зарябило
+[INFO]	stress predicted
+[STRS]	заряб+ило
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	глазах
+[INFO]	stress predicted
+[STRS]	глаз+ах
+[SPHO]	on t_SJI-tal bJIs pJI-rJI-ri_x-v@ d@_o tJex por SIL p@_o-ka I-st@_o-SJil-sJ@ vJesJ jI-vo go-l@s I z@-rJI-bJi-l@ v gl@_o-zax
+
+[SNUM]	108
+[SENT]	Мы узнали таким образом первые четыре главы «Мертвых душ» .
+[YOWR]	мёртвых
+[NORM]	мы узнали таким образом первые четыре главы мёртвых душ
+[WORD]	мы
+[INFO]	stress predicted
+[STRS]	м+ы
+[WORD]	узнали
+[INFO]	stress predicted
+[STRS]	узн+али
+[WORD]	таким
+[INFO]	stress predicted
+[STRS]	так+им
+[WORD]	образом
+[INFO]	stress predicted
+[STRS]	+образом
+[WORD]	первые
+[INFO]	stress predicted
+[STRS]	п+ервые
+[WORD]	четыре
+[INFO]	stress predicted
+[STRS]	чет+ыре
+[WORD]	главы
+[DISA]	FREQ
+[STRS]	глав+ы
+[WORD]	мёртвых
+[INFO]	stress predicted
+[STRS]	мёртвых
+[WORD]	душ
+[INFO]	stress predicted
+[STRS]	д+уш
+[SPHO]	mi_x U-zna-lJI t@_o-kJim o-br@-z@m pJer-v@_r-jI t_SJI-ti_x-rJI gl@_o-vi_x mJort-v@_rx duS
+
+[SNUM]	109
+[SENT]	Общий смех мало поразил Гоголя , но изъявление нелицемерного восторга , которое видимо было на всех лицах под конец чтения , его тронуло .
+[NORM]	общий смех мало поразил гоголя , но изъявление нелицемерного восторга , которое видимо было на всех лицах под конец чтения , его тронуло
+[WORD]	общий
+[INFO]	stress predicted
+[STRS]	+общий
+[WORD]	смех
+[INFO]	stress predicted
+[STRS]	см+ех
+[WORD]	мало
+[DISA]	FREQ
+[STRS]	м+ало
+[WORD]	поразил
+[INFO]	stress predicted
+[STRS]	пораз+ил
+[WORD]	гоголя
+[INFO]	stress predicted
+[STRS]	г+оголя
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	но
+[INFO]	stress predicted
+[STRS]	н+о
+[WORD]	изъявление
+[INFO]	stress predicted
+[STRS]	изъявл+ение
+[WORD]	нелицемерного
+[INFO]	stress predicted
+[STRS]	нелицем+ерного
+[WORD]	восторга
+[INFO]	stress predicted
+[STRS]	вост+орга
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	которое
+[INFO]	stress predicted
+[STRS]	кот+орое
+[WORD]	видимо
+[INFO]	stress predicted
+[STRS]	в+идимо
+[WORD]	было
+[DISA]	FREQ
+[STRS]	б+ыло
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	всех
+[INFO]	stress predicted
+[STRS]	вс+ех
+[WORD]	лицах
+[INFO]	stress predicted
+[STRS]	л+ицах
+[WORD]	под
+[DISA]	SINGLETON
+[STRS]	п+од
+[WORD]	конец
+[INFO]	stress predicted
+[STRS]	кон+ец
+[WORD]	чтения
+[INFO]	stress predicted
+[STRS]	чт+ения
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	тронуло
+[INFO]	stress predicted
+[STRS]	тр+онуло
+[SPHO]	op-SJI_i smJex ma-l@ p@-r@_o-zJil go-g@-lJ@ SIL no Iz-jI-vlJe-nJI-jI nJI-lJI-t_sI-mJer-n@-g@ v@_o-stor-g@ SIL k@_o-to-r@-jI vJi-dJI-m@ bi_x-l@ n@_o fsJex lJi-t_s@x pot k@_o-nJet_s t_SJtJe-nJI-j@ SIL jI-vo tro-nU_x-l@
+
+[SNUM]	110
+[SENT]	Он был доволен .
+[NORM]	он был доволен
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	был
+[INFO]	stress predicted
+[STRS]	б+ыл
+[WORD]	доволен
+[INFO]	stress predicted
+[STRS]	дов+олен
+[SPHO]	on bi_xl d@_o-vo-lJIn
+
+[SNUM]	111
+[SENT]	Кто-то сказал , что приветствие Селифана босой девочке , которую он сажает на козлы вместо проводника от Коробочки , не совсем прилично.
+[NORM]	кто-то сказал , что приветствие селифана босой девочке , которую он сажает на козлы вместо проводника от коробочки , не совсем прилично
+[WORD]	кто-то
+[INFO]	stress predicted
+[STRS]	кт+о-то
+[WORD]	сказал
+[INFO]	stress predicted
+[STRS]	сказ+ал
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	приветствие
+[INFO]	stress predicted
+[STRS]	прив+етствие
+[WORD]	селифана
+[INFO]	stress predicted
+[STRS]	селиф+ана
+[WORD]	босой
+[INFO]	stress predicted
+[STRS]	бос+ой
+[WORD]	девочке
+[INFO]	stress predicted
+[STRS]	д+евочке
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	которую
+[INFO]	stress predicted
+[STRS]	кот+орую
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	сажает
+[INFO]	stress predicted
+[STRS]	саж+ает
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	козлы
+[DISA]	LEX1
+[STRS]	козл+ы
+[WORD]	вместо
+[INFO]	stress predicted
+[STRS]	вм+есто
+[WORD]	проводника
+[INFO]	stress predicted
+[STRS]	проводник+а
+[WORD]	от
+[INFO]	entry found in lexicon
+[STRS]	@_ot
+[WORD]	коробочки
+[INFO]	stress predicted
+[STRS]	кор+обочки
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	совсем
+[INFO]	stress predicted
+[STRS]	совс+ем
+[WORD]	прилично
+[INFO]	stress predicted
+[STRS]	прил+ично
+[SPHO]	kto-t@ sk@_o-zal SIL Sto prJI-vJet-stvJI-jI sJI-lJI-fa-n@ b@_o-so_i dJe-v@t_SJ-kJI SIL k@_o-to-rU_x-jU_x on s@_o-Za-jIt n@_o k@_o-zli_x vmJe-st@ pr@-v@dJ-nJI-ka @_ot k@_o-ro-b@t_SJ-kJI SIL nJI s@_of-sJem prJI-lJit_SJ-n@
+
+[SNUM]	112
+[SENT]	Все остальные слушатели восстали против этого замечания .
+[NORM]	все остальные слушатели восстали против этого замечания
+[WORD]	все
+[INFO]	entry found in lexicon
+[STRS]	вс+е
+[WORD]	остальные
+[INFO]	stress predicted
+[STRS]	остальн+ые
+[WORD]	слушатели
+[INFO]	stress predicted
+[STRS]	сл+ушатели
+[WORD]	восстали
+[INFO]	stress predicted
+[STRS]	восст+али
+[WORD]	против
+[INFO]	stress predicted
+[STRS]	пр+отив
+[WORD]	этого
+[INFO]	entry found in lexicon
+[STRS]	+этово
+[WORD]	замечания
+[INFO]	stress predicted
+[STRS]	замеч+ания
+[SPHO]	fsJe @_o-st@_olJ-ni_x-jI slu-S@-tJI-lJI v@_o-s_sta-lJI pro-tJIf e-t@-v@ z@-mJI-t_SJa-nJI-j@
+
+[SNUM]	113
+[SENT]	После чтения он закутался , по обыкновению , в шубу до самого лба , сел со мной на извозчика , и мы молча доехали до Зимнего дворца , где я его ссадил .
+[NORM]	после чтения он закутался , по обыкновению , в шубу до самого лба , сел со мной на извозчика , и мы молча доехали до зимнего дворца , где я его ссадил
+[WORD]	после
+[DISA]	SINGLETON
+[STRS]	п+осле
+[WORD]	чтения
+[INFO]	stress predicted
+[STRS]	чт+ения
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	закутался
+[INFO]	stress predicted
+[STRS]	зак+утался
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	обыкновению
+[INFO]	stress predicted
+[STRS]	обыкнов+ению
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	шубу
+[INFO]	stress predicted
+[STRS]	ш+убу
+[WORD]	до
+[INFO]	entry found in lexicon
+[STRS]	d@_o
+[WORD]	самого
+[DISA]	LEX1
+[STRS]	с+амово
+[WORD]	лба
+[INFO]	stress predicted
+[STRS]	лб+а
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	сел
+[INFO]	stress predicted
+[STRS]	с+ел
+[WORD]	со
+[INFO]	entry found in lexicon
+[STRS]	s@_o
+[WORD]	мной
+[INFO]	stress predicted
+[STRS]	мн+ой
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	извозчика
+[INFO]	stress predicted
+[STRS]	изв+озчика
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	мы
+[INFO]	stress predicted
+[STRS]	м+ы
+[WORD]	молча
+[INFO]	entry found in lexicon
+[STRS]	м+олча
+[WORD]	доехали
+[INFO]	stress predicted
+[STRS]	до+ехали
+[WORD]	до
+[INFO]	entry found in lexicon
+[STRS]	d@_o
+[WORD]	зимнего
+[INFO]	stress predicted
+[STRS]	з+имнего
+[WORD]	дворца
+[INFO]	stress predicted
+[STRS]	дворц+а
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	где
+[INFO]	stress predicted
+[STRS]	гд+е
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	ссадил
+[INFO]	stress predicted
+[STRS]	ссад+ил
+[SPHO]	po-slJI t_SJtJe-nJI-j@ on z@_o-ku-t@l-sJ@ SIL p@_o @_o-b@_rk-n@_o-vJe-nJI-jU_x SIL f Su-bU_x d@_o sa-m@-v@ lba SIL sJel s@_o mno_i n@_o Iz-voSJ-t_SJI-k@ SIL I mi_x mol-t_SJ@ d@_o-je-x@-lJI d@_o zJim-nJI-g@ dv@_or-t_sa SIL gdJe ja jI-vo s_s@_o-dJil
+
+[SNUM]	114
+[SENT]	Вскоре потом он опять исчез из Петербурга .
+[NORM]	вскоре потом он опять исчез из петербурга
+[WORD]	вскоре
+[INFO]	stress predicted
+[STRS]	вск+оре
+[WORD]	потом
+[DISA]	FREQ
+[STRS]	пот+ом
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	опять
+[INFO]	stress predicted
+[STRS]	оп+ять
+[WORD]	исчез
+[INFO]	stress predicted
+[STRS]	исч+ез
+[WORD]	из
+[INFO]	entry found in lexicon
+[STRS]	IzWUD
+[WORD]	петербурга
+[INFO]	stress predicted
+[STRS]	петерб+урга
+[SPHO]	fsko-rJI p@_o-tom on @_o-pJatJ ISJ-t_SJes Is pJI-tJIr-bur-g@
+
+[SNUM]	115
+[SENT]	Гоголь обрадовался нашей новой встрече, расспрашивал, каким путем прибыл я в Италию .
+[YOWR]	путём
+[NORM]	гоголь обрадовался нашей новой встрече , расспрашивал , каким путём прибыл я в италию
+[WORD]	гоголь
+[INFO]	stress predicted
+[STRS]	г+оголь
+[WORD]	обрадовался
+[INFO]	stress predicted
+[STRS]	обр+адовался
+[WORD]	нашей
+[DISA]	FREQ
+[STRS]	н+ашей
+[WORD]	новой
+[INFO]	entry found in lexicon
+[STRS]	н+овой
+[WORD]	встрече
+[INFO]	stress predicted
+[STRS]	встр+ече
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	расспрашивал
+[INFO]	entry found in lexicon
+[STRS]	распр+ашивал
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	каким
+[INFO]	stress predicted
+[STRS]	как+им
+[WORD]	путём
+[INFO]	stress predicted
+[STRS]	путём
+[WORD]	прибыл
+[INFO]	stress predicted
+[STRS]	пр+ибыл
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	италию
+[INFO]	stress predicted
+[STRS]	ит+алию
+[SPHO]	go-g@lJ @_o-bra-d@-v@l-sJ@ na-S@_i no-v@_o_i fstrJe-t_SJI SIL r@_o-spra-S@_r-v@l SIL k@_o-kJim pU_x-tJom prJi-b@_rl ja v @_r-ta-lJI-jU_x
+
+[SNUM]	116
+[SENT]	Ему казалось , что после Италии Париж становится сух и безжизнен , а значение Италии бросается само собой в глаза после парижской жизни и парижских интересов .
+[NORM]	ему казалось , что после италии париж становится сух и безжизнен , а значение италии бросается само собой в глаза после парижской жизни и парижских интересов
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	казалось
+[INFO]	stress predicted
+[STRS]	каз+алось
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	после
+[DISA]	SINGLETON
+[STRS]	п+осле
+[WORD]	италии
+[INFO]	stress predicted
+[STRS]	ит+алии
+[WORD]	париж
+[INFO]	stress predicted
+[STRS]	пар+иж
+[WORD]	становится
+[INFO]	stress predicted
+[STRS]	стан+овится
+[WORD]	сух
+[INFO]	stress predicted
+[STRS]	с+ух
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	безжизнен
+[INFO]	stress predicted
+[STRS]	безж+изнен
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	значение
+[INFO]	stress predicted
+[STRS]	знач+ение
+[WORD]	италии
+[INFO]	stress predicted
+[STRS]	ит+алии
+[WORD]	бросается
+[INFO]	stress predicted
+[STRS]	брос+ается
+[WORD]	само
+[INFO]	stress predicted
+[STRS]	сам+о
+[WORD]	собой
+[INFO]	stress predicted
+[STRS]	соб+ой
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	глаза
+[DISA]	FREQ
+[STRS]	гл+аза
+[WORD]	после
+[DISA]	SINGLETON
+[STRS]	п+осле
+[WORD]	парижской
+[INFO]	stress predicted
+[STRS]	пар+ижской
+[WORD]	жизни
+[INFO]	stress predicted
+[STRS]	ж+изни
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	парижских
+[INFO]	stress predicted
+[STRS]	пар+ижских
+[WORD]	интересов
+[INFO]	stress predicted
+[STRS]	интер+есов
+[SPHO]	jI-mu k@_o-za-l@sJ SIL Sto po-slJI I-ta-lJI-I p@_o-rJiS st@_o-no-vJItJ-sJ@ sux I bJIZ-Zi_x-zJnJIn SIL @_o zn@_o-t_SJe-nJI-jI I-ta-lJI-I br@_o-sa-jItJ-sJ@ s@_o-mo s@_o-bo_i v gla-z@ po-slJI p@_o-rJiS-sk@_o_i Zi_x-zJnJI I p@_o-rJiS-skJIx @_rnJ-tJI-rJe-s@v
+
+[SNUM]	117
+[SENT]	Впоследствии он часто развивал эту мысль .
+[NORM]	впоследствии он часто развивал эту мысль
+[WORD]	впоследствии
+[INFO]	stress predicted
+[STRS]	впосл+едствии
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	часто
+[INFO]	stress predicted
+[STRS]	ч+асто
+[WORD]	развивал
+[INFO]	stress predicted
+[STRS]	развив+ал
+[WORD]	эту
+[INFO]	stress predicted
+[STRS]	+эту
+[WORD]	мысль
+[INFO]	stress predicted
+[STRS]	м+ысль
+[SPHO]	fp@_o-slJet-stvJI-I on t_SJa-st@ r@z-vJI-val e-tU_x mi_xslJ
+
+[SNUM]	118
+[SENT]	Между тем время было обеденное .
+[NORM]	между тем время было обеденное
+[WORD]	между
+[INFO]	stress predicted
+[STRS]	м+ежду
+[WORD]	тем
+[INFO]	stress predicted
+[STRS]	т+ем
+[WORD]	время
+[INFO]	stress predicted
+[STRS]	вр+емя
+[WORD]	было
+[DISA]	FREQ
+[STRS]	б+ыло
+[WORD]	обеденное
+[INFO]	stress predicted
+[STRS]	об+еденное
+[SPHO]	mJeZ-dU_x tJem vrJe-mJ@ bi_x-l@ @_o-bJe-dJI-n_n@-jI
+
+[SNUM]	119
+[SENT]	Он повел меня в известную историческую австерию , где за длинными столами , шагая по грязному полу и усаживаясь просто на скамейках , стекается к обеденному часу разнообразнейшая публика .
+[YOWR]	повёл
+[NORM]	он повёл меня в известную историческую австерию , где за длинными столами , шагая по грязному полу и усаживаясь просто на скамейках , стекается к обеденному часу разнообразнейшая публика
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	повёл
+[INFO]	stress predicted
+[STRS]	повёл
+[WORD]	меня
+[INFO]	stress predicted
+[STRS]	мен+я
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	известную
+[INFO]	stress predicted
+[STRS]	изв+естную
+[WORD]	историческую
+[INFO]	stress predicted
+[STRS]	истор+ическую
+[WORD]	австерию
+[INFO]	stress predicted
+[STRS]	авст+ерию
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	где
+[INFO]	stress predicted
+[STRS]	гд+е
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	длинными
+[INFO]	stress predicted
+[STRS]	дл+инными
+[WORD]	столами
+[INFO]	stress predicted
+[STRS]	стол+ами
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	шагая
+[INFO]	stress predicted
+[STRS]	шаг+ая
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	грязному
+[INFO]	stress predicted
+[STRS]	гр+язному
+[WORD]	полу
+[DISA]	LEX1
+[STRS]	п+олу
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	усаживаясь
+[INFO]	stress predicted
+[STRS]	ус+аживаясь
+[WORD]	просто
+[INFO]	stress predicted
+[STRS]	пр+осто
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	скамейках
+[INFO]	stress predicted
+[STRS]	скам+ейках
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	стекается
+[INFO]	stress predicted
+[STRS]	стек+ается
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	обеденному
+[INFO]	stress predicted
+[STRS]	об+еденному
+[WORD]	часу
+[DISA]	FREQ
+[STRS]	ч+асу
+[WORD]	разнообразнейшая
+[INFO]	stress predicted
+[STRS]	разнообр+азнейшая
+[WORD]	публика
+[INFO]	stress predicted
+[STRS]	п+ублика
+[SPHO]	on p@-vJol mJI-nJa v @_rz-vJe-snU_x-jU_x I-st@_o-rJi-t_SJI-skU_x-jU_x @_o-fsJtJe-rJI-jU_x SIL gdJe z@_o dlJi-n_n@_r-mJI st@_o-la-mJI SIL S@_o-ga-j@ p@_o grJa-zn@-mU_x po-lU_x I U-sa-Z@_r-v@-j@sJ pro-st@ n@_o sk@_o-mJe_i-k@x SIL sJtJI-ka-jItJ-sJ@ k @_o-bJe-dJI-n_n@-mU_x t_SJa-sU_x r@-zn@-@_o-bra-zJnJI_i-S@-j@ pu-blJI-k@
+
+[SNUM]	120
+[SENT]	Это все тот же рис , барашек , курица - меняется только зелень по временам года .
+[NORM]	это все тот же рис , барашек , курица , меняется только зелень по временам года
+[WORD]	это
+[INFO]	stress predicted
+[STRS]	+это
+[WORD]	все
+[INFO]	entry found in lexicon
+[STRS]	вс+е
+[WORD]	тот
+[INFO]	stress predicted
+[STRS]	т+от
+[WORD]	же
+[DISA]	SINGLETON
+[STRS]	ж+е
+[WORD]	рис
+[INFO]	stress predicted
+[STRS]	р+ис
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	барашек
+[INFO]	stress predicted
+[STRS]	бар+ашек
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	курица
+[INFO]	stress predicted
+[STRS]	к+урица
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	меняется
+[INFO]	stress predicted
+[STRS]	мен+яется
+[WORD]	только
+[INFO]	stress predicted
+[STRS]	т+олько
+[WORD]	зелень
+[INFO]	stress predicted
+[STRS]	з+елень
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	временам
+[INFO]	stress predicted
+[STRS]	времен+ам
+[WORD]	года
+[DISA]	FREQ
+[STRS]	г+ода
+[SPHO]	e-t@ fsJe tod Ze rJis SIL b@_o-ra-S@_rk SIL ku-rJI-t_s@ SIL mJI-nJa-jItJ-sJ@ tolJ-k@ zJe-lJInJ p@_o vrJI-mJI-nam go-d@
+
+[SNUM]	121
+[SENT]	Простота, общежительность итальянская всего более кидаются тут в глаза , заставляя предчувствовать себя и во всех других сферах жизни .
+[NORM]	простота , общежительность итальянская всего более кидаются тут в глаза , заставляя предчувствовать себя и во всех других сферах жизни
+[WORD]	простота
+[INFO]	stress predicted
+[STRS]	простот+а
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	общежительность
+[INFO]	stress predicted
+[STRS]	общеж+ительность
+[WORD]	итальянская
+[INFO]	stress predicted
+[STRS]	италь+янская
+[WORD]	всего
+[INFO]	entry found in lexicon
+[STRS]	всев+о
+[WORD]	более
+[INFO]	stress predicted
+[STRS]	б+олее
+[WORD]	кидаются
+[INFO]	stress predicted
+[STRS]	кид+аются
+[WORD]	тут
+[INFO]	stress predicted
+[STRS]	т+ут
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	глаза
+[DISA]	FREQ
+[STRS]	гл+аза
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	заставляя
+[INFO]	stress predicted
+[STRS]	заставл+яя
+[WORD]	предчувствовать
+[INFO]	stress predicted
+[STRS]	предч+увствовать
+[WORD]	себя
+[INFO]	stress predicted
+[STRS]	себ+я
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	во
+[INFO]	entry found in lexicon
+[STRS]	v@_o
+[WORD]	всех
+[INFO]	stress predicted
+[STRS]	вс+ех
+[WORD]	других
+[INFO]	stress predicted
+[STRS]	друг+их
+[WORD]	сферах
+[INFO]	stress predicted
+[STRS]	сф+ерах
+[WORD]	жизни
+[INFO]	stress predicted
+[STRS]	ж+изни
+[SPHO]	pr@-st@_o-ta SIL @_op-SJI-Zi_x-tJIlJ-n@sJtJ I-t@_olJ-jan-sk@-j@ fsJI-vo bo-lJI-jI kJI-da-jU_xtJ-sJ@ tut v gla-z@ SIL z@-st@_o-vlJa-j@ prJItJ-t_SJust-v@-v@tJ sJI-bJa I v@_o fsJex drU-gJix sfJe-r@x Zi_x-zJnJI
+
+[SNUM]	122
+[SENT]	Гоголь поразил меня , однако, капризным , взыскательным обращением своим с прислужником .
+[NORM]	гоголь поразил меня , однако , капризным , взыскательным обращением своим с прислужником
+[WORD]	гоголь
+[INFO]	stress predicted
+[STRS]	г+оголь
+[WORD]	поразил
+[INFO]	stress predicted
+[STRS]	пораз+ил
+[WORD]	меня
+[INFO]	stress predicted
+[STRS]	мен+я
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	однако
+[INFO]	stress predicted
+[STRS]	одн+ако
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	капризным
+[INFO]	stress predicted
+[STRS]	капр+изным
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	взыскательным
+[INFO]	stress predicted
+[STRS]	взыск+ательным
+[WORD]	обращением
+[INFO]	stress predicted
+[STRS]	обращ+ением
+[WORD]	своим
+[INFO]	stress predicted
+[STRS]	сво+им
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	прислужником
+[INFO]	stress predicted
+[STRS]	присл+ужником
+[SPHO]	go-g@lJ p@-r@_o-zJil mJI-nJa SIL @_od-na-k@ SIL k@_o-prJi-zn@_rm SIL vz@_r-ska-tJIlJ-n@_rm @_o-br@_o-SJe-nJI-jIm sv@_o-im s prJI-sluZ-nJI-k@m
+
+[SNUM]	123
+[SENT]	Раза два менял он блюдо риса , находя его то переваренным , то недоваренным , и всякий раз прислужник переменял блюдо с добродушной улыбкой .
+[NORM]	раза два менял он блюдо риса , находя его то переваренным , то недоваренным , и всякий раз прислужник переменял блюдо с добродушной улыбкой
+[WORD]	раза
+[INFO]	stress predicted
+[STRS]	р+аза
+[WORD]	два
+[INFO]	stress predicted
+[STRS]	дв+а
+[WORD]	менял
+[INFO]	stress predicted
+[STRS]	мен+ял
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	блюдо
+[INFO]	stress predicted
+[STRS]	бл+юдо
+[WORD]	риса
+[INFO]	entry found in lexicon
+[STRS]	р+иса
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	находя
+[INFO]	stress predicted
+[STRS]	наход+я
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	то
+[DISA]	FREQ
+[STRS]	т+о
+[WORD]	переваренным
+[INFO]	stress predicted
+[STRS]	перев+аренным
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	то
+[DISA]	FREQ
+[STRS]	т+о
+[WORD]	недоваренным
+[INFO]	stress predicted
+[STRS]	недов+аренным
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	всякий
+[INFO]	stress predicted
+[STRS]	вс+який
+[WORD]	раз
+[INFO]	stress predicted
+[STRS]	р+аз
+[WORD]	прислужник
+[INFO]	stress predicted
+[STRS]	присл+ужник
+[WORD]	переменял
+[INFO]	stress predicted
+[STRS]	перемен+ял
+[WORD]	блюдо
+[INFO]	stress predicted
+[STRS]	бл+юдо
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	добродушной
+[INFO]	stress predicted
+[STRS]	доброд+ушной
+[WORD]	улыбкой
+[INFO]	stress predicted
+[STRS]	ул+ыбкой
+[SPHO]	ra-z@ dva mJI-nJal on blJu-d@ rJi-s@ SIL n@-x@_o-dJa jI-vo to pJI-rJI-va-rJI-n_n@_rm SIL to nJI-d@_o-va-rJI-n_n@_rm SIL I fsJa-kJI_i ras prJI-sluZ-nJIk pJI-rJI-mJI-nJal blJu-d@ z d@-br@_o-duS-n@_o_i U-li_xp-k@_o_i
+
+[SNUM]	124
+[SENT]	Получив наконец тарелку риса по своему вкусу , Гоголь приступилк ней с необычайною алчностью , наклонясь так , что длинные волосы его упали на самое блюдо , и поглощая ложку за ложкой со страстью и быстротой , какими , говорят, обыкновенно отличаются за столом люди , расположенные к ипохондрии .
+[NORM]	получив наконец тарелку риса по своему вкусу , гоголь приступилк ней с необычайною алчностью , наклонясь так , что длинные волосы его упали на самое блюдо , и поглощая ложку за ложкой со страстью и быстротой , какими , говорят , обыкновенно отличаются за столом люди , расположенные к ипохондрии
+[WORD]	получив
+[INFO]	stress predicted
+[STRS]	получ+ив
+[WORD]	наконец
+[INFO]	stress predicted
+[STRS]	након+ец
+[WORD]	тарелку
+[INFO]	stress predicted
+[STRS]	тар+елку
+[WORD]	риса
+[INFO]	entry found in lexicon
+[STRS]	р+иса
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	своему
+[INFO]	stress predicted
+[STRS]	своем+у
+[WORD]	вкусу
+[INFO]	stress predicted
+[STRS]	вк+усу
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	гоголь
+[INFO]	stress predicted
+[STRS]	г+оголь
+[WORD]	приступилк
+[INFO]	stress predicted
+[STRS]	приступ+илк
+[WORD]	ней
+[INFO]	entry found in lexicon
+[STRS]	н+ей
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	необычайною
+[INFO]	stress predicted
+[STRS]	необыч+айною
+[WORD]	алчностью
+[INFO]	stress predicted
+[STRS]	+алчностью
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	наклонясь
+[INFO]	stress predicted
+[STRS]	наклон+ясь
+[WORD]	так
+[INFO]	stress predicted
+[STRS]	т+ак
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	длинные
+[INFO]	stress predicted
+[STRS]	дл+инные
+[WORD]	волосы
+[INFO]	stress predicted
+[STRS]	в+олосы
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	упали
+[INFO]	stress predicted
+[STRS]	уп+али
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	самое
+[DISA]	LEX1
+[STRS]	с+амое
+[WORD]	блюдо
+[INFO]	stress predicted
+[STRS]	бл+юдо
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	поглощая
+[INFO]	stress predicted
+[STRS]	поглощ+ая
+[WORD]	ложку
+[DISA]	SINGLETON
+[STRS]	л+ожку
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	ложкой
+[INFO]	stress predicted
+[STRS]	л+ожкой
+[WORD]	со
+[INFO]	entry found in lexicon
+[STRS]	s@_o
+[WORD]	страстью
+[INFO]	stress predicted
+[STRS]	стр+астью
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	быстротой
+[INFO]	stress predicted
+[STRS]	быстрот+ой
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	какими
+[INFO]	stress predicted
+[STRS]	как+ими
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	говорят
+[INFO]	stress predicted
+[STRS]	говор+ят
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	обыкновенно
+[INFO]	stress predicted
+[STRS]	обыкнов+енно
+[WORD]	отличаются
+[INFO]	stress predicted
+[STRS]	отлич+аются
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	столом
+[INFO]	stress predicted
+[STRS]	стол+ом
+[WORD]	люди
+[INFO]	stress predicted
+[STRS]	л+юди
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	расположенные
+[INFO]	stress predicted
+[STRS]	распол+оженные
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	ипохондрии
+[INFO]	stress predicted
+[STRS]	ипох+ондрии
+[SPHO]	p@-lU-t_SJif n@-k@_o-nJet_s t@_o-rJel-kU_x rJi-s@ p@_o sv@-jI-mu fku-sU_x SIL go-g@lJ prJI-stU-pJilk nJe_i s nJI-@_o-b@_r-t_SJa_i-n@-jU_x alt_SJ-n@sJtJ-jU_x SIL n@-kl@_o-nJasJ tak SIL Sto dlJi-n_n@_r-jI vo-l@-s@_r jI-vo U-pa-lJI n@_o sa-m@-jI blJu-d@ SIL I p@-gl@_o-SJa-j@ loS-kU_x z@_o loS-k@_o_i s@_o strasJtJ-jU_x I b@_r-str@_o-to_i SIL k@_o-kJi-mJI SIL g@-v@_o-rJat SIL @_o-b@_rk-n@_o-vJe-n_n@ @_o-tlJI-t_SJa-jU_xtJ-sJ@ z@_o st@_o-lom lJu-dJI SIL r@-sp@_o-lo-Z@_r-n_n@_r-jI k @_r-p@_o-xon-drJI-I
+
+[SNUM]	125
+[SENT]	В середине обеда к нам подсел довольно плотный мужчина , с красивой , круглой бородкой .
+[NORM]	в середине обеда к нам подсел довольно плотный мужчина , с красивой , круглой бородкой
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	середине
+[INFO]	stress predicted
+[STRS]	серед+ине
+[WORD]	обеда
+[INFO]	stress predicted
+[STRS]	об+еда
+[WORD]	к
+[DISA]	SINGLETON
+[STRS]	к
+[WORD]	нам
+[INFO]	entry found in lexicon
+[STRS]	н+ам
+[WORD]	подсел
+[INFO]	stress predicted
+[STRS]	подс+ел
+[WORD]	довольно
+[INFO]	stress predicted
+[STRS]	дов+ольно
+[WORD]	плотный
+[INFO]	stress predicted
+[STRS]	пл+отный
+[WORD]	мужчина
+[INFO]	stress predicted
+[STRS]	мужч+ина
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	красивой
+[INFO]	stress predicted
+[STRS]	крас+ивой
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	круглой
+[INFO]	stress predicted
+[STRS]	кр+углой
+[WORD]	бородкой
+[INFO]	stress predicted
+[STRS]	бор+одкой
+[SPHO]	f sJI-rJI-dJi-nJI @_o-bJe-d@ k nam p@_otJ-sJel d@_o-volJ-n@ plot-n@_r_i mUS-t_SJi-n@ SIL s kr@_o-sJi-v@_o_i SIL kru-gl@_o_i b@_o-rot-k@_o_i
+
+[SNUM]	126
+[SENT]	Опорожнив свое блюдо , Гоголь откинулся назад, сделался весел , разговорчив и начал шутить с прислужником, еще так недавно
+[YOWR]	своё
+[YOWR]	ещё
+[NORM]	опорожнив своё блюдо , гоголь откинулся назад , сделался весел , разговорчив и начал шутить с прислужником , ещё так недавно
+[WORD]	опорожнив
+[INFO]	stress predicted
+[STRS]	опорожн+ив
+[WORD]	своё
+[INFO]	stress predicted
+[STRS]	своё
+[WORD]	блюдо
+[INFO]	stress predicted
+[STRS]	бл+юдо
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	гоголь
+[INFO]	stress predicted
+[STRS]	г+оголь
+[WORD]	откинулся
+[INFO]	stress predicted
+[STRS]	отк+инулся
+[WORD]	назад
+[INFO]	stress predicted
+[STRS]	наз+ад
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	сделался
+[INFO]	stress predicted
+[STRS]	сд+елался
+[WORD]	весел
+[INFO]	stress predicted
+[STRS]	в+есел
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	разговорчив
+[INFO]	stress predicted
+[STRS]	разгов+орчив
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	начал
+[DISA]	FREQ
+[STRS]	нач+ал
+[WORD]	шутить
+[INFO]	stress predicted
+[STRS]	шут+ить
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	прислужником
+[INFO]	stress predicted
+[STRS]	присл+ужником
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	ещё
+[INFO]	stress predicted
+[STRS]	ещё
+[WORD]	так
+[INFO]	stress predicted
+[STRS]	т+ак
+[WORD]	недавно
+[INFO]	stress predicted
+[STRS]	нед+авно
+[SPHO]	@_o-p@-r@_oZ-nJif sv@-jo blJu-d@ SIL go-g@lJ @_ot-kJi-nU_xl-sJ@ n@_o-zad SIL zJdJe-l@l-sJ@ vJe-sJIl SIL r@-zg@_o-vor-t_SJIf I n@_o-t_SJal SU-tJitJ s prJI-sluZ-nJI-k@m SIL jI-SJo tak nJI-da-vn@
+
+[SNUM]	127
+[SENT]	осыпаемым строгими выговорами и укоризнами .
+[NORM]	осыпаемым строгими выговорами и укоризнами
+[WORD]	осыпаемым
+[INFO]	stress predicted
+[STRS]	осып+аемым
+[WORD]	строгими
+[INFO]	stress predicted
+[STRS]	стр+огими
+[WORD]	выговорами
+[INFO]	stress predicted
+[STRS]	в+ыговорами
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	укоризнами
+[INFO]	stress predicted
+[STRS]	укор+изнами
+[SPHO]	@_o-s@_r-pa-jI-m@_rm stro-gJI-mJI vi_x-g@-v@-r@-mJI I U_x-k@_o-rJi-zn@-mJI
+
+[SNUM]	128
+[SENT]	По окончании расчета за обед Гоголь оставил прислужнику , как и все другие посетители , два байока , а когда я со своей стороны что-то переложил против этой скудной суммы , он остановил меня замечанием .
+[YOWR]	расчёта
+[NORM]	по окончании расчёта за обед гоголь оставил прислужнику , как и все другие посетители , два байока , а когда я со своей стороны что-то переложил против этой скудной суммы , он остановил меня замечанием
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	окончании
+[INFO]	stress predicted
+[STRS]	оконч+ании
+[WORD]	расчёта
+[INFO]	stress predicted
+[STRS]	расчёта
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	обед
+[INFO]	stress predicted
+[STRS]	об+ед
+[WORD]	гоголь
+[INFO]	stress predicted
+[STRS]	г+оголь
+[WORD]	оставил
+[INFO]	stress predicted
+[STRS]	ост+авил
+[WORD]	прислужнику
+[INFO]	stress predicted
+[STRS]	присл+ужнику
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	все
+[INFO]	entry found in lexicon
+[STRS]	вс+е
+[WORD]	другие
+[INFO]	stress predicted
+[STRS]	друг+ие
+[WORD]	посетители
+[INFO]	stress predicted
+[STRS]	посет+ители
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	два
+[INFO]	stress predicted
+[STRS]	дв+а
+[WORD]	байока
+[INFO]	stress predicted
+[STRS]	бай+ока
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	когда
+[INFO]	stress predicted
+[STRS]	когд+а
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	со
+[INFO]	entry found in lexicon
+[STRS]	s@_o
+[WORD]	своей
+[INFO]	stress predicted
+[STRS]	сво+ей
+[WORD]	стороны
+[DISA]	FREQ
+[STRS]	сторон+ы
+[WORD]	что-то
+[INFO]	entry found in lexicon
+[STRS]	чт+ото
+[WORD]	переложил
+[INFO]	stress predicted
+[STRS]	перелож+ил
+[WORD]	против
+[INFO]	stress predicted
+[STRS]	пр+отив
+[WORD]	этой
+[INFO]	stress predicted
+[STRS]	+этой
+[WORD]	скудной
+[INFO]	stress predicted
+[STRS]	ск+удной
+[WORD]	суммы
+[INFO]	stress predicted
+[STRS]	с+уммы
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	остановил
+[INFO]	stress predicted
+[STRS]	останов+ил
+[WORD]	меня
+[INFO]	stress predicted
+[STRS]	мен+я
+[WORD]	замечанием
+[INFO]	stress predicted
+[STRS]	замеч+анием
+[SPHO]	p@_o @_o-k@_onJ-t_SJa-nJI-I r@SJ-t_SJo-t@ z@_o @_o-bJed go-g@lJ @_o-sta-vJIl prJI-sluZ-nJI-kU_x SIL kak I fsJe drU-gJi-jI p@-sJI-tJi-tJI-lJI SIL dva b@_o_i-o-k@ SIL @_o k@_og-da ja s@_o sv@_o-je_i st@-r@_o-ni_x t_SJto-t@ pJI-rJI-l@_o-Zi_xl pro-tJIf e-t@_o_i skud-n@_o_i sum-m@_r SIL on @_o-st@-n@_o-vJil mJI-nJa z@-mJI-t_SJa-nJI-jIm
+
+[SNUM]	129
+[SENT]	Известно, что житейской мудрости в нем было почти столько же , сколько и таланта .
+[NORM]	известно , что житейской мудрости в нем было почти столько же , сколько и таланта
+[WORD]	известно
+[INFO]	stress predicted
+[STRS]	изв+естно
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	житейской
+[INFO]	stress predicted
+[STRS]	жит+ейской
+[WORD]	мудрости
+[INFO]	stress predicted
+[STRS]	м+удрости
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	нем
+[INFO]	entry found in lexicon
+[STRS]	н+ем
+[WORD]	было
+[DISA]	FREQ
+[STRS]	б+ыло
+[WORD]	почти
+[INFO]	stress predicted
+[STRS]	почт+и
+[WORD]	столько
+[INFO]	stress predicted
+[STRS]	ст+олько
+[WORD]	же
+[DISA]	SINGLETON
+[STRS]	ж+е
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	сколько
+[INFO]	stress predicted
+[STRS]	ск+олько
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	таланта
+[INFO]	stress predicted
+[STRS]	тал+анта
+[SPHO]	Iz-vJe-sn@ SIL Sto Z@_r-tJe_i-sk@_o_i mu-dr@-sJtJI v nJem bi_x-l@ p@_ot_SJ-tJi stolJ-k@ Ze SIL skolJ-k@ I t@_o-lan-t@
+
+[SNUM]	130
+[SENT]	Он был в своей тарелке и мог  , что ему нужно было или что стоило этого , полной рукой , не давая сам ничего .
+[NORM]	он был в своей тарелке и мог , что ему нужно было или что стоило этого , полной рукой , не давая сам ничего
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	был
+[INFO]	stress predicted
+[STRS]	б+ыл
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	своей
+[INFO]	stress predicted
+[STRS]	сво+ей
+[WORD]	тарелке
+[INFO]	stress predicted
+[STRS]	тар+елке
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	мог
+[INFO]	stress predicted
+[STRS]	м+ог
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	нужно
+[INFO]	stress predicted
+[STRS]	н+ужно
+[WORD]	было
+[DISA]	FREQ
+[STRS]	б+ыло
+[WORD]	или
+[INFO]	entry found in lexicon
+[STRS]	IlJI
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	стоило
+[INFO]	stress predicted
+[STRS]	ст+оило
+[WORD]	этого
+[INFO]	entry found in lexicon
+[STRS]	+этово
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	полной
+[INFO]	stress predicted
+[STRS]	п+олной
+[WORD]	рукой
+[INFO]	stress predicted
+[STRS]	рук+ой
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	давая
+[INFO]	stress predicted
+[STRS]	дав+ая
+[WORD]	сам
+[INFO]	entry found in lexicon
+[STRS]	с+ам
+[WORD]	ничего
+[INFO]	entry found in lexicon
+[STRS]	ничег+о
+[SPHO]	on bi_xl f sv@_o-je_i t@_o-rJel-kJI I mog SIL Sto jI-mu nuZ-n@ bi_x-l@ I-lJI Sto sto-I-l@ e-t@-v@ SIL pol-n@_o_i rU-ko_i SIL nJI d@_o-va-j@ sam nJI-t_SJI-go
+
+[SNUM]	131
+[SENT]	Я никогда не хочу обедать .
+[NORM]	я никогда не хочу обедать
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	никогда
+[INFO]	stress predicted
+[STRS]	никогд+а
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	хочу
+[INFO]	stress predicted
+[STRS]	хоч+у
+[WORD]	обедать
+[INFO]	stress predicted
+[STRS]	об+едать
+[SPHO]	ja nJI-k@_og-da nJI x@_o-t_SJu @_o-bJe-d@tJ
+
+[SNUM]	132
+[SENT]	Мне так хорошо во дворе играть .
+[NORM]	мне так хорошо во дворе играть
+[WORD]	мне
+[INFO]	stress predicted
+[STRS]	мн+е
+[WORD]	так
+[INFO]	stress predicted
+[STRS]	т+ак
+[WORD]	хорошо
+[INFO]	stress predicted
+[STRS]	хорош+о
+[WORD]	во
+[INFO]	entry found in lexicon
+[STRS]	v@_o
+[WORD]	дворе
+[INFO]	stress predicted
+[STRS]	двор+е
+[WORD]	играть
+[INFO]	stress predicted
+[STRS]	игр+ать
+[SPHO]	mnJe tak x@-r@_o-So v@_o dv@_o-rJe I-gratJ
+
+[SNUM]	133
+[SENT]	Я всю жизнь бы во дворе играл .
+[NORM]	я всю жизнь бы во дворе играл
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	всю
+[INFO]	stress predicted
+[STRS]	вс+ю
+[WORD]	жизнь
+[INFO]	stress predicted
+[STRS]	ж+изнь
+[WORD]	бы
+[INFO]	entry found in lexicon
+[STRS]	b@_r
+[WORD]	во
+[INFO]	entry found in lexicon
+[STRS]	v@_o
+[WORD]	дворе
+[INFO]	stress predicted
+[STRS]	двор+е
+[WORD]	играл
+[INFO]	stress predicted
+[STRS]	игр+ал
+[SPHO]	ja fsJu Zi_xzJnJ b@_r v@_o dv@_o-rJe I-gral
+
+[SNUM]	134
+[SENT]	И никогда не обедал бы .
+[NORM]	и никогда не обедал бы
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	никогда
+[INFO]	stress predicted
+[STRS]	никогд+а
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	обедал
+[INFO]	stress predicted
+[STRS]	об+едал
+[WORD]	бы
+[INFO]	entry found in lexicon
+[STRS]	b@_r
+[SPHO]	I nJI-k@_og-da nJI @_o-bJe-d@l b@_r
+
+[SNUM]	135
+[SENT]	Я совсем не люблю борщ с капустой .
+[NORM]	я совсем не люблю борщ с капустой
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	совсем
+[INFO]	stress predicted
+[STRS]	совс+ем
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	люблю
+[INFO]	stress predicted
+[STRS]	любл+ю
+[WORD]	борщ
+[INFO]	stress predicted
+[STRS]	б+орщ
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	капустой
+[INFO]	stress predicted
+[STRS]	кап+устой
+[SPHO]	ja s@_of-sJem nJI lJU-blJu borSJ s k@_o-pu-st@_o_i
+
+[SNUM]	136
+[SENT]	И вообще я суп не люблю .
+[NORM]	и вообще я суп не люблю
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	вообще
+[DISA]	SINGLETON
+[STRS]	вапщ+е
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	суп
+[INFO]	stress predicted
+[STRS]	с+уп
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	люблю
+[INFO]	stress predicted
+[STRS]	любл+ю
+[SPHO]	I v@_op-SJe ja sup nJI lJU-blJu
+
+[SNUM]	137
+[SENT]	И кашу я не люблю .
+[NORM]	и кашу я не люблю
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	кашу
+[INFO]	stress predicted
+[STRS]	к+ашу
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	люблю
+[INFO]	stress predicted
+[STRS]	любл+ю
+[SPHO]	I ka-SU_x ja nJI lJU-blJu
+
+[SNUM]	138
+[SENT]	И котлеты тоже не очень люблю .
+[NORM]	и котлеты тоже не очень люблю
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	котлеты
+[INFO]	stress predicted
+[STRS]	котл+еты
+[WORD]	тоже
+[INFO]	stress predicted
+[STRS]	т+оже
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	очень
+[INFO]	stress predicted
+[STRS]	+очень
+[WORD]	люблю
+[INFO]	stress predicted
+[STRS]	любл+ю
+[SPHO]	I k@_o-tlJe-t@_r to-Z@_r nJI o-t_SJInJ lJU-blJu
+
+[SNUM]	139
+[SENT]	Я люблю абрикосы .
+[NORM]	я люблю абрикосы
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	люблю
+[INFO]	stress predicted
+[STRS]	любл+ю
+[WORD]	абрикосы
+[INFO]	stress predicted
+[STRS]	абрик+осы
+[SPHO]	ja lJU-blJu @_o-brJI-ko-s@_r
+
+[SNUM]	140
+[SENT]	Вы ели абрикосы .
+[NORM]	вы ели абрикосы
+[WORD]	вы
+[INFO]	entry found in lexicon
+[STRS]	vi_x
+[WORD]	ели
+[INFO]	stress predicted
+[STRS]	+ели
+[WORD]	абрикосы
+[INFO]	stress predicted
+[STRS]	абрик+осы
+[SPHO]	vi_x je-lJI @_o-brJI-ko-s@_r
+
+[SNUM]	141
+[SENT]	Я так люблю абрикосы .
+[NORM]	я так люблю абрикосы
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	так
+[INFO]	stress predicted
+[STRS]	т+ак
+[WORD]	люблю
+[INFO]	stress predicted
+[STRS]	любл+ю
+[WORD]	абрикосы
+[INFO]	stress predicted
+[STRS]	абрик+осы
+[SPHO]	ja tak lJU-blJu @_o-brJI-ko-s@_r
+
+[SNUM]	142
+[SENT]	Но вот мама зовёт меня есть борщ , мне приходится всё бросать .
+[NORM]	но вот мама зовёт меня есть борщ , мне приходится всё бросать
+[WORD]	но
+[INFO]	stress predicted
+[STRS]	н+о
+[WORD]	вот
+[INFO]	stress predicted
+[STRS]	в+от
+[WORD]	мама
+[INFO]	stress predicted
+[STRS]	м+ама
+[WORD]	зовёт
+[INFO]	stress predicted
+[STRS]	зовёт
+[WORD]	меня
+[INFO]	stress predicted
+[STRS]	мен+я
+[WORD]	есть
+[INFO]	stress predicted
+[STRS]	+есть
+[WORD]	борщ
+[INFO]	stress predicted
+[STRS]	б+орщ
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	мне
+[INFO]	stress predicted
+[STRS]	мн+е
+[WORD]	приходится
+[INFO]	stress predicted
+[STRS]	прих+одится
+[WORD]	всё
+[INFO]	stress predicted
+[STRS]	всё
+[WORD]	бросать
+[INFO]	stress predicted
+[STRS]	брос+ать
+[SPHO]	no vot ma-m@ z@-vJot mJI-nJa jezJdJ borSJ SIL mnJe prJI-xo-dJItJ-sJ@ fsJo br@_o-satJ
+
+[SNUM]	143
+[SENT]	Мой брат Боба любит борщ .
+[NORM]	мой брат боба любит борщ
+[WORD]	мой
+[INFO]	stress predicted
+[STRS]	м+ой
+[WORD]	брат
+[INFO]	stress predicted
+[STRS]	бр+ат
+[WORD]	боба
+[DISA]	LEX1
+[STRS]	боб+а
+[WORD]	любит
+[INFO]	stress predicted
+[STRS]	л+юбит
+[WORD]	борщ
+[INFO]	stress predicted
+[STRS]	б+орщ
+[SPHO]	mo_i brad b@_o-ba lJu-bJId borSJ
+
+[SNUM]	144
+[SENT]	Он смеётся, когда ест борщ , а я морщусь .
+[NORM]	он смеётся , когда ест борщ , а я морщусь
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	смеётся
+[INFO]	stress predicted
+[STRS]	смеётся
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	когда
+[INFO]	stress predicted
+[STRS]	когд+а
+[WORD]	ест
+[INFO]	stress predicted
+[STRS]	+ест
+[WORD]	борщ
+[INFO]	stress predicted
+[STRS]	б+орщ
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	морщусь
+[INFO]	stress predicted
+[STRS]	м+орщусь
+[SPHO]	on smJI-jotJ-sJ@ SIL k@_og-da jezd borSJ SIL @_o ja mor-SJU_xsJ
+
+[SNUM]	145
+[SENT]	Он вообще всегда смеётся и тычет себе ложкой в нос вместо рта , потому что ему три года .
+[NORM]	он вообще всегда смеётся и тычет себе ложкой в нос вместо рта , потому что ему три года
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	вообще
+[DISA]	SINGLETON
+[STRS]	вапщ+е
+[WORD]	всегда
+[INFO]	stress predicted
+[STRS]	всегд+а
+[WORD]	смеётся
+[INFO]	stress predicted
+[STRS]	смеётся
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	тычет
+[INFO]	stress predicted
+[STRS]	т+ычет
+[WORD]	себе
+[INFO]	stress predicted
+[STRS]	себ+е
+[WORD]	ложкой
+[INFO]	stress predicted
+[STRS]	л+ожкой
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	нос
+[INFO]	stress predicted
+[STRS]	н+ос
+[WORD]	вместо
+[INFO]	stress predicted
+[STRS]	вм+есто
+[WORD]	рта
+[INFO]	stress predicted
+[STRS]	рт+а
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	потому
+[INFO]	stress predicted
+[STRS]	потом+у
+[WORD]	что
+[DISA]	FREQ
+[STRS]	шт+о
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	три
+[INFO]	stress predicted
+[STRS]	тр+и
+[WORD]	года
+[DISA]	FREQ
+[STRS]	г+ода
+[SPHO]	on v@_op-SJe fsJIg-da smJI-jotJ-sJ@ I ti_x-t_SJIt sJI-bJe loS-k@_o_i v nos vmJe-st@ rta SIL p@-t@_o-mu Sto jI-mu trJi go-d@
+
+[SNUM]	146
+[SENT]	Нет , борщ я могу съесть .
+[NORM]	нет , борщ я могу съесть
+[WORD]	нет
+[INFO]	entry found in lexicon
+[STRS]	н+ет
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	борщ
+[INFO]	stress predicted
+[STRS]	б+орщ
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	могу
+[INFO]	stress predicted
+[STRS]	мог+у
+[WORD]	съесть
+[INFO]	stress predicted
+[STRS]	съ+есть
+[SPHO]	nJet SIL borSJ ja m@_o-gu sjesJtJ
+
+[SNUM]	147
+[SENT]	И котлеты я тоже съедаю .
+[NORM]	и котлеты я тоже съедаю
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	котлеты
+[INFO]	stress predicted
+[STRS]	котл+еты
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	тоже
+[INFO]	stress predicted
+[STRS]	т+оже
+[WORD]	съедаю
+[INFO]	stress predicted
+[STRS]	съед+аю
+[SPHO]	I k@_o-tlJe-t@_r ja to-Z@_r sjI-da-jU_x
+
+[SNUM]	148
+[SENT]	Виноград-то я ем с удовольствием .
+[NORM]	виноград-то я ем с удовольствием
+[WORD]	виноград-то
+[INFO]	stress predicted
+[STRS]	виногр+ад-то
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	ем
+[INFO]	entry found in lexicon
+[STRS]	+ем
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	удовольствием
+[INFO]	stress predicted
+[STRS]	удов+ольствием
+[SPHO]	vJI-n@_o-gra-t_t@ ja jem s U_x-d@_o-volJ-stvJI-jIm
+
+[SNUM]	149
+[SENT]	Тогда и сажают меня за рояль .
+[NORM]	тогда и сажают меня за рояль
+[WORD]	тогда
+[INFO]	stress predicted
+[STRS]	тогд+а
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	сажают
+[INFO]	stress predicted
+[STRS]	саж+ают
+[WORD]	меня
+[INFO]	stress predicted
+[STRS]	мен+я
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	рояль
+[INFO]	stress predicted
+[STRS]	ро+яль
+[SPHO]	t@_og-da I s@_o-Za-jU_xt mJI-nJa z@_o r@_o-jalJ
+
+[SNUM]	150
+[SENT]	Пожалуй, я съел бы ещё раз борщ .
+[NORM]	пожалуй , я съел бы ещё раз борщ
+[WORD]	пожалуй
+[INFO]	stress predicted
+[STRS]	пож+алуй
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	съел
+[INFO]	stress predicted
+[STRS]	съ+ел
+[WORD]	бы
+[INFO]	entry found in lexicon
+[STRS]	b@_r
+[WORD]	ещё
+[INFO]	stress predicted
+[STRS]	ещё
+[WORD]	раз
+[INFO]	stress predicted
+[STRS]	р+аз
+[WORD]	борщ
+[INFO]	stress predicted
+[STRS]	б+орщ
+[SPHO]	p@_o-Za-lU_i SIL ja sjel b@_r jI-SJo raz borSJ
+
+[SNUM]	151
+[SENT]	Только бы не играть на рояле .
+[NORM]	только бы не играть на рояле
+[WORD]	только
+[INFO]	stress predicted
+[STRS]	т+олько
+[WORD]	бы
+[INFO]	entry found in lexicon
+[STRS]	b@_r
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	играть
+[INFO]	stress predicted
+[STRS]	игр+ать
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	рояле
+[INFO]	stress predicted
+[STRS]	ро+яле
+[SPHO]	tolJ-k@ b@_r nJI I-gratJ n@_o r@_o-ja-lJI
+
+[SNUM]	152
+[SENT]	Я играю , а брат сидит на полу и смеётся .
+[NORM]	я играю , а брат сидит на полу и смеётся
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	играю
+[INFO]	stress predicted
+[STRS]	игр+аю
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	брат
+[INFO]	stress predicted
+[STRS]	бр+ат
+[WORD]	сидит
+[INFO]	stress predicted
+[STRS]	сид+ит
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	полу
+[DISA]	LEX1
+[STRS]	п+олу
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	смеётся
+[INFO]	stress predicted
+[STRS]	смеётся
+[SPHO]	ja I-gra-jU_x SIL @_o brat sJI-dJit n@_o po-lU_x I smJI-jotJ-sJ@
+
+[SNUM]	153
+[SENT]	В руках у него заводная машина .
+[NORM]	в руках у него заводная машина
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	руках
+[INFO]	stress predicted
+[STRS]	рук+ах
+[WORD]	у
+[INFO]	entry found in lexicon
+[STRS]	U
+[WORD]	него
+[INFO]	entry found in lexicon
+[STRS]	нев+о
+[WORD]	заводная
+[INFO]	stress predicted
+[STRS]	заводн+ая
+[WORD]	машина
+[INFO]	stress predicted
+[STRS]	маш+ина
+[SPHO]	v rU-kax U nJI-vo z@-v@_od-na-j@ m@_o-Si_x-n@
+
+[SNUM]	154
+[SENT]	Он оторвал от машины колёса .
+[NORM]	он оторвал от машины колёса
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	оторвал
+[INFO]	stress predicted
+[STRS]	оторв+ал
+[WORD]	от
+[INFO]	entry found in lexicon
+[STRS]	@_ot
+[WORD]	машины
+[INFO]	stress predicted
+[STRS]	маш+ины
+[WORD]	колёса
+[INFO]	stress predicted
+[STRS]	колёса
+[SPHO]	on @_o-t@_or-val @_ot m@_o-Si_x-n@_r k@-lJo-s@
+
+[SNUM]	155
+[SENT]	И катает их по полу .
+[NORM]	и катает их по полу
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	катает
+[INFO]	stress predicted
+[STRS]	кат+ает
+[WORD]	их
+[INFO]	stress predicted
+[STRS]	+их
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	полу
+[DISA]	LEX1
+[STRS]	п+олу
+[SPHO]	I k@_o-ta-jIt i_xx p@_o po-lU_x
+
+[SNUM]	156
+[SENT]	И это ему очень нравится .
+[NORM]	и это ему очень нравится
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	это
+[INFO]	stress predicted
+[STRS]	+это
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	очень
+[INFO]	stress predicted
+[STRS]	+очень
+[WORD]	нравится
+[INFO]	stress predicted
+[STRS]	нр+авится
+[SPHO]	I e-t@ jI-mu o-t_SJInJ nra-vJItJ-sJ@
+
+[SNUM]	157
+[SENT]	Никто ему не мешает .
+[NORM]	никто ему не мешает
+[WORD]	никто
+[INFO]	stress predicted
+[STRS]	никт+о
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	мешает
+[INFO]	stress predicted
+[STRS]	меш+ает
+[SPHO]	nJIk-to jI-mu nJI mJI-Sa-jIt
+
+[SNUM]	158
+[SENT]	Не заставляет играть на рояле .
+[NORM]	не заставляет играть на рояле
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	заставляет
+[INFO]	stress predicted
+[STRS]	заставл+яет
+[WORD]	играть
+[INFO]	stress predicted
+[STRS]	игр+ать
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	рояле
+[INFO]	stress predicted
+[STRS]	ро+яле
+[SPHO]	nJI z@-st@_o-vlJa-jIt @_r-gratJ n@_o r@_o-ja-lJI
+
+[SNUM]	159
+[SENT]	И потому ему очень весело .
+[NORM]	и потому ему очень весело
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	потому
+[INFO]	stress predicted
+[STRS]	потом+у
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	очень
+[INFO]	stress predicted
+[STRS]	+очень
+[WORD]	весело
+[INFO]	stress predicted
+[STRS]	в+есело
+[SPHO]	I p@-t@_o-mu jI-mu o-t_SJInJ vJe-sJI-l@
+
+[SNUM]	160
+[SENT]	Плачет он очень редко .
+[NORM]	плачет он очень редко
+[WORD]	плачет
+[INFO]	stress predicted
+[STRS]	пл+ачет
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	очень
+[INFO]	stress predicted
+[STRS]	+очень
+[WORD]	редко
+[INFO]	stress predicted
+[STRS]	р+едко
+[SPHO]	pla-t_SJIt on o-t_SJInJ rJet-k@
+
+[SNUM]	161
+[SENT]	Когда у него что-нибудь отнимают .
+[NORM]	когда у него что-нибудь отнимают
+[WORD]	когда
+[INFO]	stress predicted
+[STRS]	когд+а
+[WORD]	у
+[INFO]	entry found in lexicon
+[STRS]	U
+[WORD]	него
+[INFO]	entry found in lexicon
+[STRS]	нев+о
+[WORD]	что-нибудь
+[INFO]	entry found in lexicon
+[STRS]	чт+о-ниб+удь
+[WORD]	отнимают
+[INFO]	stress predicted
+[STRS]	отним+ают
+[SPHO]	k@_og-da U nJI-vo t_SJto-nJI-butJ @_otJ-nJI-ma-jU_xt
+
+[SNUM]	162
+[SENT]	Или когда его стригут .
+[NORM]	или когда его стригут
+[WORD]	или
+[INFO]	entry found in lexicon
+[STRS]	IlJI
+[WORD]	когда
+[INFO]	stress predicted
+[STRS]	когд+а
+[WORD]	его
+[INFO]	entry found in lexicon
+[STRS]	ев+о
+[WORD]	стригут
+[INFO]	stress predicted
+[STRS]	стриг+ут
+[SPHO]	I-lJI k@_og-da jI-vo strJI-gut
+
+[SNUM]	163
+[SENT]	Он совершенно не любит стричься .
+[NORM]	он совершенно не любит стричься
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	совершенно
+[INFO]	stress predicted
+[STRS]	соверш+енно
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	любит
+[INFO]	stress predicted
+[STRS]	л+юбит
+[WORD]	стричься
+[INFO]	stress predicted
+[STRS]	стр+ичься
+[SPHO]	on s@-vJIr-Se-n_n@ nJI lJu-bJIt strJit_SJ-sJ@
+
+[SNUM]	164
+[SENT]	Он так и ходил бы всю жизнь лохматый .
+[NORM]	он так и ходил бы всю жизнь лохматый
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	так
+[INFO]	stress predicted
+[STRS]	т+ак
+[WORD]	и
+[INFO]	entry found in lexicon
+[STRS]	I
+[WORD]	ходил
+[INFO]	stress predicted
+[STRS]	ход+ил
+[WORD]	бы
+[INFO]	entry found in lexicon
+[STRS]	b@_r
+[WORD]	всю
+[INFO]	stress predicted
+[STRS]	вс+ю
+[WORD]	жизнь
+[INFO]	stress predicted
+[STRS]	ж+изнь
+[WORD]	лохматый
+[INFO]	stress predicted
+[STRS]	лохм+атый
+[SPHO]	on tak I x@_o-dJil b@_r fsJu Zi_xzJnJ l@_ox-ma-t@_r_i
+
+[SNUM]	165
+[SENT]	На это он не обращает внимания .
+[NORM]	на это он не обращает внимания
+[WORD]	на
+[INFO]	entry found in lexicon
+[STRS]	n@_o
+[WORD]	это
+[INFO]	stress predicted
+[STRS]	+это
+[WORD]	он
+[INFO]	entry found in lexicon
+[STRS]	+он
+[WORD]	не
+[INFO]	entry found in lexicon
+[STRS]	nJI
+[WORD]	обращает
+[INFO]	stress predicted
+[STRS]	обращ+ает
+[WORD]	внимания
+[INFO]	stress predicted
+[STRS]	вним+ания
+[SPHO]	n@_o e-t@ on nJI @_o-br@_o-SJa-jIt vnJI-ma-nJI-j@
+
+[SNUM]	166
+[SENT]	В общем, ему хорошо , а мне плохо .
+[NORM]	в общем , ему хорошо , а мне плохо
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	общем
+[INFO]	stress predicted
+[STRS]	+общем
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	ему
+[INFO]	stress predicted
+[STRS]	ем+у
+[WORD]	хорошо
+[INFO]	stress predicted
+[STRS]	хорош+о
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	а
+[DISA]	FREQ
+[STRS]	@_o
+[WORD]	мне
+[INFO]	stress predicted
+[STRS]	мн+е
+[WORD]	плохо
+[INFO]	stress predicted
+[STRS]	пл+охо
+[SPHO]	v op-SJIm SIL jI-mu x@-r@_o-So SIL @_o mnJe plo-x@
+
+[SNUM]	167
+[SENT]	Папа с мамой слушают , как я играю .
+[NORM]	папа с мамой слушают , как я играю
+[WORD]	папа
+[INFO]	stress predicted
+[STRS]	п+апа
+[WORD]	с
+[DISA]	SINGLETON
+[STRS]	с
+[WORD]	мамой
+[INFO]	stress predicted
+[STRS]	м+амой
+[WORD]	слушают
+[INFO]	stress predicted
+[STRS]	сл+ушают
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	как
+[INFO]	stress predicted
+[STRS]	к+ак
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	играю
+[INFO]	stress predicted
+[STRS]	игр+аю
+[SPHO]	pa-p@ s ma-m@_o_i slu-S@-jU_xt SIL kak ja I-gra-jU_x
+
+[SNUM]	168
+[SENT]	Брат катает по полу колёсики .
+[NORM]	брат катает по полу колёсики
+[WORD]	брат
+[INFO]	stress predicted
+[STRS]	бр+ат
+[WORD]	катает
+[INFO]	stress predicted
+[STRS]	кат+ает
+[WORD]	по
+[INFO]	entry found in lexicon
+[STRS]	p@_o
+[WORD]	полу
+[DISA]	LEX1
+[STRS]	п+олу
+[WORD]	колёсики
+[INFO]	stress predicted
+[STRS]	колёсики
+[SPHO]	brat k@_o-ta-jIt p@_o po-lU_x k@-lJo-sJI-kJI
+
+[SNUM]	169
+[SENT]	За окном кричат четыре брата .
+[NORM]	за окном кричат четыре брата
+[WORD]	за
+[INFO]	entry found in lexicon
+[STRS]	z@_o
+[WORD]	окном
+[INFO]	stress predicted
+[STRS]	окн+ом
+[WORD]	кричат
+[INFO]	stress predicted
+[STRS]	крич+ат
+[WORD]	четыре
+[INFO]	stress predicted
+[STRS]	чет+ыре
+[WORD]	брата
+[INFO]	stress predicted
+[STRS]	бр+ата
+[SPHO]	z@_o @_ok-nom krJI-t_SJat t_SJI-ti_x-rJI bra-t@
+
+[SNUM]	170
+[SENT]	Они кричат разными голосами .
+[NORM]	они кричат разными голосами
+[WORD]	они
+[INFO]	stress predicted
+[STRS]	он+и
+[WORD]	кричат
+[INFO]	stress predicted
+[STRS]	крич+ат
+[WORD]	разными
+[INFO]	stress predicted
+[STRS]	р+азными
+[WORD]	голосами
+[INFO]	stress predicted
+[STRS]	голос+ами
+[SPHO]	@_o-nJi krJI-t_SJat ra-zn@_r-mJI g@-l@_o-sa-mJI
+
+[SNUM]	171
+[SENT]	Я вижу в окно : они машут руками .
+[NORM]	я вижу в окно : они машут руками
+[WORD]	я
+[INFO]	entry found in lexicon
+[STRS]	+я
+[WORD]	вижу
+[INFO]	stress predicted
+[STRS]	в+ижу
+[WORD]	в
+[DISA]	FREQ
+[STRS]	vWUD
+[WORD]	окно
+[INFO]	stress predicted
+[STRS]	окн+о
+[WORD]	SIL
+[STRS]	SIL
+[WORD]	они
+[INFO]	stress predicted
+[STRS]	он+и
+[WORD]	машут
+[INFO]	stress predicted
+[STRS]	м+ашут
+[WORD]	руками
+[INFO]	stress predicted
+[STRS]	рук+ами
+[SPHO]	ja vJi-ZU_x v @_ok-no SIL @_o-nJi ma-SU_xt rU-ka-mJI
+
+[SNUM]	172
+[SENT]	Они зовут меня .
+[NORM]	они зовут меня
+[WORD]	они
+[INFO]	stress predicted
+[STRS]	он+и
+[WORD]	зовут
+[INFO]	stress predicted
+[STRS]	зов+ут
+[WORD]	меня
+[INFO]	stress predicted
+[STRS]	мен+я
+[SPHO]	@_o-nJi z@_o-vut mJI-nJa
+
+[SNUM]	173
+[SENT]	Им одним скучно .
+[NORM]	им одним скучно
+[WORD]	им
+[INFO]	entry found in lexicon
+[STRS]	+им
+[WORD]	одним
+[INFO]	stress predicted
+[STRS]	одн+им
+[WORD]	скучно
+[INFO]	stress predicted
+[STRS]	ск+учно
+[SPHO]	im @_odJ-nJim skut_SJ-n@
+

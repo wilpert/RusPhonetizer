@@ -15,6 +15,9 @@
 #
 # Author : Alexis Wilpert
 #
+# The words in the list were painstakingly tagged and corrected by
+# the linguist Anastasiya Polkanova, colleague of mine at Yandex
+#
 #
 # dictionary with homograph entries and POS information
 

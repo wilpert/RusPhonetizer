@@ -7,3 +7,6 @@ original source code distribution:
 Like this:
 
 patch parser.yy parser.yy.patch
+
+The patch is required to interpret the strings in the grammar files as UTF-8 encoded
+(default is otherwise BYTE).

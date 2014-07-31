@@ -38,8 +38,6 @@ export CROS = Optimize[cross.crossword];
 export SYLL = Optimize[syll.syllabified];
 export WRIT = Optimize[alphabets.out_feeder];
 
-# defined for performance purposes:
-
 export G2P1 =  Optimize[alphabets.in_feeder        @
                         infl.inflections           @
                         palatal.palatalization     @

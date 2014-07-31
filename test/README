@@ -1,0 +1,54 @@
+This directory contains the following files:
+
+- rus_sentences.txt: 173 Russian sentences to test the transcriber output.
+- rus_sentences.txt.g2p: the phonetic transcription of all 173 sentences.
+- rus_sentences.txt.log: transcription log for every sentence, for debugging purposes.
+
+The log file contains the following information (in this order):
+
+    [SNUM]: sentence number. It should correlate with the line number of previous file.
+            Useful to quickly locate any sentence.
+    [SENT]: the original sentence.
+    [YOWR]: a word in the sentence was reconstructed as having a yo letter
+    [NORM]: the normalized sentence (currently only case normalization and separation
+            of punctuation symbols).
+    [WORD]: the word being processed.
+    [POSP]: POS prediction output for the word if available.
+
+    One of the following:
+
+        [DISA]: if the word was found in the homographs list. Values here can be:
+            * morpho-syntactic tags that were used for the disambiguation.
+            * "SINGLETON": the word is not really an homograph (only one unique
+              transcription found).
+            * "LEX1": no disambiguation possible, entry marked by LEX1 was chosen.
+            * "FREQ": no LEX information, the most frequent variant was chosen
+              (or the first one, if all were equally frequent).
+        [INFO]: word was not found in the homograph list. Possible values:
+            * "entry found in user lexicon".
+            * "entry found in lexicon".
+            * "stress predicted".
+        [STRS]: predicted string with stress information, if the word was not found in
+                any dictionary.
+
+    [SPHO]: phonetic transcription for the whole sentence after applying cross-word
+            assimilations.
+
+Notes/disclaimer:
+
+- The output files (g2p and log) are kept here for information purposes only. More
+  specifically, you should not expect to get the same results if you run the
+  transcriber on the input sentences. The final output will heavily depend on, the
+  actual stress prediction model that you use. It can depend also on the version of
+  the software packages on which the transcription process depend.
+
+- The transcriptions in rus_sentences.txt.g2p are not guaranteed to be correct.
+  Actually, the contrary is the case: since the version of the transcriber uploaded
+  to GitHub does not contain any POS prediction software many of the words whose
+  pronunciation depend on the their function in the sentence will not be predicted
+  correctly.
+
+Thanks:
+
+The test sentences were carefully selected by my colleague at Yandex Anastasiya
+Polkanova. They were used to assess the quality of the TTS transcriber.
