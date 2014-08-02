@@ -22,6 +22,8 @@ The transcription process relies on a small tool used to apply the G2P FST rules
 
 The grammars need first to be compiled before being used by the transcription tool. Please, refer to grammars/README for more information.
 
+See [PhoneGroups](https://github.com/wilpert/PhoneGroups/blob/master/tables/YANDEX/map_YANDEX-ttssampa_ru-RU.dat) for the list of valid phoneme symbols and their meaning as used in the Thrax grammars.
+
 ## Dictionaries
 
 The most common type of transcriptions is what I call "pseudo-transcriptions": basically the same Cyrillic string as the entry word enriched with the stress information and possibly with some other lexical pronunciation exceptions. The following dictionaries are available:
