@@ -6,10 +6,10 @@ export a single FST file, if you wish.
 
 After succesful compilation, you might test the rules using either:
 
-* tester.sh: a very simple interactive loop. Just write in or paste the
+- tester.sh: a very simple interactive loop. Just write in or paste the
   words/sentences you want to test.
 
-* transcribe.sh: which will transcribe a file with words or sentences
+- transcribe.sh: which will transcribe a file with words or sentences
   given as input.
 
 Thanks:
