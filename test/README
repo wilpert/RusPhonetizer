@@ -38,7 +38,7 @@ Notes/disclaimer:
 
 - The output files (g2p and log) are kept here for information purposes only. More
   specifically, you should not expect to get the same results if you run the
-  transcriber on the input sentences. The final output will heavily depend on, the
+  transcriber on the input sentences. The final output will heavily depend on the
   actual stress prediction model that you use. It can depend also on the version of
   the software packages on which the transcription process depend.
 
