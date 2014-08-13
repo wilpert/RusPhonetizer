@@ -16,7 +16,7 @@ A tiny patch in the Thrax source code is needed before compilation. Please, refe
 
 ## Transcribe tool
 
-The transcription process relies on a small tool used to apply the G2P FST rules. **This will be part of the RusPhonetizer package very soon**. Until then unfortunately the transcription process will not work as currently designed. Please be patient.
+The transcription process relies on a small tool used to apply the G2P FST rules. The sources are kept in src/. A Makefile is provided for easy compilation.
 
 ## Grammars
 
