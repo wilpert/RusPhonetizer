@@ -89,8 +89,8 @@ python scripts/tts_transcriber.py -i test/rus_sentences.txt -y dictionaries/tts-
     - First, try to find the word in the user dictionary. If found, retrieve its transcription.
     - Second, try to find the word in the homographs dictionary. If found, retrieve its transcription as follows:
       - Find the correct transcriptions in the homographs dictionary using the POS analysis (best intersection).
-      - If not intersection is found, get the transcription variant tagged by 'LEX1'.
-      - If not 'LEX' tags are available for entry, get the most frequent one.
+      - If no intersection is found, get the transcription variant tagged by 'LEX1'.
+      - If no 'LEX' tags are available for entry, get the most frequent one.
       - If everything fails, take the first transcription found.
     - Third, try to find the word in the simple dictionary.
     - Finally, if the word is not found in any dictionary, predict stress with the stress prediction FST model:
