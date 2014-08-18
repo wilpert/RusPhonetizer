@@ -12,6 +12,18 @@ After succesful compilation, you might test the rules using either:
 - transcribe.sh: which will transcribe a file with words or sentences
   given as input.
 
+Please, take the following in account:
+
+- you will be able only to test words or sentences that have previously
+  been normalized. "Normalization" means in this case that the set of
+  characters used in the input string must be contained in the input
+  alphabet defined in the first FST (in_feeder in alphabets.grm). This
+  is done already when you use scripts/tts_transcriber.py
+
+- second, the strings should contain a stress marker (the "+" char) for
+  optimal accuracy. This information comes either from the exceptions
+  lexicon or from the stress prediction model.
+
 Thanks:
 
 The implementation of the rules would not have been possible without the
