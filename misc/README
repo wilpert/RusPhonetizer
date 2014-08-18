@@ -10,3 +10,7 @@ patch parser.yy parser.yy.patch
 
 The patch is required to interpret the strings in the grammar files as UTF-8 encoded
 (default is otherwise BYTE).
+
+Depending on the compiler's version or OS you are using, you might get some issues when
+trying to compile the program thraxcompiler. My experience is that is solved changing
+the order in which the libraries are passed to the compiler.
