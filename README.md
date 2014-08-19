@@ -103,4 +103,6 @@ Due to file size limitations in GitHub, it is not possible to include in the rep
 
 https://www.dropbox.com/sh/lcamjruvpvufj4u/AAClU09vE9HBFi79OD8b5aFna (RusStressPredictor)
 
+I have also included a prebuilt model for the case that you do not succeed building it for yourself. However, I cannot guarantee that you will find it there indefinitely, due to size and bandwidth limitations.
+
 Let me know, if you meet any problems accessing the data.
