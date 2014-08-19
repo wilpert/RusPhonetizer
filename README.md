@@ -76,7 +76,8 @@ ORTHO \t ORTHO
   -g G2P_FST, --g2p_fst=G2P_FST
                         Path to the G2P FST(s)
 
-python scripts/tts_transcriber.py -i test/rus_sentences.txt \
+python scripts/tts_transcriber.py \
+-i test/rus_sentences.txt \
 -y dictionaries/tts-dict-yo-list.txt \
 -l dictionaries/tts-dict-simple.pruned.txt \
 -a dictionaries/tts-dict-homographs.txt \
