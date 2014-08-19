@@ -103,4 +103,4 @@ Due to file size limitations in GitHub, it is not possible to include in the rep
 
 https://www.dropbox.com/s/e9q59xk2i7mo8gk/RusStressPredictor.tar.gz
 
-I have also included in the package a prebuilt model for the case that you do not succeed building it for yourself. Let me know, if you meet any problems accessing the data.
+I have also included in the package a prebuilt model for the case that you do not succeed building it yourself. Let me know, if you meet any problems accessing the data.
