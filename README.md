@@ -101,8 +101,6 @@ python scripts/tts_transcriber.py -i test/rus_sentences.txt -y dictionaries/tts-
 
 Due to file size limitations in GitHub, it is not possible to include in the repository the data required for building the stress prediction model. However, you can get it from my DropBox account under the following link:
 
-https://www.dropbox.com/sh/lcamjruvpvufj4u/AAClU09vE9HBFi79OD8b5aFna (RusStressPredictor)
+https://www.dropbox.com/s/e9q59xk2i7mo8gk/RusStressPredictor.tar.gz
 
-I have also included a prebuilt model for the case that you do not succeed building it for yourself. However, I cannot guarantee that you will find it there indefinitely, due to size and bandwidth limitations.
-
-Let me know, if you meet any problems accessing the data.
+I have also included in the package a prebuilt model for the case that you do not succeed building it for yourself. Let me know, if you meet any problems accessing the data.
