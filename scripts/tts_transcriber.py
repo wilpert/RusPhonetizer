@@ -44,7 +44,7 @@ class NullHandler(logging.Handler):
 
 logging.getLogger('nullLogger').addHandler(NullHandler())
 
-SCRIPT_VERSION = "1.0"
+SCRIPT_VERSION = "1.1"
 GEN_POS = 'x/'
 SIL = 'SIL'
 
@@ -542,7 +542,7 @@ class TransducerInitializationError(Exception):
 
 class ResourcesNotFound(Exception):
     def __init__(self, resources_name):
-        sys.stderr.write("[ERROR] path does not exist: '" + resources_name + "'\n")
+        sys.stderr.write('[ERROR] path does not exist: ' + resources_name + '\n')
 
 
 def get_hash_code(file_name):
@@ -578,7 +578,7 @@ def initialize_resources(stress_prediction_file, options_g2p_fst, general_lexico
     # initialize Phonetisaurus process
     try:
         stress_prediction_process = subprocess.Popen(
-            ['phonetisaurus-g2p', '--model=' + stress_prediction_file, '--isfile', '--input=/dev/stdin'],
+            ['phonetisaurus-g2p-omega', '--model=' + stress_prediction_file, '--isfile', '--input=/dev/stdin'],
             stdout=subprocess.PIPE, stdin=subprocess.PIPE, stderr=dev_null)
     except OSError:
         raise PhonetisaurusInitializationError
