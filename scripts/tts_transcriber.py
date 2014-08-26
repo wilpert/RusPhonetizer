@@ -44,7 +44,7 @@ class NullHandler(logging.Handler):
 
 logging.getLogger('nullLogger').addHandler(NullHandler())
 
-SCRIPT_VERSION = "1.1"
+SCRIPT_VERSION = "1.2"
 GEN_POS = 'x/'
 SIL = 'SIL'
 
@@ -444,7 +444,7 @@ def transcribe_line(stress_prediction_process, g2p_process, user_entries, lex_en
                         tlog.info('[POSP]\t%s', str(pos_feats))
                 else:
                     tlog.info('[POSP]\tNULL')
-	  	# generate SIL for punctuation symbols
+                # generate SIL for punctuation symbols
                 if word == SIL:
                     stress_str = SIL
                 else:
@@ -578,7 +578,8 @@ def initialize_resources(stress_prediction_file, options_g2p_fst, general_lexico
     # initialize Phonetisaurus process
     try:
         stress_prediction_process = subprocess.Popen(
-            ['phonetisaurus-g2p-omega', '--model=' + stress_prediction_file, '--isfile', '--input=/dev/stdin'],
+            ['phonetisaurus-g2p-omega', '--decoder_type=fst_phi', '--model=' + stress_prediction_file, '--isfile',
+             '--input=/dev/stdin'],
             stdout=subprocess.PIPE, stdin=subprocess.PIPE, stderr=dev_null)
     except OSError:
         raise PhonetisaurusInitializationError
