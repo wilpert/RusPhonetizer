@@ -35,7 +35,7 @@ OBJS=${foreach target,${TARGETS:%=OBJS_%},${${target}}}
 ########################################################################
 # Macro definitions for "standard" C and C++ compilations
 #
-CPPFLAGS= -g3 -O0   -I../include -I./3rdparty -I/usr/include -fPIC
+CPPFLAGS= -g3 -O0 -std=c++11 -I../include -I./3rdparty -I/usr/include -fPIC
 #
 CFLAGS=-g
 #
