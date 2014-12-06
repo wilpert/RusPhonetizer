@@ -45,7 +45,7 @@ Notes/disclaimer:
 - The transcriptions in rus_sentences.txt.g2p are not guaranteed to be correct.
   Actually, the contrary is the case: since the version of the transcriber uploaded
   to GitHub does not contain any POS prediction software many of the words whose
-  pronunciation depend on the their function in the sentence will not be predicted
+  pronunciation depend on their function in the sentence will not be predicted
   correctly.
 
 Thanks:

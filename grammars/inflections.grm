@@ -40,7 +40,7 @@ unstressed_seq = (all | "+")* all;
 
 # EXCEPTIONS
 
-# SEE ALSO: letter_simplification rules in consonants.grn
+# SEE ALSO: letter_simplification rules in consonants.grm
 
 # letter <и> after hard consonants
 hard_i = CDRewrite[("и":"ы"),
