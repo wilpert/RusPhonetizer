@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#     http://www.apache.org/licenses/LICENSE-2.0
+# http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -44,7 +44,7 @@ class NullHandler(logging.Handler):
 
 logging.getLogger('nullLogger').addHandler(NullHandler())
 
-SCRIPT_VERSION = "1.2"
+SCRIPT_VERSION = "1.3"
 GEN_POS = 'x/'
 SIL = 'SIL'
 
@@ -201,7 +201,7 @@ class HomographEntries(object):
     def invalid_feat_found(feats):
         invalid_found = False
         for feat in feats:
-            if feat and not feat in HomographEntries.valid_feats:
+            if feat and feat not in HomographEntries.valid_feats:
                 invalid_found = True
         return invalid_found
 
@@ -256,7 +256,7 @@ class HomographEntries(object):
                 # we take the first transcription in the list (transcriptions are ordered by relevance)
                 phono = transcriptions[0]
                 lex = m1.group(6)
-                if not pos in HomographEntries.valid_pos or HomographEntries.invalid_feat_found(feats) and log_errors:
+                if pos not in HomographEntries.valid_pos or HomographEntries.invalid_feat_found(feats) and log_errors:
                     log_file.write('invalid tags found in line:\t' + str(line_num) + '\n')
                     errors_found = True
                 else:
@@ -345,7 +345,7 @@ class HomographEntry(object):
 
     def update_entry(self, freq, pos, feats, phono, lex):
         self.freq.append(freq)
-        if not phono in self.phono:
+        if phono not in self.phono:
             self.different_transcriptions_found = True
         self.phono.append(phono)
         self.pos_feats.append((pos, feats))
@@ -454,7 +454,7 @@ def transcribe_line(stress_prediction_process, g2p_process, user_entries, lex_en
                         # check if the word is in homographs dictionary
                         stress_str, best_feats = homograph_entries.get_transcription(word, pos_feats)
                         if stress_str:
-                            if not 'NOT_HOMOGRAPH' in best_feats[0]:
+                            if 'NOT_HOMOGRAPH' not in best_feats[0]:
                                 tlog.info('[DISA]\t%s', print_feats_list(best_feats))
                             else:
                                 tlog.info('[DISA]\tSINGLETON')
@@ -465,7 +465,7 @@ def transcribe_line(stress_prediction_process, g2p_process, user_entries, lex_en
                                 # not found in any dictionary --> predict stress
                                 stress_str = get_stress_prediction(from_utf8(word), stress_prediction_process)
                                 # check whether the word is monosyllabic and did not get any stress predicted
-                                if not '+' in stress_str:
+                                if '+' not in stress_str:
                                     single_vowel = word_is_monosyllabic(stress_str)
                                     if single_vowel:
                                         stress_str = stress_str.replace(single_vowel, '+' + single_vowel)
