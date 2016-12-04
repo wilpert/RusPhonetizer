@@ -27,8 +27,7 @@
 #include <fst/script/print.h>
 #include <fst/dfs-visit.h>
 #include <fst/arc-map.h>
-//#include <fstext/fstext-utils.h>
-#include <fst/extensions/far/main.h>
+#include <fst/extensions/far/far.h>
 #include <fst/extensions/far/farscript.h>
 #include <utf8/utf8.h>
 #include "utf8ext.h"
