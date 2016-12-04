@@ -8,9 +8,9 @@
 
 *RusPhonetizer* depends on the following software packages:
 
-- [OpenFST](http://www.openfst.org/twiki/bin/view/FST/WebHome): used by Phonetisaurus, Thrax, and the Transcribe tool (see below). Tested with version 1.4.1.
-- [OpenGrm Thrax Grammar Development Tools](http://openfst.cs.nyu.edu/twiki/bin/view/GRM/Thrax): needed to compile the grammar rules. Tested with version 1.1.0.
-- [The WFST-driven Phoneticizer Phonetisaurus](https://github.com/JosefNovak/Phonetisaurus): required to build and use the stress prediction model. An update is in the works that will reduce the memory requirements for the alignment step.
+- [OpenFST](http://www.openfst.org/twiki/bin/view/FST/WebHome): used by Phonetisaurus, Thrax, and the Transcribe tool (see below). Tested with version 1.5.4.
+- [OpenGrm Thrax Grammar Development Tools](http://openfst.cs.nyu.edu/twiki/bin/view/GRM/Thrax): needed to compile the grammar rules. Tested with version 1.2.2.
+- [The WFST-driven Phoneticizer Phonetisaurus](https://github.com/JosefNovak/Phonetisaurus): required to build and use the stress prediction model. Tested with version 0.8a (https://www.dropbox.com/s/154q9yt3xenj2gr/phonetisaurus-0.8a.tgz)
 
 The compiler needs to be C++11 compliant.
 
