@@ -235,7 +235,7 @@ class HomographEntries(object):
         else:
             log_file_name = ''
             log_file = None
-        dictionary_line1 = re.compile('^(\d+)\s+([^\s]+)\s+([^\(]+)\(([^\)]*)\)\s+\[([^\]]+)\](?:\s+LEX(\d))?$')
+        dictionary_line1 = re.compile('^(\d+)\s+([^\s]+)\s+([^(]+)\(([^)]*)\)\s+\[([^\]]+)\](?:\s+LEX(\d))?$')
         line_num = 0
         for line in open(options_homographs, 'r'):
             line_num += 1
