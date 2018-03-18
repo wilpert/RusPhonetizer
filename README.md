@@ -104,11 +104,3 @@ python scripts/tts_transcriber.py \
     - Finally, if the word is not found in any dictionary, predict stress with the stress prediction FST model:
   - For correct G2P (information used by Thrax rules), attach POS information to the token in the cases supported in the G2P rules (currently, only adjectives and verbs).
 4. Send the result of concatenating all resulting tokens to the G2P FST chain.
-
-## Stress prediction model
-
-Due to file size limitations in GitHub, it is not possible to include in the repository the data required for building the stress prediction model. However, you can get it from my DropBox account under the following link:
-
-https://www.dropbox.com/s/hpv40je1khsz2wi/RusStressPredictor.zip?dl=0
-
-I have also included in the package a prebuilt model for the case that you do not succeed building it yourself. Let me know, if you meet any problems accessing the data.
