@@ -84,9 +84,9 @@ def word_is_monosyllabic(word):
         return None
 
 
-def print_feats_list(l):
+def print_feats_list(lst):
     ret_str = ''
-    for e in l:
+    for e in lst:
         ret_str += e + '/'
     return ret_str[:-1]
 
@@ -100,7 +100,7 @@ def get_g2p_transcription(str_to_transcribe, p):
 
 
 def get_stress_prediction(word, stress_prediction_model):
-    in_pat = re.compile('^[^ ]+\s+[\d.]+\s+(.+)$')
+    in_pat = re.compile(r'^[^ ]+\s+[\d.]+\s+(.+)$')
     result = ''
     if stress_prediction_model:
         print >> stress_prediction_model.stdin, from_utf8(word)
@@ -126,7 +126,7 @@ class LexEntries(object):
             log_file_name = ''
             log_file = None
         sys.stdout.write('Loading lexicon: ' + options_dictionary + '\n')
-        dictionary_line = re.compile('^([^\s]+)\t([^\s]+)')
+        dictionary_line = re.compile(r'^([^\s]+)\t([^\s]+)')
         line_num = 0
         for line in open(options_dictionary, 'r'):
             line_num += 1
@@ -235,7 +235,7 @@ class HomographEntries(object):
         else:
             log_file_name = ''
             log_file = None
-        dictionary_line1 = re.compile('^(\d+)\s+([^\s]+)\s+([^(]+)\(([^)]*)\)\s+\[([^\]]+)\](?:\s+LEX(\d))?$')
+        dictionary_line1 = re.compile(r'^(\d+)\s+([^\s]+)\s+([^(]+)\(([^)]*)\)\s+\[([^]]+)](?:\s+LEX(\d))?$')
         line_num = 0
         for line in open(options_homographs, 'r'):
             line_num += 1
@@ -661,6 +661,7 @@ def main():
     else:
         options_parser.print_help()
         sys.stdout.write("\n'" + script_name + "' version " + SCRIPT_VERSION + "\n\n")
+
 
 # call the main() function to start the program.
 if __name__ == '__main__':
