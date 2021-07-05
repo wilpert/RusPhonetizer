@@ -111,7 +111,7 @@ python scripts/tts_transcriber.py \
 Due to file size limitations in GitHub, it is not possible to include in the repository the data required for building
 the stress prediction model. However, I have made it accessible from the following link:
 
-https://www.mycloud.ch/s/S00371EF59E014DD22BC679A06CBDA7F504E1E1FA49
+https://www.mycloud.ch/s/S00DD7C0E5E1814BDE44BFBB92868EDB7E94CEA7AB7
 
 I have also included in the package a prebuilt model for the case that you do not succeed building it yourself. Let me
 know, if you meet any problems accessing the data.
