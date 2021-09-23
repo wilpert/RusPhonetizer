@@ -1,5 +1,7 @@
 # RusPhonetizer
 
+_**IMPORTANT NOTE: this repository has been archived, as I am not maintaining it actively any more**_
+
 ## General
 
 *RusPhonetizer* is a simple script together with a set of Thrax grammar rules and dictionaries for the phonetic transcription of Russian sentences.
